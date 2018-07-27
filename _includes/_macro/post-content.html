@@ -1,0 +1,12 @@
+{% if page.featured %}
+<p><a href="/assets/img/posts/{{ page.date | date: "%Y" }}/{{ page.featured }}" class="fancybox fancybox.image" rel="group">
+  <img src="/assets/img/posts/{{ page.date | date: "%Y" }}/{{ page.featured }}"></a>
+</p>
+{% endif %}
+{% if site.highlight.line_number %}
+  {% assign source = post.content %}
+  {% include _helper/lineno.html %}
+  {{ lineno }}
+{% else %}
+  {{ post.content }}
+{% endif %}

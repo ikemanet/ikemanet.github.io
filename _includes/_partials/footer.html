@@ -1,0 +1,25 @@
+<div class="copyright" >
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  <span class="with-love">
+    <i class="fa fa-{{ site.authoricon }}"></i>
+  </span>
+  蛋萌 Done.moE　&copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span class="author" itemprop="copyrightHolder">版权所有　<a href="{{site.url}}/about/">MZY'S Studio</a>,　2005-{{ 'now' | date: "%Y" }}.</span>
+</div>
+
+{% if site.copyright %}
+<div class="powered-by">
+  Pokemon 图标来自 Roundicons
+</div>
+<div class="powered-by">
+  {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
+</div>
+
+<div class="theme-info">
+  {{ __.footer.theme }} -
+  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
+    NexT.{{ site.scheme }}
+  </a>
+</div>
+{% endif %}
