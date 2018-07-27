@@ -1,0 +1,65 @@
+---
+layout: post
+title: Git 最基本的命令
+author: Ike
+tags:
+- git
+- command
+categories: Cheat-Sheet
+english: false
+---
+
+本人比较懒，不是很爱学习新东西，之前用Git一直在用GUI SourceTree，今天因为用到Cloud IDE+GitHub才迫不得已用一下Git的命令行，如果你是Git的新手，也分享给你最基本的命令。
+
+## 新建一个Git版本库
+
+把一个本地文件夹变成一个Git版本库：
+
+```
+$ git init
+```
+
+## 确认变更
+
+简单来说，就是在提交一次变更之前，需要确认哪些文件需要提交进去，一般来说我们都是提交所有修改了的文件到这次变更，那么就用以下命令：
+
+```
+$ git add .
+```
+
+如果你想取消确认某个文件，可以用以下命令：
+
+```
+$ git reset HEAD 你的文件
+```
+## 提交已确认的文件
+
+提交上一个步骤已经确认过的文件，``-m``后面填上本次提交的备注：
+
+```
+$ git commit -m '本地变更的备注内容'
+```
+
+## 设置远端库
+
+本地提交完成后，还需要推送到远端，第一次提交到远端时，需要设置远端库的路径，使用以下命令：
+
+```
+$ git remote add origin 你的远端库URL
+$ git remote -v
+```
+
+如果是GitHub的话，可以从GitHub的Quick Setup页面找到URL。
+
+![](https://help.github.com/assets/images/help/repository/copy-remote-repository-url-quick-setup.png)
+
+设置远端的这个步骤只需要执行一次，设置成功后你的远端代号就叫``origin``。
+
+## 推送到远端
+
+本地提交完成后，用此命令推送到远端：
+
+```
+$ git push origin master
+```
+``master``是你要推送的分支。
