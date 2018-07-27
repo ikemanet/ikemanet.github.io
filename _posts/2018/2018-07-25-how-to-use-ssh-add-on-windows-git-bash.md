@@ -12,7 +12,7 @@ categories: Tutorial
 english: false
 ---
 
-今天研究如何在Windows上使用Jekyll，最后用``rsync``同步的时候，需要添加密钥，于是使用``ssh-add``命令，可是我收到以下错误：
+今天研究如何在Windows上使用Jekyll，最后用``rsync``同步的时候，需要添加密钥，于是使用``ssh-add``命令，可是我收到以下的错误：
 
 ```
 $ ssh-add private.pub
