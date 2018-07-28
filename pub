@@ -15,7 +15,7 @@ if test "$1" != ''; then
   fi
   echo "将博客发布到 GitHub..."
   git add .
-  git commit -m '$1'
+  git commit -m "$1"
   git push origin master
   echo "Done!"
 else
