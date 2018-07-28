@@ -1,0 +1,23 @@
+
+if test "$1" != ''; then
+  if test "$2" != '-noimg'; then
+    echo "正在压缩和优化网站图片..."
+    cd assets/img/
+    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
+    find . -iregex ".*\.png" -exec optipng {} \;
+    cd ..
+    cd ..
+    cd assets/images/
+    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
+    find . -iregex ".*\.png" -exec optipng {} \;
+    cd ..
+    cd ..
+  fi
+  echo "将博客发布到 GitHub..."
+  git add .
+  git commit -m '$1'
+  git push origin master
+  echo "Done!"
+else
+  echo "未填写备注，发布终止。"
+fi

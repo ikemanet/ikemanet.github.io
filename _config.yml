@@ -46,6 +46,7 @@ exclude:
 - CHANGELOG.md
 - YYYY-MM-DD-example.md
 - publish
+- pub
 - instruction.txt
 - private_key_ike
 
