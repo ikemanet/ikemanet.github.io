@@ -71,6 +71,9 @@
   {% for image in images %}
     <meta property="og:image" content="{{ image }}">
     <!--newline-->
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+    <!--newline-->
   {% endfor %}
 
   {% if updated %}
