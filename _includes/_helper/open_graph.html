@@ -89,6 +89,9 @@
   {% if images.size != 0 %}
     <meta name="twitter:image" content="{{ images[0] }}">
     <!--newline-->
+  {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+    <!--newline-->
   {% endif %}
 
   {% if twitter_id %}
