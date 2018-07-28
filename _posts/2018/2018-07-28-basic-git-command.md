@@ -71,3 +71,28 @@ $ git remote -v
 $ git push origin master
 ```
 ``master``是你要推送的分支。
+
+推送到我的私有Git远端时，我遇到报错：
+
+```
+error: refusing to update checked out branch: refs/heads/master
+error: By default, updating the current branch in a non-bare repository
+error: is denied, because it will make the index and work tree inconsistent
+error: with what you pushed, and will require 'git reset --hard' to match
+error: the work tree to HEAD.
+error: 
+error: You can set 'receive.denyCurrentBranch' configuration variable to
+error: 'ignore' or 'warn' in the remote repository to allow pushing into
+error: its current branch; however, this is not recommended unless you
+error: arranged to update its work tree to match what you pushed in some
+error: other way.
+error: 
+error: To squelch this message and still keep the default behaviour, set
+error: 'receive.denyCurrentBranch' configuration variable to 'refuse'.
+```
+
+原因是因为远端库不是裸库，用下面的方法把已有的git库转换成裸库。（我之前远端用的是``git init``，并非创建的裸库）
+
+```
+git config --bool core.bare true
+```
