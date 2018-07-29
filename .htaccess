@@ -14,18 +14,3 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
-
-RewriteEngine On
-DirectoryIndex index.html
-ErrorDocument 404 https://done.moe/
-ErrorDocument 403 https://done.moe/
-ErrorDocument 500 https://done.moe/
-RedirectMatch 301 /code/disk-e/(.*) /code/$1
-RedirectMatch 301 /code/about /about
-RedirectMatch 301 /camera/(.*) /photography
-RedirectMatch 301 /house/(.*) /blog
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^.]+)$ $1.html [NC,L]
-RewriteCond %{HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
