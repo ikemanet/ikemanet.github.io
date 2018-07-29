@@ -434,3 +434,37 @@ $center-quote-right           : '../images/quote-r.svg';
   color: $blue-bright;
   border-bottom-color: $blue-bright;
 }
+
+#email_subscriber {
+  display: block; background: #f6f6f6; margin: 20px auto; width: 80%; text-align: center;
+  max-width: 460px;
+  div {
+    margin-top: 5px;
+  }
+  p {
+    margin: 5px 0;
+  }
+  form {
+    border:1px solid #ddd;
+    padding:5px;
+    text-align:center;
+  }
+  input {
+    width: 260px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    height: 40px;
+    width: auto;
+    background: #222222;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    padding: 0 15px;
+    &:hover {
+      background: #361290;
+    }
+  }
+}

@@ -335,6 +335,12 @@
 
     <div>
       {% unless is_index %}
+        {% include _macro/email-subscriber.html %}
+      {% endunless %}
+    </div>
+
+    <div>
+      {% unless is_index %}
         {% include _macro/post-copyright.html %}
       {% endunless %}
     </div>

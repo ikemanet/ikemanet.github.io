@@ -353,6 +353,9 @@ wechat_subscriber:
   qcode: /assets/images/wechat-qrcode.jpg
   description: 扫描二维码关注我的微信公众号
 
+email_subscriber:
+  enabled: true
+
 wechatpay: /assets/images/wechat-pay.jpg
 
 # Declare license on posts
