@@ -19,7 +19,7 @@ if test "$1" != ''; then
   echo "推送到 GitHub..."
   git push origin master
   echo "推送到 GitCafe (coding.net)..."
-  git push origin gitcafe
+  git push gitcafe master
   echo "完成!"
 else
   echo "未填写备注，发布终止。"
