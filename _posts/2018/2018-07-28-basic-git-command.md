@@ -48,6 +48,13 @@ $ git reset HEAD 你的文件
 $ git commit -m '本地变更的备注内容'
 ```
 
+也可以把``add``放到``commit``里面一起操作，如下：
+
+
+```
+$ git commit -a -m '本地变更的备注内容'
+```
+
 ## 设置远端库
 
 本地提交完成后，还需要推送到远端，第一次提交到远端时，需要设置远端库的路径，使用以下命令：
@@ -72,6 +79,18 @@ $ git push origin master
 ```
 ``master``是你要推送的分支。
 
+你可以用下面的命令让git记住你的用户名密码信息：
+
+```
+$ git config credential.helper store
+```
+
+还可以设置缓存时间（记住多久，单位秒，默认值900）：
+
+```
+$ git config credential.helper cache <缓存时间>
+```
+
 推送到我的私有Git远端时，我遇到报错：
 
 ```
@@ -94,5 +113,35 @@ error: 'receive.denyCurrentBranch' configuration variable to 'refuse'.
 原因是因为远端库不是裸库，用下面的方法把已有的git库转换成裸库。（我之前远端用的是``git init``，并非创建的裸库）
 
 ```
-git config --bool core.bare true
+$ git config --bool core.bare true
 ```
+
+## 分支的操作
+
+要在当前分支的基础上新建一个分支``branch1``并切换到该分支，可以使用以下命令：
+
+```
+$ git checkout -b branch1
+```
+
+单独且还分支，则不加``-b``参数，例如要切换回``master``分支，则：
+
+```
+$ git checkout master
+```
+
+若要将分支``master``合并到branch1，也就是说合并后``master``和``branch1``是一样的，则用以下命令：
+
+```
+$ git checkout master
+$ git merge branch1
+```
+如果合并遇到冲突，则可以通过``git status``来检查冲突点。
+
+
+要删除分支``branch1``，则用以下命令：
+
+```
+$ git branch -d branch1
+```
+

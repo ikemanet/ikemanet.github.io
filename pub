@@ -13,11 +13,14 @@ if test "$1" != ''; then
     cd ..
     cd ..
   fi
-  echo "将博客发布到 GitHub..."
+  echo "提交变更..."
   git add .
   git commit -m "$1"
+  echo "推送到 GitHub..."
   git push origin master
-  echo "Done!"
+  echo "推送到 GitCafe (coding.net)..."
+  git push origin gitcafe
+  echo "完成!"
 else
   echo "未填写备注，发布终止。"
 fi
