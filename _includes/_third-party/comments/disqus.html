@@ -39,7 +39,7 @@
 
                   var disqus_config = function () {
                       this.page.url = '{{ page.url | absolute_url }}';
-                      this.page.identifier = '{{ page.url | relative_url }}';
+                      this.page.identifier = '{{ page.url | site.url }}';
                       this.page.title = '{{ page.title| replace: "'", "\\'" }}';
                   };
                   var d = document, s = d.createElement('script');
@@ -53,7 +53,7 @@
       <script type="text/javascript">
           var disqus_config = function () {
               this.page.url = '{{ page.url | absolute_url }}';
-              this.page.identifier = '{{ page.url | relative_url }}';
+              this.page.identifier = '{{ page.url | site.url }}';
               this.page.title = '{{ page.title| replace: "'", "\\'" }}';
           };
           var d = document, s = d.createElement('script');

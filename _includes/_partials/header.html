@@ -10,7 +10,7 @@
     {% endif %}
 
     <div class="custom-logo-site-title">
-      <a href="{{ '/' | relative_url}}"  class="brand" rel="start">
+      <a href="{{ '/' | site.url}}"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">{{ site.title }}</span>
         <span class="logo-line-after"><i></i></span>
@@ -44,7 +44,7 @@
         {% assign path = name_path[1] %}
         {% assign itemName = name | downcase %}
         <li class="menu-item menu-item-{{ itemName }}">
-          <a href="{{ path | relative_url }}" rel="section">
+          <a href="{{ path | site.url }}" rel="section">
             {% if site.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{site.menu_icons[itemName] | default: 'question-circle' | downcase }}"></i> <br />
             {% endif %}

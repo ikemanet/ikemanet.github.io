@@ -36,7 +36,7 @@
       <section class="site-overview sidebar-panel{% unless display_toc and toc.size > 1 %} sidebar-panel-active{% endunless %}">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | relative_url }}"
+               src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | site.url }}"
                alt="{{ site.author }}" />
           <p class="site-author-name" itemprop="name">{{ site.author }}</p>
           <p class="site-description motion-element" itemprop="description">{{ site.description }}</p>
@@ -45,7 +45,7 @@
 
           {% if site.archive_dir != '/' %}
             <div class="site-state-item site-state-posts">
-              <a href="{{ site.menu.archives | relative_url }}">
+              <a href="{{ site.menu.archives | site.url }}">
                 <span class="site-state-item-count">{{ site.posts.size }}</span>
                 <span class="site-state-item-name">{{ __.state.posts }}</span>
               </a>
@@ -58,7 +58,7 @@
               {% assign hasCategoriesPage = true %}
             {% endif %}
             <div class="site-state-item site-state-categories">
-              {% if hasCategoriesPage %}<a href="{{ categoriesPageQuery[0].url | relative_url) }}">{% endif %}
+              {% if hasCategoriesPage %}<a href="{{ categoriesPageQuery[0].url | site.url) }}">{% endif %}
                 <span class="site-state-item-count">{{ site.categories.size }}</span>
                 <span class="site-state-item-name">{{ __.state.categories }}</span>
               {% if hasCategoriesPage %}</a>{% endif %}
@@ -71,7 +71,7 @@
               {% assign hasTagsPage = true %}
             {% endif %}
             <div class="site-state-item site-state-tags">
-              {% if hasTagsPage %}<a href="{{ tagsPageQuery[0].url | relative_url }}">{% endif %}
+              {% if hasTagsPage %}<a href="{{ tagsPageQuery[0].url | site.url }}">{% endif %}
                 <span class="site-state-item-count">{{ site.tags.size }}</span>
                 <span class="site-state-item-name">{{ __.state.tags }}</span>
               {% if hasTagsPage %}</a>{% endif %}
@@ -86,7 +86,7 @@
         {% endif %}
         {% if site_rss %}
           <div class="feed-link motion-element">
-            <a href="{{ site_rss | relative_url }}" rel="alternate">
+            <a href="{{ site_rss | site.url }}" rel="alternate">
               <i class="fa fa-rss"></i>
               RSS
             </a>
@@ -114,7 +114,7 @@
         {% if cc contains site.creative_commons %}
           <div class="cc-license motion-element" itemprop="license">
             <a href="https://creativecommons.org/{% if site.creative_commons == 'zero' %}publicdomain/zero/1.0{% else %}licenses/{{ site.creative_commons }}/4.0{% endif %}/" class="cc-opacity" target="_blank">
-              <img src="{{ site.images | relative_url }}/cc-{{ site.creative_commons }}.svg" alt="Creative Commons" />
+              <img src="{{ site.images | site.url }}/cc-{{ site.creative_commons }}.svg" alt="Creative Commons" />
             </a>
           </div>
         {% endif %}
