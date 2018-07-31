@@ -145,6 +145,7 @@ menu:
   blog: /category/#/Blog
   #archives: /archives/
   tags: /tags/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -169,6 +170,7 @@ menu_icons:
   blog: th
   photography: camera
   code: code
+  about: medium
 
 
 
