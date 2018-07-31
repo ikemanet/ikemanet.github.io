@@ -147,14 +147,5 @@
 {% if site.valine.enable %}
 <script src="https://cdnjs.cat.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js"></script>
-<script>
-    new Valine({
-        av: AV, 
-        el: '#valine_comment',
-        app_id: '1wMws3G9Rnty9JEFXOTURnin-gzGzoHsz', // 这里填写上面得到的APP ID
-        app_key: 'W75KoBGMaJb2sh1E3m7iKRQY', // 这里填写上面得到的APP KEY
-        placeholder: '欢迎留言或提问', // 留言框占位提示文字
-    });
-</script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 {% endif %}

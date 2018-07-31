@@ -33,7 +33,17 @@
     {% elsif site.changyan.appid and site.changyan.appkey %}
       <div id="SOHUCS"></div>
     {% elsif site.valine.enable %}
-      <div id="valine_comment"></div>
+      <div id="vcomments"></div>
+      <script>
+          new Valine({
+              el: '#vcomments',
+              appId: 'Xi5VsRj4dwyX1J6RpS2GAXQk-gzGzoHsz',
+              appKey: '0Ow1AYiqjkG8a9wz41OmP1jz',
+              verify: true, 
+              avatar:'mm', 
+              placeholder: '没事就给我留个言吧？'
+          })
+      </script>
     {% endif %}
   </div>
 {% endif %}
