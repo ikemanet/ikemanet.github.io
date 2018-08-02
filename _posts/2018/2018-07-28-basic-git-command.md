@@ -130,7 +130,7 @@ $ git checkout -b branch1
 $ git checkout master
 ```
 
-若要将分支``master``合并到branch1，也就是说合并后``master``和``branch1``是一样的，则用以下命令：
+若要将分支``master``合并到``branch1``，也就是说合并后``master``和``branch1``是一样的，则用以下命令：
 
 ```shell
 $ git checkout master
