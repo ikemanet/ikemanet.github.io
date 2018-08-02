@@ -22,7 +22,11 @@
   {% if site.sidebar.position %}
     {% assign container_class = container_class | append: 'sidebar-position-' | append: site.sidebar.position %}
   {% endif %}
-
+  {% if page.featured %}
+    <div class="title_bg" style="background-image: url(/assets/img/posts/{{ page.date | date: "%Y" }}/{{ page.featured }})" ></div>
+  {% else %}
+    <div class="title_bg" style="background-image: url(/assets/img/main/{{ site.cover_img }})" ></div>
+  {% endif %}
   <div class="{{ container_class }} {{ page_class }} ">
     <div class="headband"></div>
 

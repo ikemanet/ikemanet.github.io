@@ -312,6 +312,12 @@
 
     <div>
       {% unless is_index %}
+        {% include _macro/share.html %}
+      {% endunless %}
+    </div>
+
+    <div>
+      {% unless is_index %}
         {% include _macro/wechat-subscriber.html %}
       {% endunless %}
     </div>

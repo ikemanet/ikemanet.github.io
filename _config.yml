@@ -12,6 +12,7 @@ author: Ike MA
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
+cover_img: 'sky.jpg'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
@@ -352,7 +353,7 @@ post_wordcount:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enabled: true
+  enabled: false
   qcode: /assets/images/wechat-qrcode.jpg
   description: 扫描二维码关注我的微信公众号
 
@@ -467,6 +468,9 @@ gitalk:
 
 # Share
 #duoshuo_share: true
+
+# Share
+sharejs: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

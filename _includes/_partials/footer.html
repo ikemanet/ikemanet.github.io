@@ -1,9 +1,6 @@
 <div class="copyright" >
   {% assign current = site.time | date: '%Y' %}
   {% assign since = site.since | downcase %}
-  <span class="with-love">
-    <i class="fa fa-{{ site.authoricon }}"></i>
-  </span>
   蛋萌 &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span class="author" itemprop="copyrightHolder"> <a href="{{site.url}}/about/">MZY'S Studio</a>,　2005-{{ 'now' | date: "%Y" }}.</span><br/>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+  <span class="author" itemprop="copyrightHolder"> <a href="{{site.url}}/about/">MZY'S Studio</a>, 2005-{{ 'now' | date: "%Y" }}.</span>　|　<a href="https://done.moe/about/#本站所用技术">感谢</a>　|　<a href="https://done.moe/about/#友情链接">友情链接</a><br/>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 </div>

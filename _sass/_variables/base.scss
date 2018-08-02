@@ -8,7 +8,7 @@
 // colors for use across theme.
 // --------------------------------------------------
 
-$whitesmoke   : #f8f8f8;
+$whitesmoke   : #f8f8f899;
 $gainsboro    : #eee;
 $gray-lighter : #ddd;
 $grey-light   : #ccc;
@@ -468,3 +468,14 @@ $center-quote-right           : '../images/quote-r.svg';
     }
   }
 }
+
+.title_bg {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  background-size: cover;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

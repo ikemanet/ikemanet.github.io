@@ -10,6 +10,11 @@
   background: $sidebar-background-color;
   -webkit-transform: translateZ(0); // http://stackoverflow.com/questions/17079857/position-fixed-broken-in-chrome-with-flash-behind
 
+  /* Safari for macOS & iOS */
+  -webkit-backdrop-filter: blur(15px); 
+  /* Google Chrome */
+  backdrop-filter: blur(15px);
+
   a {
     color: $sidebar-link-color;
     border-bottom-color: $black-light;

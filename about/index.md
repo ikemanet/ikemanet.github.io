@@ -62,6 +62,7 @@ type: about
 - 流量统计：不蒜子 [主页](http://busuanzi.ibruce.info/)
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
 - Logo图标：RoundIcons Freebies [主页](https://www.flaticon.com/authors/roundicons-freebies)
+- 社交分享：Share.js [主页](https://github.com/overtrue/share.js/)
 
 ## 友情链接
 
