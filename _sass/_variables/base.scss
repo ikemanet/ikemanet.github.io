@@ -436,7 +436,7 @@ $center-quote-right           : '../images/quote-r.svg';
 }
 
 #email_subscriber {
-  display: block; background: #f6f6f6; margin: 20px auto; width: 80%; text-align: center;
+  display: block; background: #fff; margin: 20px auto; width: 80%; text-align: center;
   max-width: 460px;
   label {
     font-size: 16px;
@@ -448,9 +448,9 @@ $center-quote-right           : '../images/quote-r.svg';
     margin: 5px 0;
   }
   form {
-    border:1px solid #ddd;
-    padding:5px;
-    text-align:center;
+    border: 0px;
+    padding: 5px;
+    text-align: center;
   }
   input {
     width: 260px;
