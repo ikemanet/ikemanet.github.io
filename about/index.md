@@ -1,7 +1,7 @@
 ---
 layout: page
 comments: true
-title: 关于蛋萌
+title: 关于
 type: about
 ---
 
@@ -42,7 +42,7 @@ type: about
 
 经过思想的沉淀以及博客的小情怀，我萌生了重开博客的想法。基于开源思想，新博客 Done.moe（中文名：蛋萌）就此创建。这次是分享一些代码和技巧以及我的生活感受，不足之处希望你能够留言指正。
 
-<img src="/assets/img/about/good-start.png" style="max-width: 600px;"/>
+<img src="/assets/img/about/flying-cloudy.jpg"/>
 
 如果你是新朋友，在看我唠叨了这么多自恋的故事之后，请果断关注[我的博客](https://done.moe)吧！很高兴能结识到你。如果你是老朋友，也有着同样的情怀的话，请留言于此，让我们共同缅怀和进步！
 

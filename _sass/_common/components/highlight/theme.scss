@@ -2,21 +2,21 @@ $highlight_theme : jekyll-config("highlight_theme");
 
 
 @if $highlight_theme == "normal" {
-  $highlight-background   : #f7f7f7 !global;
+  $highlight-background   : #fbfbfb !global;
   $highlight-current-line : #efefef !global;
   $highlight-selection    : #d6d6d6 !global;
-  $highlight-foreground   : #4d4d4c !global;
-  $highlight-comment      : #8e908c !global;
-  $highlight-red          : #c82829 !global;
-  $highlight-orange       : #f5871f !global;
-  $highlight-yellow       : #eab700 !global;
-  $highlight-green        : #718c00 !global;
-  $highlight-aqua         : #3e999f !global;
-  $highlight-blue         : #4271ae !global;
-  $highlight-purple       : #8959a8 !global;
+  $highlight-foreground   : #a6a6a6 !global;
+  $highlight-comment      : #496190 !global;
+  $highlight-red          : #1fdd97 !global;
+  $highlight-orange       : #2918d5 !global;
+  $highlight-yellow       : #e7c547 !global;
+  $highlight-green        : #56ca33 !global;
+  $highlight-aqua         : #3cd7bb !global;
+  $highlight-blue         : #338af4 !global;
+  $highlight-purple       : #ec379d !global;
   $highlight-gutter       : (
-    color: #869194,
-    bg-color: #eff2f3
+    color: #bad1d7,
+    bg-color: #f8f8f8
   ) !global;
 }
 

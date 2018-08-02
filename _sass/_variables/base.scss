@@ -8,7 +8,7 @@
 // colors for use across theme.
 // --------------------------------------------------
 
-$whitesmoke   : #f5f5f5;
+$whitesmoke   : #f8f8f8;
 $gainsboro    : #eee;
 $gray-lighter : #ddd;
 $grey-light   : #ccc;
@@ -18,9 +18,9 @@ $grey-dim     : #666;
 $black-light  : #555;
 $black-dim    : #333;
 $black-deep   : #222;
-$red          : #ff2a2a;
+$red          : #ff5722;
 $blue-bright  : #c5cae9;
-$blue         : #0684bd;
+$blue         : #0077ff;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
 $abby-purple  : #5C6BC0;
@@ -34,7 +34,7 @@ $skin-deep    : #dbccbf;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $black-light;
+$text-color                   : black;
 
 // Global link color.
 $link-color                   : $black-light;
@@ -94,7 +94,7 @@ $font-weight-bolder       : 700;
 
 
 // Font size
-$font-size-base           : 14px;
+$font-size-base           : 18px;
 $font-size-small          : $font-size-base - 2px;
 $font-size-smaller        : $font-size-base - 4px;
 $font-size-large          : $font-size-base + 2px;
@@ -102,7 +102,7 @@ $font-size-larger         : $font-size-base + 4px;
 
 
 // Headings font size
-$font-size-headings-step    : 2px;
+$font-size-headings-step    : 4px;
 $font-size-headings-base    : 30px;
 $font-size-headings-small   : $font-size-headings-base - $font-size-headings-step;
 $font-size-headings-smaller : $font-size-headings-small - $font-size-headings-step;
@@ -145,11 +145,11 @@ $table-row-hover-bg-color       : $whitesmoke;
 // Code & Code Blocks
 // --------------------------------------------------
 $code-font-family               : $font-family-monospace;
-$code-font-size                 : 13px;
+$code-font-size                 : 16px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
-$code-foreground                : $black-light;
-$code-background                : $gainsboro;
+$code-foreground                : #00cc80;
+$code-background                : white;
 
 
 
@@ -273,9 +273,9 @@ $read-more-border-radius        : 0;
 $sidebar-nav-color                    : $blue-deep;
 $sidebar-nav-hover-color              : $blue;
 $sidebar-highlight                    : $blue-deep;
-$sidebar-background-color             : $skin-light;
+$sidebar-background-color             : $whitesmoke;
 $sidebar-link-color                   : $blue-deep;
-$sidebar-link-bottom-color            : $skin-deep;
+$sidebar-link-bottom-color            : $whitesmoke;
 $sidebar-link-hover-color             : $blue;
 
 $site-author-image-padding            : 2px;

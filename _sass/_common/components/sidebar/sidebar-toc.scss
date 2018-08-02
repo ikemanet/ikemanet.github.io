@@ -10,7 +10,7 @@
 
 .post-toc ol {
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 0px;
   text-align: left;
   list-style: none;
   font-size: 16px;
@@ -21,11 +21,12 @@
     @include the-transition();
     transition-property: all;
     color: $sidebar-link-color;
-    border-bottom-color: $sidebar-link-bottom-color;
+    border: 0;
+    font-weight: normal;
 
     &:hover {
       color: $sidebar-link-hover-color;
-      border-bottom-color: $sidebar-link-hover-color;
+      border: 0;
     }
   }
 }
@@ -34,7 +35,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: if(not jekyll-config('toc.wrap'), nowrap, null);
-  line-height: 1.8;
+  line-height: 2.4;
+  padding: 0 20px;
+}
+
+.post-toc .nav .active {
+  background: white;
 }
 
 .post-toc .nav .nav-child { display: none; }
@@ -48,7 +54,7 @@
 
 .post-toc .nav .active > a {
   color: $sidebar-link-hover-color;
-  border-bottom-color: $sidebar-link-hover-color;
+  border-bottom: 0;
 }
 
 .post-toc .nav .active-current > a {

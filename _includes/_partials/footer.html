@@ -5,22 +5,5 @@
     <i class="fa fa-{{ site.authoricon }}"></i>
   </span>
   蛋萌 &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span class="author" itemprop="copyrightHolder">版权所有　<a href="{{site.url}}/about/">MZY'S Studio</a>,　2005-{{ 'now' | date: "%Y" }}.</span>
-  <p style="margin-bottom: 5px;"><a href="https://done.moe/about/#%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5">友情链接</a>　Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+  <span class="author" itemprop="copyrightHolder"> <a href="{{site.url}}/about/">MZY'S Studio</a>,　2005-{{ 'now' | date: "%Y" }}.</span><br/>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 </div>
-
-{% if site.copyright %}
-<div class="powered-by">
-  Pokemon 图标来自 Roundicons.
-</div>
-<div class="powered-by">
-  {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
-</div>
-
-<div class="theme-info">
-  {{ __.footer.theme }} -
-  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
-    NexT.{{ site.scheme }}
-  </a>
-</div>
-{% endif %}

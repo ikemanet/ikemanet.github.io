@@ -11,23 +11,23 @@ title:
 author: 博主
 
 menu:
-  home: 首页
+  home: DONE.MOE
   archives: 归档
-  categories: 分类
+  categories: CAT
   tags: 标签
-  about: 关于
-  search: 搜索
+  about: ABOUT
+  search: SEARCH
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益404
-  tutorial: 蛋萌独门
-  code: 代码小抄
-  photography: 世界多美
-  blog: 生活味道
+  tutorial: TOUR
+  code: CODE
+  photography: PHOTO
+  blog: BLOG
 
 sidebar:
-  overview: 站点概览
-  toc: 文章目录
+  overview: AUTHOR
+  toc: OUTLINE
 
 post:
   created: 创建于
