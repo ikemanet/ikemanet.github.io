@@ -19,9 +19,8 @@
   @include mobile() {
     display: none;
     margin: 0 -10px;
-    padding: 0 10px;
+    padding: 2px 10px;
     clear: both;
-    border-top: 1px solid $gray-lighter;
   }
   @include tablet() { display: block !important; }
   @include desktop() { display: block !important; }
