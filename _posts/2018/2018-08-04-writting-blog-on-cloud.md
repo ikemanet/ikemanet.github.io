@@ -17,9 +17,9 @@ english: false
 
 GitHub是通过Git进行版本控制的软件源代码托管服务，由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。 
 
-2018年6月4日晚上，美国科技公司微软宣布以75亿美元的股票收购GitHub。[^f1]
+2018年6月4日晚上，美国科技公司微软宣布以75亿美元的股票收购GitHub。[^1]
 
-[^f1] 引用 https://zh.wikipedia.org/wiki/GitHub
+[^1] 引用 https://zh.wikipedia.org/wiki/GitHub
 
 幸好GFW并没有屏蔽它，所以我们需要的是将我们的代码托管到GitHub上，而且GitHub本身就内置Jekyll内核，也就是说GitHub会将你的源码自动编译成静态网站，这个服务叫做GitHub Page。
 
