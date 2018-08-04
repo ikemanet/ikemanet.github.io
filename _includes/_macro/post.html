@@ -283,9 +283,9 @@
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
       {% comment %} Gallery support {% endcomment %}
-      {% if post.photos and post.photos.size > 0 %}
+      {% if is_index != true and post.photos and post.photos.size > 0 %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-          {% assign COLUMN_NUMBER = 3 %}
+          {% assign COLUMN_NUMBER = post.colnum %}
           {% for photo in post.photos %}
             {% assign index0_modulo_COLUMN_NUMBER = forloop.index0 | modulo: COLUMN_NUMBER %}
             {% if index0_modulo_COLUMN_NUMBER == 0 %}<div class="post-gallery-row">{% endif %}
@@ -294,7 +294,7 @@
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="{{ photo }}" itemprop="contentUrl"/>
               </a>
-            {% if index0_modulo_COLUMN_NUMBER == 2 %}</div>{% endif %}
+            {% if index0_modulo_COLUMN_NUMBER == post.colnum_1 %}</div>{% endif %}
           {% endfor %}
 
           {% comment %} Append end tag for `post-gallery-row` when (photos size mod COLUMN_NUMBER) is less than COLUMN_NUMBER {% endcomment %}
