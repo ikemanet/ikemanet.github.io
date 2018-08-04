@@ -61,6 +61,7 @@ featured_position: bottom
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
 - Logo图标：RoundIcons Freebies [主页](https://www.flaticon.com/authors/roundicons-freebies)
 - 社交分享：Share.js [主页](https://github.com/overtrue/share.js/)
+- 二次元：Live2D [主页](https://github.com/EYHN/hexo-helper-live2d)
 
 ## 友情链接
 
