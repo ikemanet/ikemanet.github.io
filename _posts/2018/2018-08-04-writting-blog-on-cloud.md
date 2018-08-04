@@ -7,6 +7,7 @@ tags:
 - command
 categories: Tourial
 english: false
+featured: writting-blog-on-cloud.jpg
 ---
 
 使用[Jekyll](https://done.moe/cheat-sheet/2017/06/05/useful-build-command-and-parameters-of-jekyll/)搭建博客的好处自然不用说，但是如果说弊端，自然是后台都在本地，维护博客还要带着电脑？
