@@ -95,6 +95,10 @@ $(document).ready(function () {
             {paddingRight: SIDEBAR_WIDTH},
             SIDEBAR_DISPLAY_DURATION
           );
+          NexT.utils.isDesktop() && $('.header-inner').velocity('stop').velocity(
+            {paddingRight: SIDEBAR_WIDTH},
+            SIDEBAR_DISPLAY_DURATION
+          );
         })
         .on('sidebar.isHiding', function () {
         });

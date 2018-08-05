@@ -1,6 +1,6 @@
 .main-inner { 
-    margin-top: 320px; 
+    padding-top: 380px; 
     @include mobile() {
-        margin-top: 230px;
+        padding-top: 270px;
     }
 }

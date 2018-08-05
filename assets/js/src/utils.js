@@ -74,6 +74,37 @@ NexT.utils = NexT.$u = {
       var scrollPercentRounded = Math.round(scrollPercent*100);
       var scrollPercentMaxed = (scrollPercentRounded > 100) ? 100 : scrollPercentRounded;
       $('#scrollpercent>span').html(scrollPercentMaxed);
+
+      var nav = window.navigator;
+      var ua = nav.userAgent;
+      var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
+
+      if (!pa.test(ua)){
+        if (scrollTop >= 300 && screenTop < 400) {
+          $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-300)/100*0.2+0.8)+')');
+          $('.header-inner').css('padding-top', (5+20*(100-scrollTop-300)/100)+'px');
+          $('.header-inner').css('padding-bottom', (8+20*(100-scrollTop-300)/100)+'px');
+        } else if (scrollTop < 300) {
+          $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
+          $('.header-inner').css('padding-top', (5+20*(300-scrollTop)/300)+'px');
+          $('.header-inner').css('padding-bottom', (8+20*(300-scrollTop)/300)+'px');
+        } else if (screenTop >= 400) {
+          $('.header').css('background-color','rgba(255, 255, 255, 1)');
+          $('.header-inner').css('padding-top', '5px');
+          $('.header-inner').css('padding-bottom', '8px');
+        }
+      } else {
+        if (scrollTop >= 300 && screenTop < 400) {
+          $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-300)/100*0.2+0.8)+')');
+          $('.header-inner').css('padding', '10px');
+        } else if (scrollTop < 300) {
+          $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
+          $('.header-inner').css('padding', '10px');
+        } else if (screenTop >= 400) {
+          $('.header').css('background-color','rgba(255, 255, 255, 1)');
+          $('.header-inner').css('padding', '10px');
+        }
+      }
     });
 
     $top.on('click', function () {

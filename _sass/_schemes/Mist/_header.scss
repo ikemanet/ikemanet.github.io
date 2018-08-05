@@ -3,6 +3,9 @@
 .header {
   background: rgba(255,255,255,0.8) url(/assets/images/pokemon.png) right center no-repeat; 
   background-size: contain;
+  position: fixed;
+  width: 100%;
+  z-index: 1050;
 }
 .header-inner {
   padding: 25px 0 28px;
@@ -10,7 +13,7 @@
 
   @include mobile() {
     width: auto;
-    margin-bottom: 50px;
+    //margin-bottom: 50px;
     padding: 10px;
   }
 }
