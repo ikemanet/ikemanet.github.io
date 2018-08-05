@@ -6,9 +6,10 @@
   position: fixed;
   width: 100%;
   z-index: 1050;
+  box-shadow: 0 5px 20px #0000001F;
 }
 .header-inner {
-  padding: 25px 0 28px;
+  padding: 25px 0 30px;
   @include clearfix();
 
   @include mobile() {
@@ -44,7 +45,7 @@
 
     @include mobile() { 
       line-height: 34px; 
-      letter-spacing: 0.2em;
+      letter-spacing: 0.15em;
       font-size: 18px;
     }
   }
