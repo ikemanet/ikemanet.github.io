@@ -4,13 +4,13 @@ title: 静静地仰望天空
 category: Photography
 photos:
 - /assets/img/posts/2018/08/sky-by-ike-1.jpg
-- /assets/img/posts/2018/08/sky-by-ike-2.jpg
+- /assets/img/posts/2018/08/sky-by-ike-8.jpg
 - /assets/img/posts/2018/08/sky-by-ike-3.jpg
 - /assets/img/posts/2018/08/sky-by-ike-4.jpg
 - /assets/img/posts/2018/08/sky-by-ike-5.jpg
 - /assets/img/posts/2018/08/sky-by-ike-6.jpg
 - /assets/img/posts/2018/08/sky-by-ike-7.jpg
-- /assets/img/posts/2018/08/sky-by-ike-8.jpg
+- /assets/img/posts/2018/08/sky-by-ike-2.jpg
 colnum: 3
 colnum_1: 2
 tags:
@@ -19,7 +19,7 @@ featured: 08/sky-by-ike-1.jpg
 author: Ike
 ---
 
-不论你身在何方，也请你走出石森林。抬起头来，赞美那一望无际的天空。
+不论你身在何方，抬起头来，赞美那一望无际的天空。
 
 那无边无际的天蓝色下包容了各种各样的人和事，快乐与忧愁，幸福与悲剧。
 
