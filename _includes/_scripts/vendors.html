@@ -13,9 +13,6 @@
 {% assign js_vendors = js_vendors | append: ', ' | append: 'velocity: velocity/velocity.min.js?v=1.2.1' %}
 {% assign js_vendors = js_vendors | append: ', ' | append: 'velocity_ui: velocity/velocity.ui.min.js?v=1.2.1' %}
 
-{% if site.fancybox %}
-  {% assign js_vendors = js_vendors | append: ', ' | append: 'fancybox: fancybox/source/jquery.fancybox.pack.js?v=2.1.5' %}
-{% endif %}
 {% if site.canvas_nest %}
   {% assign js_vendors = js_vendors | append: ', ' | append: 'canvas_nest: canvas-nest/canvas-nest.min.js' %}
 {% endif %}

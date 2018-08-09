@@ -25,7 +25,6 @@ $(document).ready(function () {
   });
 
 
-  CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
   NexT.utils.embeddedVideoTransformer();
   NexT.utils.addActiveClassToMenuItem();
 

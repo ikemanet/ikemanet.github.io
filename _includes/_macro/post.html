@@ -289,7 +289,7 @@
           {% for photo in post.photos %}
             {% assign index0_modulo_COLUMN_NUMBER = forloop.index0 | modulo: COLUMN_NUMBER %}
             {% if index0_modulo_COLUMN_NUMBER == 0 %}<div class="post-gallery-row">{% endif %}
-              <a class="post-gallery-img fancybox"
+              <a class="post-gallery-img fancybox" data-fancybox="gallery"
                  href="{{ photo }}" rel="gallery_{{ post._id }}"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url"
                  style="background: url({{ photo }}) no-repeat; background-size: cover">
@@ -301,6 +301,44 @@
           {% comment %} Append end tag for `post-gallery-row` when (photos size mod COLUMN_NUMBER) is less than COLUMN_NUMBER {% endcomment %}
           {% assign photos_size_modulo_COLUMN_NUMBER = post.photos.size | modulo: COLUMN_NUMBER %}
           {% if photos_size_modulo_COLUMN_NUMBER > 0 %}</div>{% endif %}
+          <script>
+            $("[data-fancybox]").fancybox({
+              buttons : [
+                "zoom",
+                "fullScreen",
+                "close"
+              ],
+              lang : "zh",
+              i18n: {
+                en: {
+                    CLOSE: "Close",
+                    NEXT: "Next",
+                    PREV: "Previous",
+                    ERROR: "The requested content cannot be loaded. <br/> Please try again later.",
+                    PLAY_START: "Start slideshow",
+                    PLAY_STOP: "Pause slideshow",
+                    FULL_SCREEN: "Full screen",
+                    THUMBS: "Thumbnails",
+                    DOWNLOAD: "Download",
+                    SHARE: "Share",
+                    ZOOM: "Zoom"
+                },
+                zh: {
+                    CLOSE: "关闭",
+                    NEXT: "下一张",
+                    PREV: "上一张",
+                    ERROR: "无法载入图片，请稍后重试",
+                    PLAY_START: "幻灯片放映",
+                    PLAY_STOP: "暂停放映",
+                    FULL_SCREEN: "全屏幕",
+                    THUMBS: "缩略图",
+                    DOWNLOAD: "下载",
+                    SHARE: "分享",
+                    ZOOM: "放大"
+                }
+              }
+            });
+          </script>
         </div>
       {% endif %}
 
