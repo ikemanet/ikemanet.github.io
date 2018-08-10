@@ -6,7 +6,7 @@ tags:
 - io
 - tech
 - domain
-featured: "domain-io.jpg"
+featured: "domain-io.png"
 featuredalt: "IO Domain"
 categories: Blog
 comments: true
