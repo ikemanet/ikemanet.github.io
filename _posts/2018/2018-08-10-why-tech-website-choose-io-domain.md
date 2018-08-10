@@ -14,7 +14,7 @@ comments: true
 
 本人非常喜欢研究域名，今天就来谈谈.io！
 
-如果你经常访问技术网站，IO域名就不会陌生，比如``angular.io``, ``github.io`` , ``redis.io``, ``http://readme.io/``。为什么他们都用io，代表什么？
+如果你经常访问技术网站，IO域名就不会陌生，比如``angular.io``, ``github.io`` , ``redis.io``, ``readme.io``。为什么他们都用io，代表什么？
 
 I/O 是“Input/Output”（输入/输出）的缩写形式。一般情况下，.io 是深受创业者、工程师、编程人员和极客欢迎的域名。
 
