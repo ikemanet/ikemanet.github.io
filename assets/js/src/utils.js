@@ -42,7 +42,7 @@ NexT.utils = NexT.$u = {
       var ua = nav.userAgent;
       var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
 
-      if (!pa.test(ua)){
+      if ($(window).width() < 768){
         if (scrollTop >= 300 && scrollTop < 400) {
           $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-300)/100*0.2+0.8)+')');
           $('.header-inner').css('padding-top', (5+20*(100-scrollTop-300)/100)+'px');
