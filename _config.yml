@@ -14,6 +14,7 @@ author: Ike MA
 language: zh-Hans
 date_format: '%Y-%m-%d'
 cover_img: 'sky.jpg'
+author: Ike
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
@@ -754,4 +755,4 @@ js: /assets/js
 images: /assets/images
 
 # Theme version
-version: 5.1.7
+version: 5.1.8

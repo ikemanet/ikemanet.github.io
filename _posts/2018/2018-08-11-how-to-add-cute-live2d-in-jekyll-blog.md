@@ -21,7 +21,7 @@ Add the Sseexxyyy live2d to your webpages! [^1] [点击查看作者博客和看�
 
 给你的博客一个萌（超）萌（性）哒（感）的二次元看板娘！
 
-<img src="/assets/img/posts/2018/08/live2d.gif">
+<img src="/assets/img/posts/2018/08/live2d.jpg" width="50%">
 
 可惜作者并没有直接提供Jekyll的安装方式，要我们用Jekyll的怎么活呢？
 
