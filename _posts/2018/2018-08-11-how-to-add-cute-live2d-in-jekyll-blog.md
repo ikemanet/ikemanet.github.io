@@ -91,7 +91,7 @@ live2d:
 
 之后用``hexo serve``运行看看，右下角是否有wanko了？
 
-如果一切正常，``hexo build``来编译Hexo博客了。执行后，你会欣喜的发现在``public``（Hexo编译后的网站静态文件）文件夹中，找到``live2dw``文件夹，这就是编译后的看板娘文件了。
+如果一切正常，``hexo deploy``来编译Hexo博客了。执行后，你会欣喜的发现在``public``（Hexo编译后的网站静态文件）文件夹中，找到``live2dw``文件夹，这就是编译后的看板娘文件了。
 
 <img src="/assets/img/posts/2018/08/hexo-after-live2d.png">
 
