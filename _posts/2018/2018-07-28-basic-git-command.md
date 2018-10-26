@@ -18,6 +18,13 @@ english: false
 ```shell
 $ git init
 ```
+## 更新远端最新文件
+
+在提交修改之前，应先检查是否远端有更新，先要应用更新，然后再执行本地修改，避免文件合并等复杂操作。
+
+```shell
+$ git push origin master
+```
 
 ## 查看变更
 
