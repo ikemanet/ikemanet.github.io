@@ -131,7 +131,7 @@ $ git config --bool core.bare true
 $ git checkout -b branch1
 ```
 
-单独且还分支，则不加``-b``参数，例如要切换回``master``分支，则：
+单独切换分支，则不加``-b``参数，例如要切换回``master``分支，则：
 
 ```shell
 $ git checkout master
