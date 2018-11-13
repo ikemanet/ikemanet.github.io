@@ -8,5 +8,8 @@ sudo bundle install
 启动本地预览
 sudo bundle exec jekyll serve
 
+本地预览地址
+localhost:4000
+
 发布
 ./pub '注释' [-noimg]
