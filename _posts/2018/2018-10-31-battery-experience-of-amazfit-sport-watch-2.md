@@ -10,6 +10,7 @@ tags:
 - battery
 categories: Tutorial
 english: false
+featured: "amazfit-stratos-2.jpg"
 ---
 
 国庆由于想激励自己跑步的原因，入手了华米运动手表2，刚入手第一天就升级了系统，然后悲剧接踵而至...
