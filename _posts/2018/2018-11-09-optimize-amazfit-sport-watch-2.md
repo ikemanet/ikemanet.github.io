@@ -182,6 +182,8 @@ finished. total time: 0.280s
 ```
 其中``version-bootloader: ``后面的文字，填入Bootloader version，``serialno: ``后面的文字填入Serial number。
 
+### 安装ROM
+
 之后到[XDA原贴](https://forum.xda-developers.com/smartwatch/amazfit/fw-tool-stock-international-firmware-t3764636)下载ROM``Stock US/International 2.3.6.1 Firmware Installer with OTA updates``，或者到我的百度云下载：
 
 ```
