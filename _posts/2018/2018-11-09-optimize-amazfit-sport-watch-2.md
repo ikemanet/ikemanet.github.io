@@ -10,6 +10,7 @@ tags:
 - optimization
 categories: Tutorial
 english: false
+featured: "amazfit-stratos.jpg"
 ---
 
 ## 前言
