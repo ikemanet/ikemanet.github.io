@@ -73,7 +73,7 @@ english: false
 - 文件管理
 - 命令行命令执行
 
-![AmazMod 截图](/assets/img/posts/2018/11/amazmod.jpg)
+<img src="/assets/img/posts/2018/11/amazmod.jpg" style="width:100%; max-width: 400px" alt="AmazMod 截图"/>
 
 ### 如何安装？
 
@@ -89,10 +89,13 @@ english: false
 
 手表端我的设置分享如下：
 
-![设置截图](/assets/img/posts/2018/11/amazmod-settings-1.jpg)
-![设置截图](/assets/img/posts/2018/11/amazmod-settings-2.jpg)
-![设置截图](/assets/img/posts/2018/11/amazmod-settings-3.jpg)
-![设置截图](/assets/img/posts/2018/11/amazmod-settings-4.jpg)
+<img src="/assets/img/posts/2018/11/amazmod-settings-1.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+
+<img src="/assets/img/posts/2018/11/amazmod-settings-2.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+
+<img src="/assets/img/posts/2018/11/amazmod-settings-3.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+
+<img src="/assets/img/posts/2018/11/amazmod-settings-4.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
 
 在耗电方面，1702这个版本比上个版本更省电，几乎察觉不到费电的情况，但要按我上面的情况来设置，其实费电主要是背光，当然也取决于消息的多少。
 
