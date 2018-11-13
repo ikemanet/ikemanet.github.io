@@ -26,7 +26,7 @@ english: false
 
 国外一个大神Istvan Szabadi（[作者网站](http://amazfit.szabadi.info/)）推出了高清数字表盘，马上就让你的手表变得高大上起来！而且上面包含各种实用信息。
 
-![表盘截图](/assets/img/posts/11/huami-watch-face.png)
+![表盘截图](/assets/img/posts/2018/11/huami-watch-face.png)
 
 这位大神开发了``APK``表盘，不同于标准的``WFZ``表盘，``APK``表盘就如同一个安卓的应用程序，允许定义更个性化的显示方式，比如使用自定义的字体以及显示逻辑等，所以看起来也更炫。
 
@@ -48,7 +48,7 @@ english: false
 密码:uupo
 ```
 
-![APK Installer 截图](/assets/img/posts/11/apkinstaller-for-pc-installation.jpg)
+![APK Installer 截图](/assets/img/posts/2018/11/apkinstaller-for-pc-installation.jpg)
 
 安装APK非常简单，将手表链接到PC，然后点击APK Installer界面上的Installer按钮，然后在空白处点击鼠标右键选择add APK，然后点击右下角的Install按钮即可完成安装。
 
@@ -73,7 +73,7 @@ english: false
 - 文件管理
 - 命令行命令执行
 
-![AmazMod 截图](/assets/img/posts/11/amazmod.jpg)
+![AmazMod 截图](/assets/img/posts/2018/11/amazmod.jpg)
 
 ### 如何安装？
 
@@ -89,10 +89,10 @@ english: false
 
 手表端我的设置分享如下：
 
-![设置截图](/assets/img/posts/11/amazmod-settings-1.jpg)
-![设置截图](/assets/img/posts/11/amazmod-settings-2.jpg)
-![设置截图](/assets/img/posts/11/amazmod-settings-3.jpg)
-![设置截图](/assets/img/posts/11/amazmod-settings-4.jpg)
+![设置截图](/assets/img/posts/2018/11/amazmod-settings-1.jpg)
+![设置截图](/assets/img/posts/2018/11/amazmod-settings-2.jpg)
+![设置截图](/assets/img/posts/2018/11/amazmod-settings-3.jpg)
+![设置截图](/assets/img/posts/2018/11/amazmod-settings-4.jpg)
 
 在耗电方面，1702这个版本比上个版本更省电，几乎察觉不到费电的情况，但要按我上面的情况来设置，其实费电主要是背光，当然也取决于消息的多少。
 
