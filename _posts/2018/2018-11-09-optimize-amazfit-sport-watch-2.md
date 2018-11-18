@@ -188,7 +188,7 @@ C:\adb>fastboot getvar all
 all:
 finished. total time: 0.280s
 ```
-其中``version-bootloader: ``后面的文字，填入Bootloader version，``serialno: ``后面的文字填入Serial number。
+其中``version-bootloader: ``后面的文字，填入``Bootloader version``空中，``serialno: ``后面的文字填入``Serial number``空中。
 
 之后你将收到邮件，邮件内容如下：
 
