@@ -51,7 +51,7 @@ featured: "amazfit-stratos.jpg"
 
 ![APK Installer 截图](/assets/img/posts/2018/11/apkinstaller-for-pc-installation.jpg)
 
-安装APK非常简单，将手表链接到PC，然后点击APK Installer界面上的Installer按钮，然后在空白处点击鼠标右键选择add APK，然后点击右下角的Install按钮即可完成安装。
+安装APK非常简单，将手表链接到PC，然后点击APK Installer界面上的Installer按钮，然后在列表空白处点击鼠标右键选择open APK file，选择要安装的apk文件，文件添加到列表中之后，点击右下角的Install按钮即可完成安装。
 
 安装后，稍等片刻你就可以在手表上找到新的表盘了。
 
@@ -90,13 +90,13 @@ featured: "amazfit-stratos.jpg"
 
 手表端我的设置分享如下：
 
-<img src="/assets/img/posts/2018/11/amazmod-settings-1.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+<img src="/assets/img/posts/2018/11/amazmod-settings-1.jpg" style="width:100%; max-width: 400px" alt="AmazMod 设置截图"/>
 
-<img src="/assets/img/posts/2018/11/amazmod-settings-2.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+<img src="/assets/img/posts/2018/11/amazmod-settings-2.jpg" style="width:100%; max-width: 400px" alt="AmazMod 设置截图"/>
 
-<img src="/assets/img/posts/2018/11/amazmod-settings-3.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+<img src="/assets/img/posts/2018/11/amazmod-settings-3.jpg" style="width:100%; max-width: 400px" alt="AmazMod 设置截图"/>
 
-<img src="/assets/img/posts/2018/11/amazmod-settings-4.jpg" style="width:100%; max-width: 400px" alt="设置截图"/>
+<img src="/assets/img/posts/2018/11/amazmod-settings-4.jpg" style="width:100%; max-width: 400px" alt="AmazMod 设置截图"/>
 
 在耗电方面，1702这个版本比上个版本更省电，几乎察觉不到费电的情况，但要按我上面的情况来设置，其实费电主要是背光，当然也取决于消息的多少。
 
@@ -133,9 +133,13 @@ featured: "amazfit-stratos.jpg"
 
 [解锁网站（英文），点击进入](https://unlockamazfit.com/index.php)
 
+<img src="/assets/img/posts/2018/11/amazfit-stratos-unlock-01.jpg" style="width:100%; max-width: 600px" alt="Amazfit Stratos 华米运动手表2 解锁过程"/>
+
 注意：该网站使用了Google的人机身份验证reCAPTCHA，因此需要翻墙否则无法继续。你也可以将信息留言给我，我帮你解锁。
 
 在第一个画面点击最后的按钮“I fully understand and want to continue”，然后第二个画面就是要输入你手表的一系列信息：
+
+<img src="/assets/img/posts/2018/11/amazfit-stratos-unlock-02.jpg" style="width:100%; max-width: 600px" alt="Amazfit Stratos 华米运动手表2 解锁过程"/>
 
 - First and last name	名字和姓（这里校验逻辑很诡异，我输入``Ike MA``则无法通过，最后我输入了我同事的名字``Matias De Hoz``成功...）
 - Serial number	使用ADB命令行获取（见下文）
@@ -186,6 +190,36 @@ finished. total time: 0.280s
 ```
 其中``version-bootloader: ``后面的文字，填入Bootloader version，``serialno: ``后面的文字填入Serial number。
 
+之后你将收到邮件，邮件内容如下：
+
+<img src="/assets/img/posts/2018/11/amazfit-stratos-unlock-03.jpg" style="width:100%; max-width: 600px" alt="Amazfit Stratos 华米运动手表2 解锁过程"/>
+
+邮件中最下方会有一行类似下面文字的命令。
+```
+fastboot oem unlock UNLOCK-CODE
+```
+
+首先进入Bootloader模式
+```
+adb shell reboot bootloader
+```
+
+然后执行邮件中的命令
+```
+fastboot oem unlock UNLOCK-CODE
+```
+
+执行后验证是否已经解锁：
+```
+fastboot getvar unlocked
+```
+
+如果执行结果是
+```
+Unlocked: yes
+```
+则证明已解锁成功，恭喜你！
+
 ### 安装ROM
 
 之后到[XDA原贴](https://forum.xda-developers.com/smartwatch/amazfit/fw-tool-stock-international-firmware-t3764636)下载ROM``Stock US/International 2.3.6.1 Firmware Installer with OTA updates``，或者到我的百度云下载：
@@ -196,6 +230,12 @@ finished. total time: 0.280s
 ```
 下载后解压，重启手表至正常状态。
 
-执行``flash_US2.bat``，等待其完成即可。
+执行``flash_US2.bat``，等待其完成即可。安装过程中会重启多次，需要耐心等待。
+
+安装过程截图：
+
+<img src="/assets/img/posts/2018/11/amazfit_stratos_custom_rom_0.png" style="width:100%; max-width: 600px" alt="Amazfit Stratos 华米运动手表2 自定义ROM安装过程截图"/>
+
+<img src="/assets/img/posts/2018/11/amazfit_stratos_custom_rom_1.png" style="width:100%; max-width: 600px" alt="Amazfit Stratos 华米运动手表2 自定义ROM安装过程截图"/>
 
 完成后你可以在手表``设置``里修改语言。
