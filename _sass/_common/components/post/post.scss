@@ -3,6 +3,9 @@
   @include mobile() {
     word-break: break-word;
   }
+  * strong {
+      color: #673AB7;
+  }
 }
 
 .post-body .fancybox img {

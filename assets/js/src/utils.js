@@ -47,14 +47,17 @@ NexT.utils = NexT.$u = {
           $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-300)/100*0.2+0.8)+')');
           $('.header-inner').css('padding-top', (5+20*(100-scrollTop-300)/100)+'px');
           $('.header-inner').css('padding-bottom', (10+20*(100-scrollTop-300)/100)+'px');
+          $('.sidebar-inner').css('padding-top', (60+40*(100-scrollTop-300)/100)+'px');
         } else if (scrollTop < 300) {
           $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
           $('.header-inner').css('padding-top', (5+20*(300-scrollTop)/300)+'px');
           $('.header-inner').css('padding-bottom', (10+20*(300-scrollTop)/300)+'px');
+          $('.sidebar-inner').css('padding-top', (60+40*(300-scrollTop)/300)+'px');
         } else if (scrollTop >= 400) {
           $('.header').css('background-color','rgba(255, 255, 255, 1)');
           $('.header-inner').css('padding-top', '5px');
           $('.header-inner').css('padding-bottom', '10px');
+          $('.sidebar-inner').css('padding-top', '60px');
         }
       } else {
         if (scrollTop >= 300 && scrollTop < 400) {
