@@ -97,7 +97,7 @@
       return activeTarget != (i = targets[targets.length - 1]) && this.activate(i)
     }
 
-    if (activeTarget && scrollTop < offsets[0]) {
+    if (activeTarget && scrollTop < offsets[0] - 110) {
       $(this.selector).trigger('clear.bs.scrollspy')  // Add a custom event.
       this.activeTarget = null
       return this.clear()
@@ -105,8 +105,8 @@
 
     for (i = offsets.length; i--;) {
       activeTarget != targets[i]
-        && scrollTop >= offsets[i]
-        && (!offsets[i + 1] || scrollTop <= offsets[i + 1])
+        && scrollTop >= offsets[i] - 110
+        && (!offsets[i + 1] || scrollTop <= offsets[i + 1] - 110)
         && this.activate(targets[i])
     }
   }
