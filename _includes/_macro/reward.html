@@ -1,20 +1,21 @@
 {% if site.alipay or site.wechatpay %}
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div style="padding: 10px 0; margin: 0px auto; width: 90%; text-align: center;">
     <div>{{ site.reward_comment }}</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); var rewardButton = document.getElementById('rewardButton'); if (qr.style.display === 'none') {qr.style.display='block'; rewardButton.style.display='none';} else {qr.style.display='none'}">
+      <span>喜欢</span>
     </button>
+    <p style="font-size:16px; color:#666; margin-top:8px; margin-bottom: 0">「觉得本文有用请点击」</p>
     <div id="QR" style="display: none;">
       {% if site.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>
-          <p>微信打赏</p>
+          <p>使用微信识别二维码打赏</p>
         </div>
       {% endif %}
       {% if site.alipay %}
         <div id="alipay" style="display: inline-block">
           <img id="alipay_qr" src="{{ site.alipay }}" alt="{{ site.author }} Alipay"/>
-          <p>支付宝打赏</p>
+          <p>使用支付宝扫描上方二维码打赏</p>
         </div>
       {% endif %}
     </div>

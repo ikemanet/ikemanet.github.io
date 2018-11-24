@@ -350,6 +350,12 @@
     </div>
 
     {% unless is_index %}
+    <div>
+        {% include _macro/reward.html %}
+    </div>
+    {% endunless %}
+
+    {% unless is_index %}
     <strong>蛋萌 Done.moe</strong>
     <div class="copyright">
       <strong>版权许可</strong> 本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a> 进行许可。欢迎转载、使用、重新发布，但务必保留如下信息：<br/>
@@ -358,7 +364,7 @@
       <strong>License:</strong> This article is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. Welcome to reprint, use, republish, but be sure to keep the following information:<br/>
       This article is from 蛋萌 Done.moe, written by {{ page.author | site.author }}<br/>
       Original {{ site.url }}{{ page.url }}<br/><br/>
-      不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请 <a href="https://done.moe/about/">与我联系</a>) 。
+      不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请<a href="https://done.moe/about/">与我联系</a>。
     </div>
     {% endunless %}
 
@@ -371,12 +377,6 @@
     {% unless is_index %}
     <div>
         {% include _macro/wechat-subscriber.html %}
-    </div>
-    {% endunless %}
-
-    {% unless is_index %}
-    <div>
-        {% include _macro/reward.html %}
     </div>
     {% endunless %}
 
