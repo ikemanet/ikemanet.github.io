@@ -42,6 +42,11 @@
   @include transform(rotate(30deg));
 }
 
+.post .copyright {
+  font-size: $font-size-smaller;
+  padding: 14px 0;
+}
+
 @import "post-expand";
 @import "post-collapse";
 @import "post-type";
