@@ -20,6 +20,8 @@ if test "$1" != ''; then
   git push origin master
   echo "推送到 GitCafe (coding.net)..."
   git push gitcafe master
+  echo "推送到 wmns..."
+  git push wmns master
   echo "完成!"
 else
   echo "未填写备注，发布终止。"
