@@ -41,16 +41,6 @@
 {% endif %}
 
 
-{% if site.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}" />
-{% endif %}
-
-
-{% if site.qihu_site_verification %}
-  <meta name="360-site-verification" content="{{ site.qihu_site_verification }}" />
-{% endif %}
-
-
 {% if site.fancybox %}
   {% assign fancybox_css_uri = site.vendors._internal | append: '/fancybox/source/jquery.fancybox.css?v=2.1.5' | site.url %}
   {% if site.vendors.fancybox_css %}
@@ -135,6 +125,7 @@
 {% include _partials/head/custom-head.html %}
 
 {% if site.google_adsense %}
+{% if page.categories %}
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
@@ -142,6 +133,7 @@
           enable_page_level_ads: true
      });
 </script>
+{% endif %}
 {% endif %}
 
 {% if site.valine.enable %}

@@ -482,7 +482,7 @@ sharejs: true
 google_analytics: UA-953258-15
 
 # Google Adsense -- added by mzys
-# google_adsense: ca-pub-5561611607174812
+google_adsense: ca-pub-5561611607174812
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
