@@ -1,5 +1,4 @@
   if test "$1" != ''; then
-    git config credential.helper store
     echo "-------------------------"
     echo "提交变更..."
     echo "-------------------------"
@@ -16,6 +15,7 @@
     echo "-------------------------"
     echo "推送到 wmns..."
     echo "-------------------------"
+    git config credential.helper store
     git push wmns master
     echo "-------------------------"
     echo "完成!"
