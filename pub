@@ -1,28 +1,22 @@
-
-if test "$1" != ''; then
-  if test "$2" != '-noimg'; then
-    echo "正在压缩和优化网站图片..."
-    cd assets/img/
-    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
-    find . -iregex ".*\.png" -exec optipng {} \;
-    cd ..
-    cd ..
-    cd assets/images/
-    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
-    find . -iregex ".*\.png" -exec optipng {} \;
-    cd ..
-    cd ..
+  if test "$1" != ''; then
+    echo "提交变更..."
+    echo "-------------------------"
+    git add -A .
+    git commit -m "$1"
+    echo "-------------------------"
+    echo "推送到 GitHub..."
+    echo "-------------------------"
+    git push origin master
+    echo "-------------------------"
+    echo "推送到 GitCafe (coding.net)..."
+    echo "-------------------------"
+    git push gitcafe master
+    echo "-------------------------"
+    echo "推送到 wmns..."
+    echo "-------------------------"
+    git push wmns master
+    echo "-------------------------"
+    echo "完成!"
+  else
+    echo "备注未填写，提交终止。"
   fi
-  echo "提交变更..."
-  git add -A .
-  git commit -m "$1"
-  echo "推送到 GitHub..."
-  git push origin master
-  echo "推送到 GitCafe (coding.net)..."
-  git push gitcafe master
-  echo "推送到 wmns..."
-  git push wmns master
-  echo "完成!"
-else
-  echo "未填写备注，发布终止。"
-fi
