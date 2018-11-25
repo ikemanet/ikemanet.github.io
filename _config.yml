@@ -427,6 +427,9 @@ disqus:
 valine:
   enable: true
 
+likes:
+  enable: true
+
 # Hypercomments
 #hypercomments_id:
 
