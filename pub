@@ -1,4 +1,6 @@
   if test "$1" != ''; then
+    git config credential.helper store
+    echo "-------------------------"
     echo "提交变更..."
     echo "-------------------------"
     git add -A .
