@@ -5,6 +5,7 @@ AV.init('Xi5VsRj4dwyX1J6RpS2GAXQk-gzGzoHsz', '0Ow1AYiqjkG8a9wz41OmP1jz');
 function ikeLike(pageUrl){
     if (reward_clicked) return;
     if (pageUrl == null || pageUrl == '') return;
+    document.getElementById('rewardText').innerHTML = '...';
     $.getJSON("https://jsonip.com?callback=?", function(data) {
         var myIP = data.ip;
         AV.Object.extend('Likes');
