@@ -3,7 +3,7 @@
     <script>var reward_clicked = false;</script>
     <div>{{ site.reward_comment }}</div>
     <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); var rewardButton = document.getElementById('rewardButton'); if (qr.style.display === 'none') {qr.style.display='block';} {% if site.likes.enable %} ikeLike('{{ page.url }}'); {% endif %}">
-      <span>喜欢<em id="rewardText">...</em></span>
+      <span>赞<em id="rewardText">...</em></span>
     </button>
     <p style="font-size:16px; color:#666; margin-top:8px; margin-bottom: 0">「觉得本文有用请点击」</p>
     <div id="QR" style="display: none;">
