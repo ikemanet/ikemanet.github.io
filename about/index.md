@@ -56,6 +56,7 @@ featured_position: bottom
 - 托管：GitHub Pages [主页](https://pages.github.com/) 和 GitCafe(Coding.net) [主页](https://coding.net)，前者为主站，后者为备份站点
 - 智能DNS：腾讯云 [主页](https://cloud.tencent.com/)，由于GitHub Page屏蔽百度爬虫，因此使用智能DNS将百度爬虫引流到GitCafe站点
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
+- 点赞功能：蛋萌 自主研发 [主页](https://done.moe)
 - 邮件订阅：Tinyletter [主页](https://tinyletter.com)
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
 - Logo图标：RoundIcons Freebies [主页](https://www.flaticon.com/authors/roundicons-freebies)
