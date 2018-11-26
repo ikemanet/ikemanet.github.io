@@ -19,6 +19,10 @@
   }
 }
 
+.header-inner {
+  transition: 0.5s padding;
+}
+
 .site-meta {
   float: left;
   margin-left: -20px;
