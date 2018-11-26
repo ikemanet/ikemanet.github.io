@@ -43,30 +43,22 @@ NexT.utils = NexT.$u = {
       var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
 
       if ($(window).width() >= 768){
-        if (scrollTop >= 200 && scrollTop < 300) {
-          $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-200)/100*0.2+0.8)+')');
-          $('.header-inner').css('padding-top', '5px');
-          $('.header-inner').css('padding-bottom', '10px');
-          $('.sidebar-inner').css('padding-top', '60px');
-        } else if (scrollTop < 200) {
+        if (scrollTop < 200) {
           $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
           $('.header-inner').css('padding-top', '25px');
           $('.header-inner').css('padding-bottom', '30px');
           $('.sidebar-inner').css('padding-top', '110px');
-        } else if (scrollTop >= 300) {
+        } else if (scrollTop >= 200) {
           $('.header').css('background-color','rgba(255, 255, 255, 1)');
-          $('.header-inner').css('padding-top', '5px');
-          $('.header-inner').css('padding-bottom', '10px');
+          $('.header-inner').css('padding-top', '2px');
+          $('.header-inner').css('padding-bottom', '6px');
           $('.sidebar-inner').css('padding-top', '60px');
         }
       } else {
-        if (scrollTop >= 300 && scrollTop < 400) {
-          $('.header').css('background-color','rgba(255, 255, 255, '+((scrollTop-300)/100*0.2+0.8)+')');
-          $('.header-inner').css('padding', '10px');
-        } else if (scrollTop < 300) {
+        if (scrollTop < 300) {
           $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
           $('.header-inner').css('padding', '10px');
-        } else if (scrollTop >= 400) {
+        } else if (scrollTop >= 300) {
           $('.header').css('background-color','rgba(255, 255, 255, 1)');
           $('.header-inner').css('padding', '10px');
         }
