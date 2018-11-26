@@ -50,7 +50,7 @@ NexT.utils = NexT.$u = {
           $('.sidebar-inner').css('padding-top', '110px');
         } else if (scrollTop >= 200) {
           $('.header').css('background-color','rgba(255, 255, 255, 1)');
-          $('.header-inner').css('padding-top', '2px');
+          $('.header-inner').css('padding-top', '3px');
           $('.header-inner').css('padding-bottom', '6px');
           $('.sidebar-inner').css('padding-top', '60px');
         }
