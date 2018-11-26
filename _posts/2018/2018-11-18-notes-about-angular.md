@@ -11,6 +11,7 @@ tags:
 - cheatsheet
 categories: Cheat-sheet
 english: false
+featured: "notes-about-angular.jpg"
 ---
 
 **此笔记根据我在Udemy的Angular视频课程而总结形成。**
