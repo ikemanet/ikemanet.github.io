@@ -35,6 +35,7 @@
   padding-top: 110px;
   color: $grey-dark;
   text-align: center;
+  transition: 0.5s padding-top;
 }
 
 @import "sidebar-toggle";
