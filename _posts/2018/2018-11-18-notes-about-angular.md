@@ -9,7 +9,7 @@ tags:
 - getting started
 - quick guide
 - cheatsheet
-categories: Cheat-sheet
+categories: Cheat-Sheet
 english: false
 featured: "notes-about-angular.jpg"
 ---
