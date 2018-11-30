@@ -5,7 +5,7 @@ author: Ike
 tags:
 - git
 - command
-categories: Tourial
+categories: Tutorial
 english: false
 featured: writting-blog-on-cloud.jpg
 ---
