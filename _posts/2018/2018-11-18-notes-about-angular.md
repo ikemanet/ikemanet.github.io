@@ -45,6 +45,7 @@ $ ng new hello-world
 - 使用``Shift+CMD/CTRL+P``打开**命令面板**（Command Palette）
 - 在命令面板中键入``code``，下面找到``Install code command in PATH``，这将允许你在命令行中键入``code 文件夹``用VS Code快速打开该目录。你可以用命令行进入``hello-world``目录然后键入``code .``打开hello-world项目。
 - 添加``Auto Import``插件，以便VS Code可以自动完成引用所需``ts``模块的`import`代码。
+- 使用``F2``可以对变量等内容进行批量重命名。
 
 ### 运行Angular应用
 进入``hello-world``，然后
