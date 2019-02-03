@@ -7,6 +7,7 @@ title:
   categories: Categories
   tags: Tags
   about: About
+  ikema: IkeMA
 
 author: Author
 
@@ -19,6 +20,7 @@ menu:
   search: Search
   schedule: Schedule
   sitemap: Sitemap
+  ikema: IkeMA
   commonweal: Commonweal 404
 
 sidebar:

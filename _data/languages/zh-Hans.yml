@@ -7,6 +7,7 @@ title:
   categories: 分类
   tags: 标签
   about: 关于
+  ikema: Ike MA 作品
 
 author: 博主
 
@@ -24,6 +25,7 @@ menu:
   code: CODE
   photography: PHOTO
   blog: BLOG
+  ikema: IKE MA
 
 sidebar:
   overview: AUTHOR

@@ -9,7 +9,7 @@ table {
   word-wrap: break-all;
 }
 table>tbody>tr {
-  &:nth-of-type(odd) { background-color: #dddddd; }
+  &:nth-of-type(odd) { background-color: #f0f0f0; }
   &:hover { background-color: #dddddd; }
 }
 
