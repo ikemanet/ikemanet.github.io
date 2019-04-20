@@ -7,4 +7,4 @@ featured: the-midnight-tales.jpg
 featured_position: center
 ---
 
-<script>window.location = 'https://www.youtube.com/watch?v=qT3bnpXT484&t=114s'</script>
+<script>window.location = 'https://www.bilibili.com/video/av49846141/'</script>
