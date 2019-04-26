@@ -6,7 +6,7 @@
 # Site
 repository: 
 title: 蛋萌 Done.Moe
-subtitle: 萌萌之中遇见蛋友！
+subtitle: 我是一只幸运蛋
 title_mobile: DONE.MOE
 description: 我是一只幸运蛋，要幸运不要完 done.
 author: Ike MA
@@ -125,7 +125,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
