@@ -6,9 +6,45 @@ type: ikema
 featured: the-midnight-tales.jpg
 featured_position: center
 ---
-<img src="/assets/img/posts/midnight-tales/story/02/01.jpg"/><br/>
-<a href="https://www.ximalaya.com/xiangsheng/22901726/177554230" target="_blank" title="去收听 午夜拾零 第1集 黎明之前"><img src="/assets/img/posts/midnight-tales/story/02/02.jpg"/></a><br/>
-<img src="/assets/img/posts/midnight-tales/story/02/03.jpg"/><br/>
-<a href="https://www.bilibili.com/video/av49846141" target="_blank" title="去收看 午夜拾零 第1集 黎明之前"><img src="/assets/img/posts/midnight-tales/story/02/04.jpg"/></a><br/>
-<img src="/assets/img/posts/midnight-tales/story/02/05.jpg"/><br/>
+<img src="/assets/img/posts/midnight-tales/story/01/01.jpg"/><br/>
+<img src="/assets/img/posts/midnight-tales/story/01/03.jpg"/><br/>
+<a style="cursor:pointer" onclick="showVideo()" title="去收看 午夜拾零 第1集 黎明之前"><img src="/assets/img/posts/midnight-tales/story/01/04.jpg"/></a><br/>
+<img src="/assets/img/posts/midnight-tales/story/01/05.jpg"/><br/>
 <img src="/assets/img/posts/midnight-tales/qr.gif" alt="扫码关注午夜拾零"/>
+
+<script language="javascript">
+function showVideo(){
+    dialog({
+        title: '午夜拾零',
+	    content: '请选择观看平台',
+        quickClose: true,
+        button: [
+            {
+                value: '去B站观看',
+                callback: function () {
+                    window.open("https://www.bilibili.com/video/av49846141/");
+                    this.content('正在跳转，请稍候...');
+                    var that = this;
+                    setTimeout(function () {
+                        that.close().remove();
+                    }, 2000);
+                    return false;
+                },
+                autofocus: true
+            },
+            {
+                value: '去Youtube观看',
+                callback: function () {
+                    window.open("https://www.youtube.com/watch?v=qT3bnpXT484");
+                    this.content('正在跳转，请稍候...');
+                    var that = this;
+                    setTimeout(function () {
+                        that.close().remove();
+                    }, 2000);
+                    return false;
+                }
+            }
+        ]
+    }).show();
+}
+</script>

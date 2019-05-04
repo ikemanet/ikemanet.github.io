@@ -634,6 +634,9 @@ use_motion: true
 # Fancybox
 fancybox: true
 
+# artDialog
+artDialog: true
+
 # Progress bar in the top during page loading.
 pace: true
 # Themes list:
