@@ -1,6 +1,6 @@
 ---
 layout: page
-comments: false
+comments: true
 title: 午夜拾零 第2集 巧雕石狮
 type: ikema
 featured: the-midnight-tales.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-comments: false
+comments: true
 title: 午夜拾零 第1集 黎明之前
 type: ikema
 featured: the-midnight-tales.jpg
