@@ -34,7 +34,7 @@ function showVideo(){
             {
                 value: '去Youtube观看',
                 callback: function () {
-                    window.open("https://www.youtube.com/watch?v=ETrvgt1E77M");
+                    window.open("https://www.youtube.com/watch?v=ETrvgt1E77M&list=PL5TIvm2gr37JVHe9RY1ErZV1dnsbn-DkQ&index=2");
                     this.content('正在跳转，请稍候...');
                     var that = this;
                     setTimeout(function () {
