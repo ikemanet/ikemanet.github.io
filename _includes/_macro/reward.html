@@ -10,13 +10,13 @@
       {% if site.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>
-          <p>微信识别二维码为我打赏</p>
+          <p>微信扫描二维码打赏<br/>你的名字将出现在本文开头</p>
         </div>
       {% endif %}
       {% if site.alipay %}
         <div id="alipay" style="display: inline-block">
           <img id="alipay_qr" src="{{ site.alipay }}" alt="{{ site.author }} Alipay"/>
-          <p>使用支付宝扫描上方二维码打赏</p>
+          <p>支付宝扫描二维码打赏<br/>你的名字将出现在本文开头</p>
         </div>
       {% endif %}
     </div>

@@ -364,6 +364,7 @@ email_subscriber:
   enabled: true
 
 wechatpay: /assets/images/wechat-pay.jpg
+alipay: /assets/images/alipay.jpg
 
 # Declare license on posts
 post_copyright:
