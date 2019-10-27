@@ -403,30 +403,30 @@ at 5 o'clock
 <p class="zhcn">/assets/le-sound/zh-cn/time/5-00.aac</p>
 ```
 a las cinco y media
-五 点   半
-wǔ diǎn bàn
-at 5 o'clock and half
+五 点         半
+wǔ diǎn      bàn
+at 5 o'clock half
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/5-30.aac</p>
 ```
 a las cinco veinte
-五 点    二 十
-wǔ diǎn èr shí
-at five twenty
+五 点        二 十
+wǔ diǎn      èr shí
+five o'clock twenty
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/5-20.aac</p>
 ```
 a las cinco en punto
-五 点   一 刻
-wǔ diǎn yí kè
-at quarter past five
+五 点     一 刻
+wǔ diǎn   yí kè
+five hour one quarter
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/5-15.aac</p>
 ```
 a las cinco menos cuarto
-差  一 刻  五 点   
-chà yí kè wǔ diǎn 
-at a quarter to five
+差   一 刻        五 点   
+chà  yí kè       wǔ diǎn 
+miss one quarter five o'clock
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/4-45.aac</p>
 ```
