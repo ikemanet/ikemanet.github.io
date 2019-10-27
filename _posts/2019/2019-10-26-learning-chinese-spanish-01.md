@@ -146,6 +146,39 @@ Are you going to learn Chinese?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/are-you-going-to-learn-chinese.aac</p>
 
+## [Would like]
+```
+gustaría
+想
+xiǎng
+would like
+```
+<p class="zhcn">/assets/le-sound/zh-cn/would-like/would-like.aac</p>
+
+```
+te gustaría
+你  想
+nǐ  xiǎng
+you would like
+```
+<p class="zhcn">/assets/le-sound/zh-cn/would-like/you-would-like.aac</p>
+
+```
+me gustaría
+我 想
+wǒ xiǎng
+I  would like
+```
+<p class="zhcn">/assets/le-sound/zh-cn/would-like/i-would-like.aac</p>
+
+```
+te gustaría almorzar?
+你  想          吃     午 饭  吗？
+nǐ  xiǎng      chī    wǔ fàn ma?
+You would like to eat lunch?
+```
+<p class="zhcn">/assets/le-sound/zh-cn/would-like/would-you-like-to-have-lunch.aac</p>
+
 ## [What]
 ```
 Qué
@@ -324,7 +357,7 @@ Here are some special rules in speaking Chiese.
 - 2500
 - 30109
 - 1,3000,1312  
-Answers:
+Answers:  
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/large-examples.aac</p>
 
 ### Dot
@@ -345,3 +378,127 @@ sān kuài wǔ
 CN¥ 3.5
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/cny3-5.aac</p>
+
+## The Time
+```
+Tiempo
+时  间   /  时 候
+shí jiān / shí hou
+Time
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/time.aac</p>
+```
+点
+diǎn
+```
+<p class="zhcn">/assets/le-sound/zh-cn/numbers/dot.aac</p>
+In Chinese, ``点 diǎn`` means ``o'clock` or the sign ':'.  
+For example:
+```
+a las cinco
+五 点
+wǔ diǎn
+at 5 o'clock
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/5-00.aac</p>
+```
+a las cinco y media
+五 点   半
+wǔ diǎn bàn
+at 5 o'clock and half
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/5-30.aac</p>
+```
+a las cinco veinte
+五 点    二 十
+wǔ diǎn èr shí
+at five twenty
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/5-20.aac</p>
+```
+a las cinco en punto
+五 点   一 刻
+wǔ diǎn yí kè
+at quarter past five
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/5-15.aac</p>
+```
+a las cinco menos cuarto
+差  一 刻  五 点   
+chà yí kè wǔ diǎn 
+at a quarter to five
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/4-45.aac</p>
+```
+la mañana
+上    午
+shàng wǔ
+up  noon (morning)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/morning.aac</p>
+```
+el mediodía
+中     午
+zhōng  wǔ
+middle noon (noon)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/noon.aac</p>
+In Chinese, you usually see 2 symbols with same meaning to make one word, that's because we have many symbol with the same pronounciation, so to make them different, we have to combine another symbol to make words with different sound.
+{:.zhtips}
+```
+la tarde
+下    午
+xià   wǔ
+under noon (afternoon)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/afternoon.aac</p>
+```
+la noche
+晚  上
+Wǎn shàng
+night early/up (in the evening)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/night.aac</p>
+```
+la medianoche
+夜    里
+yè    lǐ
+night inside (midnight)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/time/midnight.aac</p>
+
+## [When / What time]
+
+**When**
+```
+Cuándo
+什   么  时  候
+shén me shí hou
+at what time (when)
+```
+<p class="zhcn">/assets/le-sound/zh-cn/when/when.aac</p>
+
+**What time (ask for clear time)**
+```
+a qué hora
+什   么  时  间
+shén me shí jiān
+at what time
+```
+<p class="zhcn">/assets/le-sound/zh-cn/when/what-time.aac</p>
+
+**What time (ask for specific hour)**
+```
+Qué hora
+几   点
+jǐ   diǎn
+What hour
+```
+<p class="zhcn">/assets/le-sound/zh-cn/when/what-hour.aac</p>
+```
+¿Cuándo empezamos?
+我 们   什   么 时  候   开 始？
+wǒ men shén me shí hou kāi shǐ?
+We     when             start?
+```
+<p class="zhcn">/assets/le-sound/zh-cn/when/when-we-start.aac</p>
