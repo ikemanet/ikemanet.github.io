@@ -203,6 +203,7 @@ nǐ   wǔ fàn yào  chī    shén me ne?
 you  lunch  want to eat what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-eat-for-lunch.aac</p>
+You can also move "Lunch" to the front. In Chinese, the conditions usually at the front.    
 Here ``呢 ne`` does not have actual meaning, but with this ``呢 ne`` will sound kinder and closer to another side. Also it has a feeling express that you really want to know the answer. You can use ``呢 ne`` in the end of Wh-questions.
 
 ## 5 tones
