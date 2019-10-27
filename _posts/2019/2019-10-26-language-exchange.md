@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 「乐LÈ」语言交流专页 - Language Exchange Page
-author: 蛋萌VLog
+author: Ike MA, Miguel Galante
 tags:
 - 语言学习
 - 乐
