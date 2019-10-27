@@ -1,8 +1,8 @@
 ---
 layout: page
-comments: true
+comments: false
 title: 午夜拾零
-type: ikema
+type: dapingmianbao
 featured: the-midnight-tales.jpg
 featured_position: center
 ---
