@@ -334,7 +334,7 @@ Twenty, Twenty one, Thirty,  Thrity one,    Fourty,   Fifty,     Sixty,     Seve
 In Chinese,  we have ``百 bǎi`` Hundred, ``千 qiān`` Thousand, and another special one ``万 wàn`` 10 Thousand, and ``亿 yì`` 100 million.
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/large-unit.aac</p>
 
-Here are some special rules in speaking Chiese.  
+Here are some special rules in speaking Chinese.  
 
 - When you say 100, you say 1 ``yì`` (changed to 4th tone) + ``bǎi`` Hundred.
 - When you say 101, you say 100 + 0 + 1.
@@ -350,12 +350,15 @@ Here are some special rules in speaking Chiese.
 - When you say 100,000,000, you say 1 ``yí`` + ``亿 yì`` (1,0000,0000).
 - When you say 2 + 100/1000/10000/100000000, you say ``两 liǎng`` instead of ``二 èr``.
 
+**Spanish**  
+//TODO: Pending to add something
+
 **Try the followings**
 - 106
 - 528
 - 3019
 - 2500
-- 30109
+- 3,0109
 - 1,3000,1312  
 Answers:  
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/large-examples.aac</p>
@@ -387,6 +390,10 @@ shí jiān / shí hou
 Time
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/time.aac</p>
+
+In Chinese, ``时间 shí jiān`` is more specific, ``时候 shí hou`` is for a period of time.
+{:.zhtips}
+
 ```
 点
 diǎn
