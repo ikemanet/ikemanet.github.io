@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 「乐LÈ」西语学习专页 01 - Chinese Learning Page
+title: 乐LÈ - Spanish Chinese Learning Course 1
 author: 乐LÈ专页志愿者
 tags:
 - 语言学习
