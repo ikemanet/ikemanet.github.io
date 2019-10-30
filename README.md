@@ -24,10 +24,10 @@ https://jekyllrb.com/docs/installation/macos/
 ``./pub 'Comments' [-noimg]``
 
 ## 文章编辑 Editing the articles
-使用“\`\`”对某几个词进行高亮（文章正文中显示为绿色），例如\`\`this\`\`将会得到``this``。  
-You can use “\`\`” to highlight words (highlighted in green in the article page), for example \`\`this\`\` to be displayed as ``this``.  
-使用“\`\`\`”可用作显示代码段。  
-You can use “\`\`\`” to display code block.  
+使用``\`\```对某几个词进行高亮（文章正文中显示为绿色），例如\`\`this\`\`将会得到``this``。  
+You can use ``\`\``` to highlight words (highlighted in green in the article page), for example \`\`this\`\` to be displayed as ``this``.  
+使用``\`\`\```可用作显示代码段。  
+You can use ``\`\`\``` to display code block.  
 
-资源文件应放入``assets``文件夹中。
-Resource files are storaged in ``aesets`` folder.
+资源文件应放入``assets``文件夹中。  
+Resource files are storaged in ``assets`` folder.
