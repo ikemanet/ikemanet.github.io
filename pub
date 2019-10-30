@@ -9,14 +9,10 @@
     echo "-------------------------"
     git push origin master
     echo "-------------------------"
-    echo "推送到 GitCafe (coding.net)..."
-    echo "-------------------------"
-    git push gitcafe master
-    echo "-------------------------"
-    echo "推送到 wmns..."
+    echo "推送到 gitike..."
     echo "-------------------------"
     git config credential.helper store
-    git push wmns master
+    git push gitike master
     echo "-------------------------"
     echo "完成!"
   else

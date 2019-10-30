@@ -66,8 +66,7 @@ featured_position: bottom
 
 - 静态网站技术：Jekyll [官网](https://jekyllrb.com/) [中文网](https://jekyllcn.com/)
 - 主题：Next.Mist [主页](https://github.com/simpleyyt/jekyll-theme-next)
-- 托管：GitHub Pages [主页](https://pages.github.com/) 和 GitCafe(Coding.net) [主页](https://coding.net)，前者为主站，后者为备份站点
-- 智能DNS：腾讯云 [主页](https://cloud.tencent.com/)，由于GitHub Page屏蔽百度爬虫，因此使用智能DNS将百度爬虫引流到GitCafe站点
+- 托管：GitHub Pages [主页](https://pages.github.com/)
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
 - 点赞功能：蛋萌 自主研发 [主页](https://done.moe)
 - 邮件订阅：Tinyletter [主页](https://tinyletter.com)
