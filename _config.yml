@@ -6,15 +6,14 @@
 # Site
 repository: 
 title: 蛋萌 Done.Moe
-subtitle: 一个有故事的幸运蛋
+subtitle: 有故事的幸运蛋，萌生小小梦想
 title_mobile: DONE.MOE
-description: 我是一只幸运蛋，要幸运不要完 done.
+description: 一个带给你好运的技术博客，博主小马哥 Ike MA 的歪门技巧，心得，语言学习以及作品分享。
 author: Ike MA
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 cover_img: 'sky.jpg'
-author: Ike
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
