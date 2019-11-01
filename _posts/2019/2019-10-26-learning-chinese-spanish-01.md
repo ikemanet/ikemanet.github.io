@@ -95,7 +95,7 @@ I'm going to learn    Chinese
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/im-going-to-learn-chinese.aac</p>
 
-``yào`` with ``le`` in the end means the action after ``yào`` is going to be happend.
+`yào` with `le` in the end means the action after `yào` is going to be happend.
 {:.zhtips}
 
 ```
@@ -114,10 +114,10 @@ Do you want to eat lunch?
 <p class="zhcn">/assets/le-sound/zh-cn/want/do-you-want-to-have-lunch.aac</p>
 
 ## Yes-no question
-In Chinese you just simply add ``吗 ma`` in the end to transform a declarative sentence to ``yes-no question``. The answer is simply to use the verb in the question, ``要 yào`` (Yes, I want to) or ``不 bù`` + the verb. 
-But in this case it's not very polite to directly say ``不要 bú yào``, in many cases ``不要 bú yào`` means ``do not do something``. So you could say ``不了 bù le`` no (for this time) or ``不用 bú yòng`` no (it's not necessary).  
+In Chinese you just simply add `吗 ma` in the end to transform a declarative sentence to `yes-no question`. The answer is simply to use the verb in the question, `要 yào` (Yes, I want to) or `不 bù` + the verb. 
+But in this case it's not very polite to directly say `不要 bú yào`, in many cases `不要 bú yào` means `do not do something`. So you could say `不了 bù le` no (for this time) or `不用 bú yòng` no (it's not necessary).  
 {:.zhtips}
-The tricky thing here is that in speaking Chinese, ``不`` actually pronounced ``bù`` (fourth tone), it means ``no`` and usually you can't use it lonely, but if it combines with a fourth-tone symbol behind it, itself changed to ``bú`` (second tone).
+The tricky thing here is that in speaking Chinese, `不` actually pronounced `bù` (fourth tone), it means `no` and usually you can't use it lonely, but if it combines with a fourth-tone symbol behind it, itself changed to `bú` (second tone).
 {:.zhtips}
 ```
 不 要
@@ -237,7 +237,7 @@ you  lunch  want to eat what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-eat-for-lunch.aac</p>
 You can also move "Lunch" to the front. In Chinese, the conditions usually at the front.    
-Here ``呢 ne`` does not have actual meaning, but with this ``呢 ne`` will sound kinder and closer to another side. Also it has a feeling express that you really want to know the answer. You can use ``呢 ne`` in the end of Wh-questions.
+Here `呢 ne` does not have actual meaning, but with this `呢 ne` will sound kinder and closer to another side. Also it has a feeling express that you really want to know the answer. You can use `呢 ne` in the end of Wh-questions.
 
 ## 5 tones
 In speaking Chinese, you have 5 tones that you need to pay attention. Because if you use the wrong tone, the word that you say is going to be another word with another meaning. So before you speak, you have to master the tones correctly. Please check out the following tricks:
@@ -308,7 +308,7 @@ Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/0-10.aac</p>
 
 ### Numbers 11 to 19
-In Chinese, the numbers are pretty easy to say. From 11 to 19, just simply combine ``十 shí`` (10) with 1 to 9 to become 11 to 19. 
+In Chinese, the numbers are pretty easy to say. From 11 to 19, just simply combine `十 shí` (10) with 1 to 9 to become 11 to 19. 
 {:.zhtips}
 ```
 Once,   Doce,   Trece,    Catorce,  Quince,  Dieciséis, Diecisiete, Dieciocho, Diecinueve
@@ -331,24 +331,24 @@ Twenty, Twenty one, Thirty,  Thrity one,    Fourty,   Fifty,     Sixty,     Seve
 
 ### Large numbers
 **Chinese**  
-In Chinese,  we have ``百 bǎi`` Hundred, ``千 qiān`` Thousand, and another special one ``万 wàn`` 10 Thousand, and ``亿 yì`` 100 million.
+In Chinese,  we have `百 bǎi` Hundred, `千 qiān` Thousand, and another special one `万 wàn` 10 Thousand, and `亿 yì` 100 million.
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/large-unit.aac</p>
 
 Here are some special rules in speaking Chinese.  
 
-- When you say 100, you say 1 ``yì`` (changed to 4th tone) + ``bǎi`` Hundred.
+- When you say 100, you say 1 `yì` (changed to 4th tone) + `bǎi` Hundred.
 - When you say 101, you say 100 + 0 + 1.
 - When you say 110, you say 100 + 1 + 10 or 100 + 1.
 - When you say 120, you say 100 + 2 or 100 + 20.
-- When you say 1000, you say 1 ``yì`` (changed to 4th tone) + ``qiān`` Thousand.
+- When you say 1000, you say 1 `yì` (changed to 4th tone) + `qiān` Thousand.
 - When you say 1001, you say 1000 + 0 + 1.
 - When you say 1010, you say 1000 + 0 + 1 + 10.
 - When you say 1020, you say 1000 + 0 + 20.
-- When you say 1100, you say 1000 + 100 ``yī bǎi`` or 1000 + 1.
-- When you say 1110, you say 1000 + 100 ``yī bǎi`` + 1 + 10.
-- When you say 10,000, you say 1 ``yí`` + ``万 wàn`` (1,0000).
-- When you say 100,000,000, you say 1 ``yí`` + ``亿 yì`` (1,0000,0000).
-- When you say 2 + 100/1000/10000/100000000, you say ``两 liǎng`` instead of ``二 èr``.
+- When you say 1100, you say 1000 + 100 `yī bǎi` or 1000 + 1.
+- When you say 1110, you say 1000 + 100 `yī bǎi` + 1 + 10.
+- When you say 10,000, you say 1 `yí` + `万 wàn` (1,0000).
+- When you say 100,000,000, you say 1 `yí` + `亿 yì` (1,0000,0000).
+- When you say 2 + 100/1000/10000/100000000, you say `两 liǎng` instead of `二 èr`.
 
 **Spanish**  
 //TODO: Pending to add something
@@ -373,7 +373,7 @@ diǎn
 块
 kuài
 ```
-``块 kuài`` means the Chinese Currency ``¥CNY Yuan 元 yuán``.
+`块 kuài` means the Chinese Currency `¥CNY Yuan 元 yuán`.
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/kuai.aac</p>
 ```
 三   块  五
@@ -391,7 +391,7 @@ Time
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/time/time.aac</p>
 
-In Chinese, ``时间 shí jiān`` is more specific, ``时候 shí hou`` is for a period of time.
+In Chinese, `时间 shí jiān` is more specific, `时候 shí hou` is for a period of time.
 {:.zhtips}
 
 ```
@@ -399,7 +399,7 @@ In Chinese, ``时间 shí jiān`` is more specific, ``时候 shí hou`` is for a
 diǎn
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/dot.aac</p>
-In Chinese, ``点 diǎn`` means ``o'clock` or the sign ':'.  
+In Chinese, `点 diǎn` means `o'clock` or the sign ':'.  
 For example:
 ```
 a las cinco
