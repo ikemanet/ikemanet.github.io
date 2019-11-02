@@ -5,18 +5,18 @@
     <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); var rewardButton = document.getElementById('rewardButton'); if (qr.style.display === 'none') {qr.style.display='block';} {% if site.likes.enable %} ikeLike('{{ page.url }}'); {% endif %}">
       <span>赞<em id="rewardText">...</em></span>
     </button>
-    <p style="font-size:16px; color:#666; margin-top:8px; margin-bottom: 0">「觉得本文有用请点击」</p>
+    <p style="font-size:16px; color:#666; margin-top:8px; margin-bottom: 0">「觉得本文有用请点赞！」</p>
     <div id="QR" style="display: none;">
       {% if site.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>
-          <p>微信扫描二维码打赏<br/>你的名字将出现在本文开头</p>
+          <p>微信扫描二维码打赏</p>
         </div>
       {% endif %}
       {% if site.alipay %}
         <div id="alipay" style="display: inline-block">
           <img id="alipay_qr" src="{{ site.alipay }}" alt="{{ site.author }} Alipay"/>
-          <p>支付宝扫描二维码打赏<br/>你的名字将出现在本文开头</p>
+          <p>支付宝扫描二维码打赏</p>
         </div>
       {% endif %}
     </div>
