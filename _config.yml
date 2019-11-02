@@ -361,7 +361,7 @@ wechat_subscriber:
   description: 扫描二维码关注我的微信公众号
 
 email_subscriber:
-  enabled: true
+  enabled: false
 
 wechatpay: /assets/images/wechat-pay.jpg
 alipay: /assets/images/alipay.jpg
