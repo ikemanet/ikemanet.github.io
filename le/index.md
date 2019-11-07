@@ -24,6 +24,7 @@ In this course you will learn:
 - *Would like*
 - *What*
 - 5 tones in Chinese
+- Accents in Spanish
 - Numbers
 - The time
 - *When / What time*  
