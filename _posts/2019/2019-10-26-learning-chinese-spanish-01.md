@@ -36,12 +36,13 @@ p {
 }
 </style>
 
-*“You never know how strong you are until being strong is your only choice.”  
-不到没有退路之时，你永远不会知道自己有多强大。 ― Bob Marley*
+```
+修订 Credits: Ike MA, Miguel Galante
 
-> 谨以此页分享中西交换学习内容，希望你能从中有所得。  
-> I would like to share the learning content of Spanish Chinese exchanging course on this page. I hope that you can get something you need from it.  
-> 修订 Credits: Ike MA, Miguel Galante
+Updates:
+- 26/10/2019 The first version.
+- 6/11/2019 Added most of Spanish recording.
+```
 
 ## How to use it?
 This page contains languages as the following order:  
@@ -332,9 +333,9 @@ Make sense
 The 5th tone is similar to the 1st tone but lower, and much shorter and lighter.  
 Remember that in any case whatever it's a sentence or a question, you should always keep the same tone.
 
-## Accents in spanish
+## Accents in Spanish
 If the word doesn't have a written accent (`á é í ó ú`) the default is:
-* if ends in n,s,a,e,i,o,u: the accent its in the second to last syllable (`quiero = quiéro`)
+* if it ends in n,s,a,e,i,o,u: the accent its in the second to last syllable (`quiero = quiéro`)
 * other letters: the accent is in the last syllable (`almorzar = almorzár`)
 
 ## Numbers
