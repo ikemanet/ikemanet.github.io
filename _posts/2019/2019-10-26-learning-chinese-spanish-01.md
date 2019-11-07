@@ -66,6 +66,7 @@ yào
 Want
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/want.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/want.aac</p>
 ```
 Quiero
 我 要
@@ -73,6 +74,7 @@ wŏ yào
 I  want
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/i-want.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/i-want.aac</p>
 ```
 Quiero almorzar
 我 要    吃     午 饭
@@ -80,6 +82,7 @@ wŏ yào  chī    wǔ fàn
 I  want to eat lunch
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/i-want-to-have-lunch.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/i-want-to-have-lunch.aac</p>
 ```
 Quiero empezar a aprender chino
 我 要    开  始   学       中    文
@@ -87,6 +90,7 @@ wŏ yào  kaī shǐ  xué      zhōng wén
 I  want to start learning Chinese
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/i-want-to-start-learning-chinese.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/i-want-to-start-learning-chinese.aac</p>
 ```
 Voy a aprender chino
 我 要         学 习     中   文  了
@@ -98,6 +102,11 @@ I'm going to learn    Chinese
 `yào` with `le` in the end means the action after `yào` is going to be happend.
 {:.zhtips}
 
+<p class="esar">/assets/le-sound/es-ar/want/im-going-to-learn-chinese.aac</p>
+
+Even there are other ways of express a futre action, in Argentina we only use `voy a` (`I'm going to`) form of future.
+{:.estips}
+
 ```
 Querés
 你  要
@@ -105,6 +114,11 @@ nǐ  yào
 You want
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/you-want.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/you-want.aac</p>
+
+This is an particular way of talking of Argentina. In other countries will use `Quieres`.
+{:.estips}
+
 ```
 ¿Querés almorzar?
 你      要   吃     午 饭  吗？
@@ -112,13 +126,16 @@ nǐ     yào  chī    wǔ fàn ma?
 Do you want to eat lunch?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/do-you-want-to-have-lunch.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/do-you-want-to-have-lunch.aac</p>
 
 ## Yes-no question
+
+### Chinese
 In Chinese you just simply add `吗 ma` in the end to transform a declarative sentence to `yes-no question`. The answer is simply to use the verb in the question, `要 yào` (Yes, I want to) or `不 bù` + the verb. 
 But in this case it's not very polite to directly say `不要 bú yào`, in many cases `不要 bú yào` means `do not do something`. So you could say `不了 bù le` no (for this time) or `不用 bú yòng` no (it's not necessary).  
-{:.zhtips}
+
 The tricky thing here is that in speaking Chinese, `不` actually pronounced `bù` (fourth tone), it means `no` and usually you can't use it lonely, but if it combines with a fourth-tone symbol behind it, itself changed to `bú` (second tone).
-{:.zhtips}
+
 ```
 不 要
 bú yào
@@ -131,6 +148,11 @@ bù hǎo
 No / It's not good
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/its-not-good.aac</p>
+
+### Spanish
+
+The afirmative sentense `Querés almorzar` (You want to lunch) it's the same as the question form `Querés almorzar?`, just changes the tone of the frase.
+
 ```
 ¿Querés empezar a aprender chino?
 你      要   开  始   学       中    文  吗？
@@ -138,6 +160,7 @@ nǐ     yào  kaī shǐ  xué      zhōng wén ma?
 Do you want to start learning Chinese?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/do-you-want-to-start-learning-chinese.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/do-you-want-to-start-learning-chinese.aac</p>
 ```
 ¿Vas a aprender chino?
 你       要    学 习    中    文  了 吗？
@@ -145,6 +168,7 @@ nǐ      yào   xué xí   zhōng wén le ma?
 Are you going to learn Chinese?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/want/are-you-going-to-learn-chinese.aac</p>
+<p class="esar">/assets/le-sound/es-ar/want/are-you-going-to-learn-chinese.aac</p>
 
 ## [Would like]
 ```
@@ -154,15 +178,16 @@ xiǎng
 would like
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/would-like/would-like.aac</p>
+<p class="esar">/assets/le-sound/es-ar/would-like/would-like.aac</p>
 
 ```
 te gustaría
 你  想
 nǐ  xiǎng
-you would like
+would you like
 ```
-<p class="zhcn">/assets/le-sound/zh-cn/would-like/you-would-like.aac</p>
-
+<p class="zhcn">/assets/le-sound/zh-cn/would-like/would-you-like.aac</p>
+<p class="esar">/assets/le-sound/es-ar/would-like/would-you-like.aac</p>
 ```
 me gustaría
 我 想
@@ -170,7 +195,7 @@ wǒ xiǎng
 I  would like
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/would-like/i-would-like.aac</p>
-
+<p class="esar">/assets/le-sound/es-ar/would-like/i-would-like.aac</p>
 ```
 te gustaría almorzar?
 你  想          吃     午 饭  吗？
@@ -178,6 +203,7 @@ nǐ  xiǎng      chī    wǔ fàn ma?
 You would like to eat lunch?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/would-like/would-you-like-to-have-lunch.aac</p>
+<p class="esar">/assets/le-sound/es-ar/would-like/would-you-like-to-have-lunch.aac</p>
 
 ## [What]
 ```
@@ -187,6 +213,7 @@ shén me
 What
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what.aac</p>
 ```
 ¿Qué querés tomar?
 你    要  喝        什  么？
@@ -194,6 +221,7 @@ nǐ   yào  hē       shén me?
 you  want to drink what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-drink.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-drink.aac</p>
 ```
 ¿Qué querés comer?
 你    要   吃     什  么？
@@ -201,13 +229,15 @@ nǐ   yào  chī    shén me?
 you  want to eat what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-eat.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-eat.aac</p>
 ```
 ¿Qué querés ver?
 你    要   看     什  么？
 nǐ   yào  kàn    shén me?
-you  want to eat what?
+you  want to see what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-see.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-see.aac</p>
 ```
 ¿Qué querés decir?
 你    要   说     什  么？
@@ -215,6 +245,7 @@ nǐ   yào  shuō   shén me?
 you  want to say what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-say.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-say.aac</p>
 ```
 ¿Qué querés decirme?
 你    要   告  诉  我  什  么？
@@ -222,6 +253,7 @@ nǐ   yào  gào sù  wǒ shén me?
 you  want to tell me what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-tell-me.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-tell-me.aac</p>
 ```
 ¿Qué querés hacer?
 你    要   做    什  么？
@@ -229,6 +261,7 @@ nǐ   yào  zuò   shén me?
 you  want to do what?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/what/what-do-you-want-to-do.aac</p>
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-do.aac</p>
 ```
 ¿Qué querés almorzar?
 你   午  饭   要   吃     什  么 呢？
@@ -239,7 +272,9 @@ you  lunch  want to eat what?
 You can also move "Lunch" to the front. In Chinese, the conditions usually at the front.    
 Here `呢 ne` does not have actual meaning, but with this `呢 ne` will sound kinder and closer to another side. Also it has a feeling express that you really want to know the answer. You can use `呢 ne` in the end of Wh-questions.
 
-## 5 tones
+<p class="esar">/assets/le-sound/es-ar/what/what-do-you-want-to-eat-for-lunch.aac</p>
+
+## 5 tones in Chinese
 In speaking Chinese, you have 5 tones that you need to pay attention. Because if you use the wrong tone, the word that you say is going to be another word with another meaning. So before you speak, you have to master the tones correctly. Please check out the following tricks:
 {:.zhtips}
 
@@ -297,6 +332,11 @@ Make sense
 The 5th tone is similar to the 1st tone but lower, and much shorter and lighter.  
 Remember that in any case whatever it's a sentence or a question, you should always keep the same tone.
 
+## Accents in spanish
+If the word doesn't have a written accent (`á é í ó ú`) the default is:
+* if ends in n,s,a,e,i,o,u: the accent its in the second to last syllable (`quiero = quiéro`)
+* other letters: the accent is in the last syllable (`almorzar = almorzár`)
+
 ## Numbers
 ### Numbers 0 to 10
 ```
@@ -306,6 +346,7 @@ líng, yī,  èr,  sān,   sì,   wǔ,   liù,  qī,   bā,    jiǔ,  shí
 Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/0-10.aac</p>
+<p class="esar">/assets/le-sound/es-ar/numbers/0-10.aac</p>
 
 ### Numbers 11 to 19
 In Chinese, the numbers are pretty easy to say. From 11 to 19, just simply combine `十 shí` (10) with 1 to 9 to become 11 to 19. 
@@ -317,6 +358,7 @@ shí yī, shí èr, shí sān,  shí sì,   shí wǔ,  shí liù,   shí qī,   
 Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen,   Seventeen,  Eighteen,  Nighteen
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/11-19.aac</p>
+<p class="esar">/assets/le-sound/es-ar/numbers/11-19.aac</p>
 
 ### Numbers 20, 21, 30, 31 to 90
 In Chinese, to say 20, just simply combine 2 with 10 to become 20. To say 21, just simply combine 20 with 1. That's it. 
@@ -328,6 +370,7 @@ Veinte, Veintiuno,  Treinta, Treinta y uno, Cuarenta, Cincuenta, Sesenta,   Sete
 Twenty, Twenty one, Thirty,  Thrity one,    Fourty,   Fifty,     Sixty,     Seventy,  Eighty,  Ninety
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/20-90.aac</p>
+<p class="esar">/assets/le-sound/es-ar/numbers/20-90.aac</p>
 
 ### Large numbers
 **Chinese**  
@@ -399,7 +442,19 @@ In Chinese, `时间 shí jiān` is more specific, `时候 shí hou` is for a per
 diǎn
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/numbers/dot.aac</p>
+
 In Chinese, `点 diǎn` means `o'clock` or the sign ':'.  
+{:.zhtips}
+
+```
+y
+and
+```
+<p class="esar">/assets/le-sound/es-ar/numbers/and.aac</p>
+
+In Spanish, we use `y` (and) to contect hour and minute.  
+{:.estips}
+
 For example:
 ```
 a las cinco
@@ -509,3 +564,4 @@ wǒ men shén me shí hou kāi shǐ?
 We     when             start?
 ```
 <p class="zhcn">/assets/le-sound/zh-cn/when/when-we-start.aac</p>
+
