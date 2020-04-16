@@ -1,7 +1,7 @@
 ---
 type: photo
 title: 静静地仰望天空
-category: Photography
+categories: Photography
 photos:
 - /assets/img/posts/2018/08/sky-by-ike-1.jpg
 - /assets/img/posts/2018/08/sky-by-ike-2.jpg

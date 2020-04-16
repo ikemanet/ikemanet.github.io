@@ -16,6 +16,9 @@
   line-height: 1.5;
   vertical-align: top;
   letter-spacing: -.04em;
+  padding: 10px 10px 8px 10px;
+  margin-left: $font-size-base;
+  margin-bottom: 5px;
 
   &::before {
     content: "";

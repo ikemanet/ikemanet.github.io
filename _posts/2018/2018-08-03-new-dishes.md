@@ -1,7 +1,7 @@
 ---
 type: photo
 title: 8月新菜式出炉！
-category: Photography
+categories: Photography
 photos:
 - /assets/img/posts/2018/08/new-dishes-1.jpg
 - /assets/img/posts/2018/08/new-dishes-2.jpg

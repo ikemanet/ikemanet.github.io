@@ -7,7 +7,7 @@ tags:
 - 知乎专栏
 - done.moe
 - zhihu
-categories: Blog
+categories: News
 english: false
 featured: "walking-at-ushuaia.jpg"
 ---

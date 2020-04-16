@@ -13,6 +13,8 @@ code {
 }
 </style>
 
+更新于2020/4/4  
+
 ## 特别感谢
 > **感谢我的老婆Abby的支持**，感谢曾经一起与我开论坛的斑竹们，我还依稀记得他们的名字：提拔我做PDAFans论坛版主的``77778888``大神，无铭风，想你的心跳，wujli，P霜~。感谢非常优秀的静态网站生成工具 [Jekyll](https://jekyllrb.com/)，非常感谢本博客的主题作者 [Simpleyyt](https://github.com/Simpleyyt)，还有 Pokemon 这个游戏！  
 
@@ -66,14 +68,11 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 
 <img width="50%" src="/assets/img/posts/midnight-tales/qr-wechat.jpg" />
 
-### 蛋萌Vlog开播，博主现身
-**于2019年5月** 一直想做一个分享自己3C和App经验的VLog，但由于顾虑出境和时间精力的原因，一直没有实施。现在我终于鼓起勇气来出镜给大家分享了。希望大家多多指教。[点击关注我哦](https://space.bilibili.com/391868438?spm_id_from=333.788.b_765f7570696e666f.2)，我将争取长期更新，希望你能持续关注哦！
+### Chinese with Ike 我的中文课程诞生
+**于2019年11月** 由于我的几个好朋友想学习中文，于是我的Youtube频道Chinese with Ike正式诞生，通过这个频道我也认识了来自世界各地不同的朋友们。[Youtube 链接](http://youtube.com/c/chinesewithike)！
 
-### 乐LÈ 语言学习交流专页开通
-**于2019年10月** 我和朋友 Miguel 的语言交换学习专页``乐LÈ``正式开通了，我跟 Miguel 学习西语，他则跟我学习中心，这也是逼迫我学习西语的好办法！积累了大量的西班牙语和中文的学习心得和资源，希望能帮到你。[快来看看吧，记住链接 done.moe/le](http://done.moe/le)！
-
-### 欢迎关注蛋萌的官方 Instagram
-我的摄影作品将放在Instagram上，请打开Instagram扫描下方图片，请自行科学上网。
+### 欢迎关注我的个人 Instagram
+我的摄影作品将放在Instagram上（ID：ike._.ma），也在INS上结识了一个非常好的好朋友【兔子】！请打开Instagram扫描下方图片，请自行科学上网。
 
 <img width="50%" src="/assets/img/instagram-ikema.jpg" />
 

@@ -10,6 +10,7 @@ title:
   ikema: Ike MA 作品
   daping: 午夜拾零
   le: 乐Le
+  chinese: Chinese with Ike
 
 author: 博主
 
@@ -30,6 +31,7 @@ menu:
   ikema: 作品
   daping: 午夜拾零
   le: 乐LÈ
+  chinese: Chinese with Ike
 
 sidebar:
   overview: AUTHOR
@@ -101,3 +103,12 @@ symbol:
   comma: '， '
   period: '。 '
   colon: '：'
+
+categories:
+  blog: 随笔
+  dapingmianbao: 午夜拾零
+  cheatsheet: 代码收藏夹
+  tutorial: 老马教程
+  chinesewithike: Chinese with Ike 学中文
+  photography: 我是摄影师
+  news: 蛋萌大新闻

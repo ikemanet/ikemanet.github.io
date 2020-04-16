@@ -28,6 +28,18 @@
 
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
+          {% if is_index %}
+          {% else %}
+            <span class="post-category {{post.categories[0]}}">
+              {% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
+              {% if post.categories[0] == 'dapingmianbao' %}{{ __.categories.dapingmianbao }}{% endif %}
+              {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
+              {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
+              {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
+              {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
+              {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
+            </span>
+          {% endif %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
           {% comment %} Link posts {% endcomment %}
           {% if post.link %}
@@ -48,6 +60,15 @@
                     <i class="fa fa-thumb-tack"></i>
                   </span>
                 {% endif %}
+                <span class="post-category {{post.categories[0]}}">
+                  {% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
+                  {% if post.categories[0] == 'dapingmianbao' %}{{ __.categories.dapingmianbao }}{% endif %}
+                  {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
+                  {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
+                  {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
+                  {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
+                  {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
+                </span>
                 <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
                 {{ post.title | default: __.post.untitled }}
               </a>
