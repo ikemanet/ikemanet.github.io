@@ -45,6 +45,8 @@ featured_position: center
 - 读更多的书
 - 由于时间有限，原 Chinese with Ike 视频系列将会以博文方式呈现，也别忘了关注 Chinese with Ike 的官方账号``@chinesewithike``。如果我觉得有必要，我还是会制作视频
 - Due to the limited time, the video series of Chinese with Ike on Youtube will be shown as Blog Post here in the future, and the Instagram ``@chinesewithike`` Posts. I still make videos if I think it's necessary
+- 看一本心理学的书
+- 通过等级考试
 - 分享我的想法，包括工作和生活
 - 分享更多APP使用教程
 - 更新我的摄影装备
