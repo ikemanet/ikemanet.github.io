@@ -2,7 +2,7 @@
 layout: post
 title: 不平凡的一年，平凡的一天
 author: Ike
-categories: News
+categories: Blog
 featured: blue-sky.jpg
 featured_position: center
 ---
@@ -53,4 +53,4 @@ featured_position: center
 - 增加宝宝的频道
 - 最后当然是积极回复你的留言了！
 
-2020年虽然艰难，但我们一起加油，坚持吧~
+2020年虽然艰难，但我会加油调整好自己，争取把Todo-list每一项都Mark成Done。相信你也一定会进步，开心和幸运！
