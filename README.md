@@ -16,6 +16,8 @@ https://jekyllrb.com/docs/installation/macos/
 
 ## 启动本地预览 Startup and Review
 ``sudo bundle exec jekyll serve``
+Or
+``sudo bundle exec jekyll serve --incremental``
 
 ## 本地预览地址 URL of Reviewing
 ``127.0.0.1:4000``

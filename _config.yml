@@ -52,6 +52,7 @@ exclude:
 - pub
 - instruction.txt
 - private_key_ike
+- node_modules
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -67,6 +68,7 @@ highlight:
 markdown: kramdown
 kramdown:
     input: GFM
+    smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults

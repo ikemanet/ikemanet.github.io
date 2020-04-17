@@ -13,7 +13,9 @@ code {
 }
 </style>
 
-更新于2020/4/4  
+更新于2020/4/17  
+
+![Ike MA 小马哥](/assets/img/about/ike.jpg)
 
 ## 特别感谢
 > **感谢我的老婆Abby的支持**，感谢曾经一起与我开论坛的斑竹们，我还依稀记得他们的名字：提拔我做PDAFans论坛版主的``77778888``大神，无铭风，想你的心跳，wujli，P霜~。感谢非常优秀的静态网站生成工具 [Jekyll](https://jekyllrb.com/)，非常感谢本博客的主题作者 [Simpleyyt](https://github.com/Simpleyyt)，还有 Pokemon 这个游戏！  
@@ -24,25 +26,30 @@ code {
 
 欢迎你来！不管你是新朋友还是老朋友，现在你将与我共同回顾那些美好的时光（暂且接受我的自恋）。
 
+![MZY'S Blog logo](/assets/img/about/mzysblog_draw.png)
+
 ### 回到2005年
 
 蛋萌的前世是一个名为``MZY'S Blog``的博客。要说，我是有``博客的小情怀``的，这要从若干年前的2005年说起。那年我在上大学，老妈给我买了一个PDA，学名Pocket PC，又名掌上电脑，这就是智能手机的前身，现在看就是不能打电话的“智能手机”。我梦寐以求的愿望终于实现了，那就是躺在被窝里看电影、看动漫（我那时是一个技术宅男）。当时最流行的视频格式是高压缩率的``RMVB``格式，那时候的PDA性能还非常有限，远远比不上现在的iPhone以及安卓手机，这种需要消耗大量性能解码的RMVB视频在PDA上显然是播放不了的，起初我在各大PDA论坛上也找不到很好的解决方案。于是我就萌生出一个编写小工具的想法。万万没想到这个小想法让我创作出当时红极一时的视频转换软件``WisMencoder``，并被PDA爱好者论坛（PDAFans）的小伙伴们广为宣传，也得到了各行各业视频爱好者的认可，上过报纸和杂志。于是作为软件发布平台，我的第一个博客“**MZY'S Blog**”也正式诞生，在blog.com.cn平台中，访问次数超过30万，评论过千次。
 
 ![2006年7月14日 MZY'S Blog 截图](/assets/img/about/mzysblog-first-a.jpg)
+``2006年7月14日 MZY'S Blog 截图``
 
 ### 自立门户
 
 在总访问量超过50万后，导致在第三方博客运营商的MZY'S Blog也不堪重负，blog.com.cn网站一度停止响应变得非常不稳定。于是在2007年，我自己买了服务器，建立了属于自己的博客网站[mzys.cn](http://mzys.cn)，由于粉丝也越来越多，所以我又建立了``WisSky志者天下论坛``和粉丝互动，并逐渐把重心从博客转移到论坛上，认识了不少朋友，网站日渐红火，日IP有时能超过20000。也有了自己的第一份广告收入！
 
 ![2009年6月17日 MZY'S Blog 截图](/assets/img/about/mzysblog1a.png)
+``2009年6月17日 MZY'S Blog 截图``
 
 ### 危机四伏
 
-运营论坛就像是管理一个公司，同时也需要担负起公共媒体和信息传播等重大责任。记忆中是在2011年后，由于缺乏管理经验、工作越来越忙，又加之MP4格式普及和智能手机性能以及视频兼容性的大大提升，视频转换软件需求量也越来越小，博客和网站也均缺乏维护。最后甚至由于各种监管因素，不得不关闭论坛，只保留博客奄奄一息地运行着。说实话，我还被请去喝过茶，当时还真是有点后怕，可以说是危机四伏。
+运营论坛就像是管理一个公司，扩张的同时也需要担负起媒体和价值观传递等重大责任。记忆中是在2011年后，由于缺乏管理经验、工作越来越忙，又加之MP4格式普及和智能手机性能的大大提升，视频转换逐渐被人们所淡忘，所以博客和论坛也均缺乏维护。最后甚至由于各种监管因素，不得不关闭论坛，只保留博客奄奄一息地运行着。说实话，我还被请去喝过茶，当时还真是有点后怕，可以说是危机四伏。
 
-不过值得一提的是，我遇到了我的女神，我的老婆Abby。我们一起拍摄了人生中第一部微电影，还入围新浪微博微电影大赛。
+不过最最幸运的是，我遇到了我的女神，我的老婆Abby。我们一起拍摄了人生中第一部微电影，还入围新浪微博微电影大赛。
 
 ![2012年12月20日 MZY'S Blog 截图](/assets/img/about/mzysblog2b.png)
+``2012年12月20日 MZY'S Blog 截图``
 
 ### 蛋萌的重生
 
@@ -52,7 +59,8 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 
 而7年工作的不顺利，让我在阿根廷的日子变得幸运起来，其实幸运只是一个影子，真身则是机遇和努力，所以越努力才会越幸运。经过思想的沉淀，我萌生了重开博的想法。在Pokemon Go的启发下，新的博客取名为``蛋萌``，意在通过我的不断努力，我能永远成为那颗``幸运蛋``，不断``萌生``出更耀眼的作品，域名取自中文谐音[done.moe](https://done.moe)。
 
-<img width="80%" src="/assets/img/about/flying-cloudy.jpg"/>
+![2020年4月17日 蛋萌 DONE.MOE 截图](/assets/img/about/donemoeblog.jpg)
+``2020年4月17日 蛋萌 DONE.MOE 截图``
 
 如果你是新朋友，在看我唠叨了这么多自恋的故事之后，是不是该果断关注[蛋萌](https://done.moe)啦？真的很高兴能结识到你。
 
@@ -72,7 +80,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 **于2019年11月** 由于我的几个好朋友想学习中文，于是我的Youtube频道Chinese with Ike正式诞生，通过这个频道我也认识了来自世界各地不同的朋友们。[Youtube 链接](http://youtube.com/c/chinesewithike)！
 
 ### 欢迎关注我的个人 Instagram
-我的摄影作品将放在Instagram上（ID：ike._.ma），也在INS上结识了一个非常好的好朋友【兔子】！请打开Instagram扫描下方图片，请自行科学上网。
+我的摄影作品将放在Instagram上（ID：ike._.ma），也结识了好朋友“兔子🐰”！关注我的Ins，请打开Instagram扫描下方图片，请自行科学上网。
 
 <img width="50%" src="/assets/img/instagram-ikema.jpg" />
 
@@ -82,20 +90,16 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 
 - 静态网站技术：Jekyll [官网](https://jekyllrb.com/) [中文网](https://jekyllcn.com/)
 - 主题：Next.Mist [主页](https://github.com/simpleyyt/jekyll-theme-next)
-- 托管：GitHub Pages [主页](https://pages.github.com/)
+- 网站托管：GitHub Pages [主页](https://pages.github.com/)
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
 - 点赞功能：蛋萌 自主研发 [主页](https://done.moe)
-- 邮件订阅：Tinyletter [主页](https://tinyletter.com)
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
 - Logo图标：Freepik [主页](https://www.freepik.com/)
 - 社交分享：Share.js [主页](https://github.com/overtrue/share.js/)
 - 二次元：Live2D [主页](https://github.com/EYHN/hexo-helper-live2d)
+- 正文字体：Google Fonts ``Noto Serif SC``
 
-## 友情链接
-
-非常接受友情链接申请，友情链接将显示在本站底部，欢迎留言添加。
-
-## 打赏我们
+## 打赏我
 <!-- 邮件订阅我们，你会在第一时间收到我们的新文章。
 <style type="text/css">
 	#mce-EMAIL {
