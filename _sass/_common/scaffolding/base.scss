@@ -34,7 +34,7 @@ h2, h3, h4, h5, h6 { margin: 20px 0 15px; }
 
   @include mobile() {
     h#{$headline} {
-      font-size: $font-size-headings-base - $font-size-headings-step * $headline - 4px;
+      font-size: $font-size-headings-base - $font-size-headings-step * $headline - 2px;
     }
   }
 }
