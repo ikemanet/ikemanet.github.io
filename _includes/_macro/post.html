@@ -78,23 +78,14 @@
         {% endunless %}
 
         <div class="post-meta">
-          {% for cat in post.categories %}
-            {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
-            <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="{{ '/category/#/' | site.url | append: cat_url_encode }}" itemprop="url" rel="index">
-                <span itemprop="name">/ {{ cat }}</span>
-              </a>
-            </span>
-
-            {% assign cat_length = post.categories.size %}
-            {% if cat_length > 1 and forloop.index != cat_length %}
-              {{ __.symbol.comma }}
-            {% endif %}
-          {% endfor %}
-          &nbsp; By {{ post.author | page.author | site.author }} on 
+          &nbsp; 作者 {{ post.author | page.author | site.author }} ，发表于 
           <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: site.date_format }}
           </time>
+          ，
+          <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+            <span class="leancloud-visitors-count">...</span> 人次阅读
+          </span>
         </div>
 
         {% if true %}
