@@ -40,25 +40,26 @@
           <div id="content" class="content">
             {{ content }}
           </div>
+          {% if site.google_adsense %}
+          <div class="ggad_footer">
+            {% if page.categories %}
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- done.moe footer -->
+              <ins class="adsbygoogle"
+                  style="display:inline-block;width:728px;height:90px"
+                  data-ad-client="ca-pub-5561611607174812"
+                  data-ad-slot="5310492966"></ins>
+              <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            {% endif %}
+          </div>
+          {% endif %}
           {% include _third-party/duoshuo-hot-articles.html %}
           {% include _partials/comments.html %}
         </div>
         {% if site.sidebar.display != 'remove' %}
           {{ sidebar }}
-        {% endif %}
-      </div>
-
-      <div class="ggad_footer">
-        {% if page.categories %}
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- done.moe footer -->
-          <ins class="adsbygoogle"
-              style="display:inline-block;width:728px;height:90px"
-              data-ad-client="ca-pub-5561611607174812"
-              data-ad-slot="5310492966"></ins>
-          <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         {% endif %}
       </div>
     </main>
