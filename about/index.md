@@ -1,7 +1,7 @@
 ---
 layout: page
 comments: true
-title: 自传：有故事的幸运蛋，萌生小小梦想
+title: 自传：有故事和梦想的老马
 type: about
 featured: about.jpg
 featured_position: bottom
