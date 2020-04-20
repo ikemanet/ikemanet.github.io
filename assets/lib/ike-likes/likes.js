@@ -38,3 +38,22 @@ function ikeGetLikes(pageUrl){
         console.error('Get like count failed, error message: ' + error.message);
     });
 }
+
+function ikeGetAllQuestions(){
+    AV.Object.extend('Comment');
+    var nowDateStr = localStorage.getItem("ike.today.q2a.lasttime");
+    if (nowDateStr == null || nowDateStr == "") {
+        nowDateStr = "1900-01-01";
+    }
+    AV.Query.doCloudQuery('select pid from Comment where url = "/messages/" and createdAt > date("'+nowDateStr+'T00:00:00.000Z")').then(function (data) {
+        try {
+            if (data.results.length > 0) {
+                $( "li.menu-item-q2a" ).find("a").html("有问必答 <sup style='color:#d1697c'>"+data.results.length+"</sup>");
+            }
+        } catch (e) {}
+    }, function (error) {
+        console.error('Get reply count failed, error message: ' + error.message);
+    });
+}
+
+ikeGetAllQuestions();

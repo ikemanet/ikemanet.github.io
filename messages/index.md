@@ -13,3 +13,9 @@ featured_position: center
 You can ask me ``one`` question of whatever, I promise I will answer it 😉.
 
 ![轻松熊](/assets/img/posts/rilakkuma.jpg)
+
+<script>
+    var nowDate = new Date();
+    var nowDateStr = nowDate.getUTCFullYear() + '-' + (nowDate.getMonth()+1) + '-' + nowDate.getDate();
+    localStorage.setItem("ike.today.q2a.lasttime", nowDateStr);
+</script>
