@@ -42,18 +42,20 @@ function ikeGetLikes(pageUrl){
 function ikeGetAllQuestions(){
     AV.Object.extend('Comment');
     var nowDateStr = localStorage.getItem("ike.today.q2a.lasttime");
-    if (nowDateStr == null || nowDateStr == "") {
-        nowDateStr = "1900-01-01";
+    if (nowDateStr == null || nowDateStr == "" || nowDateStr.length < 24) {
+        console.log("ike.today: previous date format is wrong, reset the date")
+        nowDateStr = "1900-01-01T00:00:00.000Z";
+        localStorage.setItem("ike.today.q2a.lasttime", nowDateStr);
     }
-    AV.Query.doCloudQuery('select pid from Comment where url = "/messages/" and createdAt > date("'+nowDateStr+'T00:00:00.000Z")').then(function (data) {
-        try {
+    try {
+        AV.Query.doCloudQuery('select pid from Comment where url = "/messages/" and createdAt > date("'+nowDateStr+'")').then(function (data) {
             if (data.results.length > 0) {
                 $( "li.menu-item-q2a" ).find("a").html("有问必答 <sup style='color:#d1697c'>"+data.results.length+"</sup>");
             }
-        } catch (e) {}
-    }, function (error) {
-        console.error('Get reply count failed, error message: ' + error.message);
-    });
+        }, function (error) {
+            console.error('Get reply count failed, error message: ' + error.message);
+        });
+    } catch (e) {}
 }
 
 ikeGetAllQuestions();

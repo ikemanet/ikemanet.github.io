@@ -16,6 +16,20 @@ You can ask me ``one`` question of whatever, I promise I will answer it 😉.
 
 <script>
     var nowDate = new Date();
-    var nowDateStr = nowDate.getUTCFullYear() + '-' + (nowDate.getMonth()+1) + '-' + nowDate.getDate();
+    var nowYear = nowDate.getUTCFullYear();
+    var nowMonth = nowDate.getUTCMonth()+1;
+    if (nowMonth < 10) nowMonth = "0"+nowMonth;
+    var nowDay = nowDate.getUTCDate();
+    if (nowDay < 10) nowDay = "0"+nowDay;
+    var nowHour = nowDate.getUTCHours();
+    if (nowHour < 10) nowHour = "0"+nowHour;
+    var nowMinute = nowDate.getUTCMinutes();
+    if (nowMinute < 10) nowMinute = "0"+nowMinute;
+    var nowSecond = nowDate.getUTCSeconds();
+    if (nowSecond < 10) nowSecond = "0"+nowSecond;
+    
+    
+    var nowDateStr = nowYear + '-' + nowMonth + '-' + nowDay + 'T' + nowHour + ':' + nowMinute + ':' + nowSecond + '.000Z';
+    console.log("ike.today: new date is " + nowDateStr)
     localStorage.setItem("ike.today.q2a.lasttime", nowDateStr);
 </script>
