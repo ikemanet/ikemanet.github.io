@@ -1,4 +1,4 @@
-# done.moe
+# Ike.today
 
 本版本博客基于作者``Simpleyyt``的``Next.Mist``修改而成，请注明原作者和本作作者``Ike MA（小马哥）``。谢谢！  
 This version of my blog is modified based on Simpleyyt's Next.Mist, please clarify the original author and my name Ike MA (小马哥). Thank you!  

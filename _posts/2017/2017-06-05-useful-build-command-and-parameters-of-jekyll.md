@@ -124,7 +124,7 @@ kramdown:
 在没有加url参数时，我发现sitemap里面的url都是相对目录，比如``/index.html``。这样会导致像Google Search Console通过你的sitemap提交网页url时报错。  
 实际上url指的就是你网站的域名。你可以维护成下面的形式：
 ```yaml
-url: "https://done.moe"
+url: "https://ike.today"
 ```
 这样你会发现sitemap中已经包含了你的域名。
 

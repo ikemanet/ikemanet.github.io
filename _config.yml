@@ -5,10 +5,10 @@
 
 # Site
 repository: 
-title: 蛋萌 done.moe
-subtitle: 有故事的幸运蛋，萌生小小梦想
-title_mobile: DONE.MOE
-description: 一个带给你好运的技术博客，博主小马哥 Ike MA 的歪门技巧，心得，语言学习以及作品分享。
+title: Today's Ike
+subtitle: 有故事的老马
+title_mobile: Ike.Today
+description: 有故事的老马，一个带给你好运的技术博客
 author: Ike MA
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -17,7 +17,7 @@ cover_img: 'sky.jpg'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://done.moe
+url: https://ike.today
 baseurl: null
 permalink: pretty
 
@@ -100,7 +100,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Done, Moe, 蛋萌, Geek, Code, 教程, 怎么解决, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
+keywords: "Ike, 老马, Geek, Code, 教程, 怎么解决, WisMencoder, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
