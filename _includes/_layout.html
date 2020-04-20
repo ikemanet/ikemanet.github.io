@@ -41,6 +41,7 @@
             {{ content }}
           </div>
           {% if site.google_adsense %}
+          {% if page.categories %}
           <div class="ggad_footer">
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
               <!-- ike.today footer -->
@@ -54,6 +55,7 @@
                   (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
           </div>
+          {% endif %}
           {% endif %}
           {% include _third-party/duoshuo-hot-articles.html %}
           {% include _partials/comments.html %}
