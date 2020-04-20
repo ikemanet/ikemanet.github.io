@@ -103,7 +103,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
 - 点赞功能：自主研发 [主页](https://ike.today)
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
-- Logo图标：Freepik [主页](https://www.freepik.com/)
+- Logo图标：Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
 - 社交分享：Share.js [主页](https://github.com/overtrue/share.js/)
 - 二次元：Live2D [主页](https://github.com/EYHN/hexo-helper-live2d)
 - 正文字体：Google Fonts ``Noto Serif SC``
