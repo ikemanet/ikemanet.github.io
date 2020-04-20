@@ -5,7 +5,7 @@ author: Ike
 tags:
 - 爱屋及乌
 - 知乎专栏
-- done.moe
+- ike.today
 - zhihu
 categories: News
 english: false
@@ -16,7 +16,7 @@ featured: "walking-at-ushuaia.jpg"
 
 专栏地址：[https://zhuanlan.zhihu.com/ikema](https://zhuanlan.zhihu.com/ikema)
 
-爱屋及乌将会定期发布本博客「蛋萌 Done.moe」上的热门文章，并利用知乎平台把文章传播给更多需要他们的人，也间接激励我继续学新的知识。继续分享下去。
+爱屋及乌将会定期发布本博客「今日的老马」的热门文章，并利用知乎平台把文章传播给更多需要他们的人，也间接激励我继续学新的知识。继续分享下去。
 
 活到老，学到老，希望我能继续坚持。
 

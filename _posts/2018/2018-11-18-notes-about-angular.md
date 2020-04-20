@@ -17,7 +17,7 @@ featured: "notes-about-angular.jpg"
 **此笔记根据我在Udemy的Angular视频课程而总结形成。**
 
 **做此笔记主要是为了督促自己学习，也是为了方便其他学习者。转载请注明出处。**
-[https://done.moe/cheat-sheet/2018/11/18/notes-about-angular/](https://done.moe/cheat-sheet/2018/11/18/notes-about-angular/)
+[https://ike.today/cheat-sheet/2018/11/18/notes-about-angular/](https://ike.today/cheat-sheet/2018/11/18/notes-about-angular/)
 
 **Day 1**
 ## 快速上手

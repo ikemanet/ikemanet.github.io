@@ -15,7 +15,7 @@ featured: "amazfit-stratos.jpg"
 
 ## 前言
 
-上一篇我已经介绍了如何延长华米运动手表2的续航，如果没有阅读的蛋友可以参考。[传送门](https://done.moe/tutorial/2018/10/31/battery-experience-of-amazfit-sport-watch-2/)
+上一篇我已经介绍了如何延长华米运动手表2的续航，如果没有阅读的蛋友可以参考。[传送门](https://ike.today/tutorial/2018/10/31/battery-experience-of-amazfit-sport-watch-2/)
 
 今天我们说说如何改善你的华米手表2，使你的手表更好用，更耐玩！
 

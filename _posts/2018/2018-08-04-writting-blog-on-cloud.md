@@ -10,7 +10,7 @@ english: false
 featured: writting-blog-on-cloud.jpg
 ---
 
-使用[Jekyll](https://done.moe/cheat-sheet/2017/06/05/useful-build-command-and-parameters-of-jekyll/)搭建博客的好处自然不用说，但是如果说弊端，自然是后台都在本地，维护博客还要带着电脑？
+使用[Jekyll](https://ike.today/cheat-sheet/2017/06/05/useful-build-command-and-parameters-of-jekyll/)搭建博客的好处自然不用说，但是如果说弊端，自然是后台都在本地，维护博客还要带着电脑？
 
 其实不然，只需要使用以下方法就可以让你随时随地维护你的博客。
 
@@ -50,7 +50,7 @@ GitHub是通过Git进行版本控制的软件源代码托管服务，由GitHub�
 
 操作起来也很简单，直接选择New Connection，然后选择GitHub，授权过后你就可以看到你的Git库``你的GitHub用户名.github.io``，选择Unbuntu + Ruby就可以开始创建工程了。创建完成后你就可以像VS Code那样愉快的编辑你的网站了。不过我没有在Codeanywhere虚拟机上成功安装Jekyll，因为提示Ruby的版本过低，因为并没有编辑博客的需求，所以也就没有过多研究，貌似升级Ruby是一件很麻烦的事情...
 
-在左侧文件目录点击右键，然后选择SSH Terminal就可以打开控制台，然后你就可以使用[Git命令](https://done.moe/cheat-sheet/2018/07/28/basic-git-command/)将修改推送到GitHub。在右键菜单中还有像Upload这样的命令，可以允许你上传一些文件。是不是很方便？
+在左侧文件目录点击右键，然后选择SSH Terminal就可以打开控制台，然后你就可以使用[Git命令](https://ike.today/cheat-sheet/2018/07/28/basic-git-command/)将修改推送到GitHub。在右键菜单中还有像Upload这样的命令，可以允许你上传一些文件。是不是很方便？
 
 突然发现以前闲置许久的Surface 3又派上了用场，当时因为Surface配置太低，装了几个软件就慢的要死，可是使用云环境的好处就是本地只需要打开个浏览器窗口就可以像在本地一样工作了！
 
