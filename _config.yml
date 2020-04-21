@@ -5,8 +5,8 @@
 
 # Site
 repository: 
-title: Ike's today
-subtitle: 今日的老马
+title: Ike's today - 今日的老马
+subtitle: 一个有故事的技术博客
 title_mobile: ike.Today
 description: 「今日的老马」一个有故事的技术博客
 author: Ike MA
@@ -100,7 +100,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Ike, 老马, Geek, Code, 教程, 怎么解决, WisMencoder, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
+keywords: "Ike, 老马, 感触, Geek, Code, 教程, 怎么解决, WisMencoder, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
