@@ -100,7 +100,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Ike, 老马, 感触, Geek, Code, 教程, 怎么解决, WisMencoder, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
+keywords: "Ike's today, 今日的老马, 老马, 感触, 蛋萌, done.moe, Geek, Code, 教程, 怎么解决, WisMencoder, Tutorial, Cheat Sheet, Trick, Photography, Blog, MZY'S Blog, Ike MA"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
