@@ -1,0 +1,1 @@
+<script>window.location = '/night-tales/2019/04/19/wu-ye-shi-ling/'</script>

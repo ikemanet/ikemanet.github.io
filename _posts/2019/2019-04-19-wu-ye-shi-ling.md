@@ -2,7 +2,7 @@
 layout: post
 title: 《午夜拾零》——听大平面包讲述纯粹的生活
 author: 大平面包
-categories: dapingmianbao
+categories: Night-Tales
 featured: the-midnight-tales.jpg
 featured_position: center
 ---

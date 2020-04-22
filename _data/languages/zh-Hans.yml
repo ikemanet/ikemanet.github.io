@@ -34,8 +34,8 @@ menu:
   q2a: 有问必答
 
 sidebar:
-  overview: AUTHOR
-  toc: OUTLINE
+  overview: 关于博主
+  toc: 目录
 
 post:
   created: 创建于
@@ -106,9 +106,9 @@ symbol:
 
 categories:
   blog: 随笔
-  dapingmianbao: 午夜拾零
+  nighttales: 午夜拾零
   cheatsheet: 代码收藏夹
   tutorial: 技师老马
   chinesewithike: Chinese with Ike
   photography: 我是摄影师
-  news: 大新闻
+  news: 大事记

@@ -58,4 +58,29 @@ function ikeGetAllQuestions(){
     } catch (e) {}
 }
 
+function ikeGetSiteCommentsCount(){
+    AV.Object.extend('Comment');
+    var totalReplies = 0;
+    try {
+        AV.Query.doCloudQuery('select pid from Comment').then(function (data) {
+            totalReplies = data.results.length;
+            AV.Object.extend('Counter');
+            var totalViews = 0;
+            try {
+                AV.Query.doCloudQuery('select time from Counter').then(function (data) {
+                    for (var index = 0; index < data.results.length; index++) {
+                        totalViews = totalViews + data.results[index].attributes.time;
+                    }
+                    $( "#site_analytics" ).html("&nbsp;&nbsp;💜&nbsp;&nbsp;" + totalViews + "次浏览，" + totalReplies + "条留言");
+                }, function (error) {
+                    console.error('Get views count failed, error message: ' + error.message);
+                });
+            } catch (e) {}
+        }, function (error) {
+            console.error('Get reply count failed, error message: ' + error.message);
+        });
+    } catch (e) {}
+}
+
 ikeGetAllQuestions();
+ikeGetSiteCommentsCount();
