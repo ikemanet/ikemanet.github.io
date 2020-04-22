@@ -3,6 +3,8 @@ layout: post
 title: 对“真正的朋友”的一点见解
 author: Ike
 categories: Blog
+featured: true-friend.jpg
+featured_position: center
 ---
 
 >真正的友谊，是一株成长缓慢的植物。——华盛顿  
