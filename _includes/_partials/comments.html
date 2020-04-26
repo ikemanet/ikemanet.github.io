@@ -35,17 +35,54 @@
     {% elsif site.valine.enable %}
       <div id="vcomments"></div>
       <script>
-          new Valine({
-              el: '#vcomments',
-              appId: 'Xi5VsRj4dwyX1J6RpS2GAXQk-gzGzoHsz',
-              appKey: '0Ow1AYiqjkG8a9wz41OmP1jz',
-              avatar: 'retro', 
-              placeholder: '说点什么吧！Say something here...\n一定要留你的邮箱才能收到博主回复提醒邮件哦！\nLeave your email to receive reply notification.',
-              visitor: true, 
-              pageSize: 20,
-              highlight: false,
-              recordIP: true
-          })
+        var localeName = 'ike',
+        localeMode = {	
+              "nick": "昵称 Nick name",
+              "mail": "邮箱 E-Mail",
+              "link": "网站 (http://)",
+              "nickFail":"昵称不能低于3个字符 Nick name cannot be less than 3 chars.",
+              "mailFail":"请确认输入正确的邮箱 Please verify your email address.",
+              "sofa": "做第一个留言的宝宝吧！There is no comment yet.",
+              "submit": "提交 Submit",
+              "reply": "回复 Reply",
+              "cancelReply": "取消回复 Cancel",
+              "comments": "评论 Comments",
+              "cancel": "取消 Cancel",
+              "confirm": "确认 Confirm",
+              "continue": "继续 Continue",
+              "more": "加载更多 More...",
+              "preview": "预览 Preview",
+              "emoji": "表情 Emoji",
+              "expand": "查看更多 See more....",
+              "seconds": "seconds ago",
+              "minutes": "minutes ago",
+              "hours": "hours ago",
+              "days": "days ago",
+              "now": "just now",
+              "uploading":"上传中 Uploading ...",
+              "uploadDone":"上传完成 Upload completed!",
+              "busy":"提交中，请稍候 Submitting, please wait...",
+              "code-98":"Valine initialization failed, please check your version of av-min.js.",
+              "code-99": "Valine initialization failed, Please check the `el` element in the init method.",
+              "code-100": "Valine initialization failed, Please check your appId and appKey.",
+              "code-140":"The total number of API calls today has exceeded the development version limit.",
+              "code-401": "Unauthorized operation, Please check your appId and appKey.",
+              "code-403": "Access denied by API domain white list, Please check your security domain."
+        };
+
+        new Valine({
+            el: '#vcomments',
+            appId: 'Xi5VsRj4dwyX1J6RpS2GAXQk-gzGzoHsz',
+            appKey: '0Ow1AYiqjkG8a9wz41OmP1jz',
+            avatar: 'retro', 
+            placeholder: '说点什么吧！Say something here...\n一定要留你的邮箱才能收到博主回复提醒邮件哦！\nLeave your email to receive reply notification.',
+            visitor: true, 
+            pageSize: 20,
+            highlight: false,
+            recordIP: true,
+            lang: localeName,
+            langMode: localeMode
+        })
       </script>
     {% endif %}
   </div>
