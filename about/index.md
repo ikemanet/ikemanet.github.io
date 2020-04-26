@@ -18,9 +18,9 @@ code {
 ![Ike MA 小马哥](/assets/img/about/ike.jpg)
 
 ## 特别感谢
-> **感谢我的老婆Abby的支持**，感谢曾经一起与我开论坛的斑竹们，我还依稀记得他们的名字：提拔我做PDAFans论坛版主的``77778888``大神，无铭风，想你的心跳，wujli，P霜~。感谢非常优秀的静态网站生成工具 [Jekyll](https://jekyllrb.com/)，非常感谢本博客的主题作者 [Simpleyyt](https://github.com/Simpleyyt)，还有 Pokemon 这个游戏！  
+> ``感谢我的老婆Abby的支持``，感谢曾经一起与我开论坛的斑竹们，我还依稀记得他们的名字：提拔我做PDAFans论坛版主的``77778888``大神，无铭风，想你的心跳，wujli，P霜~。感谢非常优秀的静态网站生成工具 [Jekyll](https://jekyllrb.com/)，非常感谢本博客的主题作者 [Simpleyyt](https://github.com/Simpleyyt)，还有 Pokemon 这个游戏！  
 
-我是**今日的老马 ike.Today**的博主``老马 Ike MA``。下文对本博客简称为``老马``。
+我是``今日的老马 ike.Today``的博主``老马 Ike MA``。下文对本博客简称为``老马``。
 
 ## 老马的前世今生
 
@@ -35,7 +35,7 @@ code {
 ![联想PDA：天玑XP210](/assets/img/about/legendxp210.jpg)
 ``没错，就是它：联想天玑XP210``
 
-我梦寐以求的愿望终于实现了，那就是躺在被窝里看电影、看动漫（我那时是一个技术宅男）。当时最流行的视频格式是高压缩率的``RMVB``格式，那时候的PDA性能还非常有限，远远比不上现在的iPhone以及安卓手机，这种需要消耗大量性能解码的RMVB视频在PDA上显然是播放不了的，起初我在各大PDA论坛上也找不到很好的解决方案。于是我就萌生出一个编写小工具的想法。万万没想到这个小想法让我创作出当时红极一时的视频转换软件``WisMencoder``，并被PDA爱好者论坛（PDAFans）的小伙伴们广为宣传，也得到了各行各业视频爱好者的认可，上过报纸和杂志。于是作为软件发布平台，我的第一个博客“**MZY'S Blog**”也正式诞生，在blog.com.cn平台中，访问次数超过30万，评论过千次。
+我梦寐以求的愿望终于实现了，那就是躺在被窝里看电影、看动漫（我那时是一个技术宅男）。当时最流行的视频格式是高压缩率的``RMVB``格式，那时候的PDA性能还非常有限，远远比不上现在的iPhone以及安卓手机，这种需要消耗大量性能解码的RMVB视频在PDA上显然是播放不了的，起初我在各大PDA论坛上也找不到很好的解决方案。于是我就萌生出一个编写小工具的想法。万万没想到这个小想法让我创作出当时红极一时的视频转换软件``WisMencoder``，并被PDA爱好者论坛（PDAFans）的小伙伴们广为宣传，也得到了各行各业视频爱好者的认可，上过报纸和杂志。于是作为软件发布平台，我的第一个博客“``MZY'S Blog``”也正式诞生，在blog.com.cn平台中，访问次数超过30万，评论过千次。
 
 ![2006年7月14日 MZY'S Blog 截图](/assets/img/about/mzysblog-first-a.jpg)
 ``2006年7月14日 MZY'S Blog 截图``
@@ -86,7 +86,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 同时本博客也会持续更新中文课程。[Visit Chinese with Ike Homepage](https://ike.today/chinese-with-ike/)
 
 ### 欢迎关注我的个人 Instagram
-我的摄影作品将放在Instagram上（ID：ike._.ma），也结识了好朋友🐰！关注我的Ins，请打开Instagram扫描下方图片，请自行科学上网。
+我的摄影作品将放在Instagram上（ID：``ike._.ma``），也结识了好朋友🐰！关注我的Ins，请打开Instagram扫描下方图片，请自行科学上网。
 
 <img width="50%" src="/assets/img/instagram-ikema.jpg" />
 
