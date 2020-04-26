@@ -104,7 +104,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 - 主题：Next.Mist [主页](https://github.com/simpleyyt/jekyll-theme-next)
 - 网站托管：GitHub Pages [主页](https://pages.github.com/)
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
-- Valine回复邮件提醒：Valine-Admin (DesertsP创作，并由zhaojun1998优化) [主页](http://www.zhaojun.im/hexo-valine-admin/)
+- 回复邮件提醒：Valine-Admin (DesertsP创作，zhaojun1998优化) [主页](http://www.zhaojun.im/hexo-valine-admin/)
 - 点赞功能：自主研发 [主页](https://ike.today)
 - 顶部加载条：Pace [主页](https://github.hubspot.com/pace/docs/welcome/)
 - Logo图标：Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
