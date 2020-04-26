@@ -38,6 +38,7 @@
               {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
               {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
               {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
+              {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}
             </span>
           {% endif %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
@@ -68,6 +69,7 @@
                   {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
                   {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
                   {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
+                  {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}
                 </span>
                 <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
                 {{ post.title | default: __.post.untitled }}

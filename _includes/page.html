@@ -1,8 +1,8 @@
 <div id="posts" class="posts-expand">
 {% include _partials/page-header.html %}
-  <div>
+  <div class="post-meta">
     <span id="{{ page.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-      有 <span class="leancloud-visitors-count">...</span> 人次阅读了该文
+      <span class="leancloud-visitors-count">...</span> 人次阅读
     </span>
   </div>
   {% comment %} tagcloud page support {% endcomment %}
@@ -45,6 +45,8 @@
       </div>
     </div>
   {% else %}
+    <div class="post-body" itemprop="articleBody">
     {{ content }}
+    </div>
   {% endif %}
 </div>
