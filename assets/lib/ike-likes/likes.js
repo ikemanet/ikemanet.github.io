@@ -119,7 +119,7 @@ function showPostsWithUnreadComments(){
             if (data.results.length > 0) {
                 $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p>' + data.results.length + ' 未读留言：</p>')
                 for (var index = 0; index < data.results.length; index++) {
-                    $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><strong>'+data.results[index].attributes.nick+'</strong> 留言了 <a href="'+data.results[index].attributes.url+'">'+data.results[index].attributes.url+'</a></p>');
+                    $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><strong>'+data.results[index].attributes.nick+'</strong> 留言了 <a target="_blank" href="'+data.results[index].attributes.url+'">'+data.results[index].attributes.url+'</a></p>');
                 }
                 $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><a href="#" onclick="javascript:readAllUnreadComments()">全部已读</a></p>');
             } else {
