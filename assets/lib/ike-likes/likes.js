@@ -71,11 +71,60 @@ function ikeGetSiteCommentsCount(){
                     for (var index = 0; index < data.results.length; index++) {
                         totalViews = totalViews + data.results[index].attributes.time;
                     }
-                    $( "#site_analytics" ).html("&nbsp;&nbsp;💜&nbsp;&nbsp;" + totalViews + "次浏览，" + totalReplies + "条留言");
+                    $( "#site_analytics" ).html("&nbsp;&nbsp;💜&nbsp;&nbsp;" + totalViews + "次浏览，<a href='/comments/'>" + totalReplies + "条留言</a>");
                 }, function (error) {
                     console.error('Get views count failed, error message: ' + error.message);
                 });
             } catch (e) {}
+        }, function (error) {
+            console.error('Get reply count failed, error message: ' + error.message);
+        });
+    } catch (e) {}
+}
+
+function readAllUnreadComments(){
+    if (confirm("是否全部已读？")) {
+        var nowDate = new Date();
+        var nowYear = nowDate.getUTCFullYear();
+        var nowMonth = nowDate.getUTCMonth()+1;
+        if (nowMonth < 10) nowMonth = "0"+nowMonth;
+        var nowDay = nowDate.getUTCDate();
+        if (nowDay < 10) nowDay = "0"+nowDay;
+        var nowHour = nowDate.getUTCHours();
+        if (nowHour < 10) nowHour = "0"+nowHour;
+        var nowMinute = nowDate.getUTCMinutes();
+        if (nowMinute < 10) nowMinute = "0"+nowMinute;
+        var nowSecond = nowDate.getUTCSeconds();
+        if (nowSecond < 10) nowSecond = "0"+nowSecond;
+        
+        
+        var nowDateStr = nowYear + '-' + nowMonth + '-' + nowDay + 'T' + nowHour + ':' + nowMinute + ':' + nowSecond + '.000Z';
+        console.log("ike.today: new date is " + nowDateStr)
+        localStorage.setItem("ike.today.unread.lasttime", nowDateStr);
+        alert("已读全部留言。");
+    }
+}
+
+function showPostsWithUnreadComments(){
+    AV.Object.extend('Comment');
+    var nowDateStr = localStorage.getItem("ike.today.unread.lasttime");
+    if (nowDateStr == null || nowDateStr == "" || nowDateStr.length < 24) {
+        console.log("ike.today: previous date format is wrong, reset the date")
+        nowDateStr = "1900-01-01T00:00:00.000Z";
+        localStorage.setItem("ike.today.unread.lasttime", nowDateStr);
+    }
+    try {
+        $(".leancloud-visitors-count").text("很多");
+        AV.Query.doCloudQuery('select nick, url from Comment where createdAt > date("'+nowDateStr+'")').then(function (data) {
+            if (data.results.length > 0) {
+                $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p>' + data.results.length + ' 未读留言：</p>')
+                for (var index = 0; index < data.results.length; index++) {
+                    $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><strong>'+data.results[index].attributes.nick+'</strong> 留言了 <a href="'+data.results[index].attributes.url+'">'+data.results[index].attributes.url+'</a></p>');
+                }
+                $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><a href="#" onclick="javascript:readAllUnreadComments()">全部已读</a></p>');
+            } else {
+                $("#unreadCommentsList").html("<strong>没有新的留言啦 🐰 </strong>");
+            }
         }, function (error) {
             console.error('Get reply count failed, error message: ' + error.message);
         });
