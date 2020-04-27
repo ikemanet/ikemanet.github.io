@@ -1,6 +1,6 @@
 # Ike.today
 
-本版本博客基于作者``Simpleyyt``的``Next.Mist``修改而成，请注明原作者和本作作者``Ike MA（小马哥）``。谢谢！  
+本版本博客基于作者``Simpleyyt``的``Next.Mist``修改而成，请注明原作者和本作作者``Ike MA（老马）``。谢谢！  
 This version of my blog is modified based on Simpleyyt's Next.Mist, please clarify the original author and my name Ike MA (小马哥). Thank you!  
 
 ## 安装 Jekyll Install Jekyll
@@ -15,8 +15,8 @@ https://jekyllrb.com/docs/installation/macos/
 ``sudo bundle install``
 
 ## 启动本地预览 Startup and Review
-``sudo bundle exec jekyll serve``
-Or
+``sudo bundle exec jekyll serve``  
+或 or
 ``sudo bundle exec jekyll serve --incremental``
 
 ## 本地预览地址 URL of Reviewing
