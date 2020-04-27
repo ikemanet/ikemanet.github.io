@@ -29,4 +29,8 @@ featured_position: center
 
 ![DJMAX Respect V 主界面](/assets/img/posts/2020/djmax-respect-v-mainmenu.jpg)
 
+有些小遗憾：
+- DJMAX 三、四代的歌曲没有收录，期待日后更新
+- 没有接机模式，个人并不太喜欢AIR模式，期待日后更新
+
 好了，就写到这里，如有又什么新的发现再过来补充。这次疫情期间，就指着DJMAX消除寂寞了！（PS：老婆孩子都来不了了，在国内）
