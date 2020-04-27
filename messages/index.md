@@ -1,7 +1,7 @@
 ---
 layout: page
 comments: true
-title: 问一个问题 Questions
+title: Tell me 麻烦问一下
 type: messages
 featured: messages.jpg
 featured_position: center
