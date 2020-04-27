@@ -13,7 +13,7 @@ featured_position: center
 
 前几天在网易云音乐听歌，就听到了这首 **End of the Moonlight** ，毕竟DJMAX的歌并没有那么火，正应了网友所说的**被游戏厂商耽误的优秀歌手**，所以评论寥寥无几，只有100多个（并没有显示成999+😂）。于是我无意点开了评论，才赫然发现有一个评论写着——DJMAX已登录STEAM，终于有了PC版！当时我是大写的惊讶，就像这样😦。
 
-[分享我的 DJMAX 歌单 (Ike's DJMAX World)](https://music.163.com/playlist?id=4990733313&userid=43238090)
+🎧 [分享我的 DJMAX 歌单 (Ike's DJMAX World)](https://music.163.com/playlist?id=4990733313&userid=43238090) 🎵
 
 看知乎上，网友 **DJ Hitori** 这样[描述](https://www.zhihu.com/question/361797483/answer/944316872)这个游戏——
 > 这个世界上只有DJMAX可以让我为了玩一个新游戏而去买新硬件。我为了玩DJMAX Portable而买了PSP，为了玩DJMAX Ray而买了iPhone，为了玩DJMAX Technika Q而买了iPad，为了玩DJMAX Respect而买了PS4，现在又为了玩DJMAX Respect V而买了一把游戏键盘。
