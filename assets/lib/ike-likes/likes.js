@@ -102,6 +102,7 @@ function readAllUnreadComments(){
         console.log("ike.today: new date is " + nowDateStr)
         localStorage.setItem("ike.today.unread.lasttime", nowDateStr);
         alert("已读全部留言。");
+        showPostsWithUnreadComments();
     }
 }
 
@@ -117,7 +118,7 @@ function showPostsWithUnreadComments(){
         $(".leancloud-visitors-count").text("很多");
         AV.Query.doCloudQuery('select nick, url from Comment where createdAt > date("'+nowDateStr+'")').then(function (data) {
             if (data.results.length > 0) {
-                $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p>' + data.results.length + ' 未读留言：</p>')
+                $("#unreadCommentsList").html('<p>' + data.results.length + ' 未读留言：</p>')
                 for (var index = 0; index < data.results.length; index++) {
                     $("#unreadCommentsList").html($("#unreadCommentsList").html() + '<p><strong>'+data.results[index].attributes.nick+'</strong> 留言了 <a target="_blank" href="'+data.results[index].attributes.url+'">'+data.results[index].attributes.url+'</a></p>');
                 }
