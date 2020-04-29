@@ -417,6 +417,9 @@ han: false
 # Baidu Analytics ID
 #baidu_analytics:
 
+# Sogou verification
+sogou_verify: KanCEClRHz
+
 # Duoshuo ShortName
 #duoshuo_shortname:
 
