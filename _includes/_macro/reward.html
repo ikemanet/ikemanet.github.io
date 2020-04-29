@@ -1,11 +1,16 @@
 {% if site.alipay or site.wechatpay %}
-  <div style="padding: 10px 0; margin: 0px auto; width: 90%; text-align: center;">
+  <div style="padding: 10px 0 40px 0; margin: 0px auto; width: 90%; text-align: center;">
     <script>var reward_clicked = false;</script>
     <div>{{ site.reward_comment }}</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); var rewardButton = document.getElementById('rewardButton'); if (qr.style.display === 'none') {qr.style.display='block';} {% if site.likes.enable %} ikeLike('{{ page.url }}'); {% endif %}">
+    {% if site.likes.enable %}
+    <button id="rewardButton" href="#" onclick=" ikeLike('{{ page.url }}');">
       <span>赞<em id="rewardText">...</em></span>
     </button>
-    <div id="QR" style="display: none;">
+    {% endif %}
+    <button id="likes" href="#" onclick="var qr = document.getElementById('rewardQR'); if (qr.style.display === 'none') {qr.style.display='block';} else { qr.style.display='none'; }">
+      <span>打赏</span>
+    </button>
+    <div id="rewardQR" style="display: none;">
       {% if site.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>

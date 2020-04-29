@@ -1,54 +1,72 @@
 @mixin post-reward {
-  #rewardButton {
+  #rewardButton, #likes {
       cursor: pointer;
       border: 0;
       outline: 0;
       padding: 0;
-      margin: 0 0 30px 0;
+      margin: 0 10px 30px 10px;
       letter-spacing: normal;
       text-transform: none;
       text-indent: 0px;
       text-shadow: none;
       background: none;
   }
-  #rewardButton span {
-      display: inline-block;
-      width: 80px;
-      height: 40px;
-      border-radius: 100%;
+  #rewardButton span, #likes span {
       color: #fff;
-      font-weight: 700;
+      border-radius: 6px;
+      font-weight: 400;
       font-style: normal;
       font-variant: normal;
       font-stretch: normal;
-      font-size: 22px;
-      line-height: 22px;
+      font-size: 20px;
+      line-height: 20px;
       font-family: $font-family-base;
-      background: rgb(110, 72, 126);
-      padding-top: 22px;
-      padding-bottom: 20px;
+      background: #6e487e;
+      padding: 10px 40px 13px 40px;
   }
+
+  #likes span {
+    background: #ff8844;
+  }
+
   #rewardButton span:hover{
-      background: rgb(135, 99, 151);
+      background: #876397;
   }
+
+  #likes span:hover {
+    background: #ff6c16;
+  }
+
   #rewardButton span em{
-    display: block;
     font-size: 14px;
     font-style: normal;
     line-height: 28px;
+    padding-left:10px;
   }
-  #QR{
-
+  #rewardQR{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
   }
-  #QR a{
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #rewardQR a{
       border:0;
   }
-  #QR p{
+  #rewardQR p{
     font-size: 15px;
     font-weight: bold;
     margin-top: 0px;
   }
-  #QR img{
+  #rewardQR img{
       width: 150px;
       max-width: 70%;
       margin: 0em 2em 0 2em;
