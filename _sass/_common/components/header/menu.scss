@@ -31,3 +31,9 @@
 }
 
 .use-motion .menu-item { opacity: 0; }
+
+.menu .menu-item-home {
+  a {
+    @media screen and (max-width: 767px) { display: none; }
+  }
+}
