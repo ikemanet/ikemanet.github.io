@@ -45,17 +45,44 @@
   }
   #rewardQR{
     opacity: 1;
-    animation-name: fadeInOpacity;
+    animation-name: fadeInReward;
+    @include mobile() {
+      animation-name: fadeInRewardMobile;
+    }
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s;
+    height: 200px;
+    @include mobile() {
+      height: 400px;
+    }
   }
-  @keyframes fadeInOpacity {
+  @keyframes fadeInReward {
     0% {
       opacity: 0;
+      height: 0px;
+    }
+    50% {
+      opacity: 0;
+      height: 200px;
     }
     100% {
       opacity: 1;
+      height: 200px;
+    }
+  }
+  @keyframes fadeInRewardMobile {
+    0% {
+      opacity: 0;
+      height: 0px;
+    }
+    50% {
+      opacity: 0;
+      height: 400px;
+    }
+    100% {
+      opacity: 1;
+      height: 400px;
     }
   }
   #rewardQR a{
@@ -69,7 +96,13 @@
   #rewardQR img{
       width: 150px;
       max-width: 70%;
-      margin: 0em 2em 0 2em;
+      margin: 0em 1.5em 0 1.5em;
+  }
+  #rewardIcon {
+    display: inline-block;
+    @include mobile() {
+      display: none;
+    }
   }
 //   #wechat:hover p{
 //       animation: roll 0.1s infinite linear;

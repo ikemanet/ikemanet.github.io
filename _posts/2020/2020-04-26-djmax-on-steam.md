@@ -2,6 +2,12 @@
 layout: post
 title: 在追寻 DJMAX 的路上不断前行
 author: Ike
+tags: 
+- djmax
+- respect
+- steam
+- feeling
+- story
 categories: Game
 featured: djmax-respect-v.jpg
 featured_position: center

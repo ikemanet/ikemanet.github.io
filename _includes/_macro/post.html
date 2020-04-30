@@ -72,8 +72,8 @@
                   {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}
                 </span>
                 <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
-                {{ post.title | default: __.post.untitled }}
-              </a>
+                  {{ post.title | default: __.post.untitled }}
+                </a>
             {% else %}{{ post.title }}{% endif %}
           {% endif %}
         </{% if site.seo %}h2{% else %}h1{% endif %}>

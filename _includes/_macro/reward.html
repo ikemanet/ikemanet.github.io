@@ -14,13 +14,16 @@
       {% if site.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>
-          <p>微信扫码为作者买咖啡</p>
+          <p style="color: #0fc336;">微信 · 赏一杯咖啡</p>
         </div>
       {% endif %}
+      <div id="rewardIcon">
+        <img src="/assets/images/reward.png" alt="reward" style="width:60px; padding-bottom:60px">
+      </div>
       {% if site.alipay %}
         <div id="alipay" style="display: inline-block">
           <img id="alipay_qr" src="{{ site.alipay }}" alt="{{ site.author }} Alipay"/>
-          <p>支付宝扫码请作者吃煎饼</p>
+          <p style="color: #0ba8e4;">支付宝 · 赏一块煎饼</p>
         </div>
       {% endif %}
     </div>

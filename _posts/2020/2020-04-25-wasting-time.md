@@ -3,6 +3,11 @@ layout: post
 title: 我浪费了太多的时间，所以我决定...
 author: Ike
 categories: Blog
+tags: 
+- time
+- mindmap
+- story
+- feeling
 featured: clock.jpg
 featured_position: center
 ---

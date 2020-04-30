@@ -3,6 +3,10 @@ layout: post
 title: 对“真正的朋友”的一点见解
 author: Ike
 categories: Blog
+tags: 
+- friend
+- real
+- feeling
 featured: true-friend.jpg
 featured_position: center
 ---

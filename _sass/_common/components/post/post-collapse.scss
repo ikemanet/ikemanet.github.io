@@ -1,4 +1,8 @@
 // TODO: Refactor.
+article h2 {
+  color: #aaa;
+  font-weight: 400;
+}
 
 @media (max-width: 767px) {
   .posts-collapse {
@@ -16,18 +20,6 @@
   position: relative;
   z-index: $zindex-1;
 
-  &::after {
-    content: " ";
-    position: absolute;
-    top: 20px;
-    left: 0;
-    margin-left: -2px;
-    width: 4px;
-    height: 100%;
-    background: $whitesmoke;
-    z-index: $zindex-bottom;
-  }
-
   margin-left: $posts-collapse-left;
   @include mobile() { margin: 0 20px; }
 
@@ -35,22 +27,7 @@
     position: relative;
     margin: 60px 0;
 
-    h1, h2 { margin-left: 20px; }
-
     small { color: $grey; margin-left: 5px; }
-
-    &::before {
-      content: " ";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      margin-left: -4px;
-      margin-top: -4px;
-      width: 8px;
-      height: 8px;
-      background: $grey;
-      @include circle();
-    }
   }
 
   .post { margin: 30px 0; }
@@ -58,11 +35,7 @@
   .post-header {
     position: relative;
     @include the-transition();
-    transition-property: border;
-    border-bottom: 1px dashed $grey-light;
-
     &::before {
-      content: " ";
       position: absolute;
       left: 0;
       top: 12px;
@@ -93,9 +66,9 @@
   .post-comments-count { display: none; }
 
   .post-title {
-    margin-left: 60px;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 32px;
+    @include mobile() { font-size: 24px; }
+    font-weight: bold;
     line-height: inherit;
 
     &::after {
@@ -104,8 +77,42 @@
     }
 
     a {
-      color: $grey-dim;
+      color: #222;
       border-bottom: none;
     }
+  }
+
+  .post-title-link {
+    display: inline-block;
+    position: relative;
+    color: $black-deep;
+    border-bottom: none;
+    line-height: 1.5;
+    vertical-align: top;
+    letter-spacing: -.04em;
+    padding: 10px 10px 8px 10px;
+    margin-left: $font-size-base;
+    @include mobile() { margin-left: 0 }
+    margin-bottom: 5px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      margin-top: 2px;
+      background: linear-gradient(90deg, rgb(31, 95, 233), rgb(223, 34, 112));
+      visibility: hidden;
+      @include transform(scaleX(0));
+      @include the-transition();
+    }
+
+    &:hover::before {
+      visibility: visible;
+      @include transform(scaleX(1));
+    }
+    
   }
 }
