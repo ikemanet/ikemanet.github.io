@@ -12,12 +12,12 @@ Welcome to my blog.
 
 ## 老马有问必答时间
 
-你可以问我``一个``问题，任何问题都行，只要你问我就会回答你 🥳。  
+你可以问我``一个``问题，问什么都行，只要你问我就会回答你 🥳。  
 You can ask me ``one`` question of whatever, I promise I will answer it 😉.
 
 ## 讲述你的故事
 
-你也可以给我讲一个小故事，或者单纯的跟我打个招呼 🥳。
+你也可以给我讲一个小故事，或者单纯的跟我打个招呼 🥳。  
 You could also tell me a story, or simply say hello 😉.
 
 ![轻松熊](/assets/img/posts/rilakkuma.jpg)
