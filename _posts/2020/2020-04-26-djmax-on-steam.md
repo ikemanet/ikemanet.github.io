@@ -8,7 +8,7 @@ tags:
 - steam
 - feeling
 - story
-categories: Game
+categories: Blog
 featured: djmax-respect-v.jpg
 featured_position: center
 ---
