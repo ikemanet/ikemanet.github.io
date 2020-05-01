@@ -31,14 +31,14 @@
           {% if is_index %}
           {% else %}
             <span class="post-category {{post.categories[0]}}">
-              {% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
+              <a target="_blank" href="/category/#/{{post.categories[0]}}">{% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
               {% if post.categories[0] == 'Night-Tales' %}{{ __.categories.nighttales }}{% endif %}
               {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
               {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
               {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
               {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
               {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
-              {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}
+              {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}</a>
             </span>
           {% endif %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
@@ -62,14 +62,14 @@
                   </span>
                 {% endif %}
                 <span class="post-category {{post.categories[0]}}">
-                  {% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
+                  <a target="_blank" href="/category/#/{{post.categories[0]}}">{% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
                   {% if post.categories[0] == 'Night-Tales' %}{{ __.categories.nighttales }}{% endif %}
                   {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
                   {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
                   {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
                   {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
                   {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
-                  {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}
+                  {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}</a>
                 </span>
                 <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
                   {{ post.title | default: __.post.untitled }}
@@ -86,7 +86,7 @@
           </time>
           ，
           <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-            <span class="leancloud-visitors-count">...</span> 人次阅读
+            <span class="leancloud-visitors-count">(...)</span> 人次阅读
           </span>
         </div>
 
@@ -123,163 +123,6 @@
               </time>
             {% endif %}
           </span>
-
-          {% if post.categories and post.categories.size > 0 and site.post_meta.categories %}
-            <span class="post-category" >
-            {% if site.post_meta.created_at or site.post_meta.updated_at %}
-              <span class="post-meta-divider">|</span>
-            {% endif %}
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              {% if site.post_meta.item_text %}
-                <span class="post-meta-item-text">{{ __.post.in }}</span>
-              {% endif %}
-              {% for cat in post.categories %}
-                {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="{{ '/category/#/' | site.url | append: cat_url_encode }}" itemprop="url" rel="index">
-                    <span itemprop="name">{{ cat }}</span>
-                  </a>
-                </span>
-
-                {% assign cat_length = post.categories.size %}
-                {% if cat_length > 1 and forloop.index != cat_length %}
-                  {{ __.symbol.comma }}
-                {% endif %}
-              {% endfor %}
-            </span>
-          {% endif %}
-
-          {% if post.comments %}
-            {% if site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ post.url | site.url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.url }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.facebook_comments_plugin.enable %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ post.url | site.url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="{{ post.url | absolute_url }}" itemprop="commentCount">0</span> comments
-                </a>
-              </span>
-            {% elsif site.disqus.enable and site.disqus.count %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ post.url | site.url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="{{ post.url }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.hypercomments_id %}
-            <!--noindex-->
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ post.url | site.url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="{{ post.url }}" itemprop="commentsCount"></span>
-                </a>
-              </span>
-              <!--/noindex-->
-            {% elsif post.layout == 'post' and site.gentie_productKey %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a class="cloud-tie-join-count" href="{{ post.url | site.url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.changyan.enable and site.changyan.appid and site.changyan.appkey %}
-              <span class="post-comments-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-comment-o"></i>
-              </span>
-              {% if post.layout == 'post' %}
-                <a href="{{ post.url | site.url }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="{{ post.url }}" itemprop="commentsCount"></span>
-                </a>
-              {% else %}
-                <a href="{{ post.url | site.url }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::{{ post.url | absolute_url }}" class="cy_cmt_count" data-xid="{{ post.url }}" itemprop="commentsCount" ></span>
-                </a>
-              {% endif %}
-            {% endif %}
-          {% endif %}
-
-          {% comment %} LeanCould PageView {% endcomment %}
-          {% if site.leancloud_visitors.enable %}
-             <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               {% if site.post_meta.item_text %}
-                 <span class="post-meta-item-text">{{__.post.visitors}} </span>
-               {% endif %}
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          {% endif %}
-
-          {% if site.busuanzi_count.enable and site.busuanzi_count.page_pv and is_index == false or is_index == nil%}
-            <span class="post-meta-divider">|</span>
-            <span class="page-pv">{{ site.busuanzi_count.page_pv_header }}
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ site.busuanzi_count.page_pv_footer }}
-            </span>
-          {% endif %}
-
-          {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
-            {% assign source = post.content %}
-            {% include _helper/wordcount.html %}
-            <div class="post-wordcount">
-              {% if site.post_wordcount.wordcount %}
-                {% unless site.post_wordcount.separated_meta %}
-                  <span class="post-meta-divider">|</span>
-                {% endunless %}
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                {% if site.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
-                {% endif %}
-                <span title="{{ __.post.wordcount }}">
-                  {{ wordcount }}
-                </span>
-              {% endif %}
-
-              {% if site.post_wordcount.wordcount and site.post_wordcount.min2read %}
-                <span class="post-meta-divider">|</span>
-              {% endif %}
-
-              {% if site.post_wordcount.min2read %}
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                {% if site.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __.post.min2read }}</span>
-                {% endif %}
-                <span title="{{ __.post.min2read }}">
-                  {{ wordcount | divided_by: 200 }}
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
 
           {% unless site.excerpt_description and is_index %}
             {% if site.description %}

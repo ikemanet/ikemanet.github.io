@@ -824,6 +824,12 @@
   border-radius: 5px;
   width: fit-content;
 }
+span.post-category a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 0;
+  font-weight: 400;
+}
 .post-category.Blog {
   background: #428bca;
 }

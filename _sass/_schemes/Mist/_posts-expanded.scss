@@ -7,9 +7,6 @@
   .post-meta {
     text-align: $site-meta-text-align;
     @include mobile() { text-align: center; }
-    a {
-      font-weight: bold;
-    }
   }
   .post-eof { display: none; }
 
