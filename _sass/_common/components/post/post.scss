@@ -777,6 +777,8 @@
 
 .post-body {
   font-family: "PT Serif", "Noto Serif SC";
+  letter-spacing: 0.6px;
+  color: #333;
   @include mobile() {
     word-break: break-word;
   }

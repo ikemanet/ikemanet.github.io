@@ -3,6 +3,7 @@
   text-align: left;
   word-break: break-word;
   font-weight: 200;
+  font-family: "PT Serif", "Noto Serif SC";
 
   @include mobile() {
     font-size: 28px;
