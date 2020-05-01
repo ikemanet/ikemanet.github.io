@@ -144,7 +144,7 @@ function rewardDialog(){
                 <p style="color: #0fc336; text-align:center">微信 · 赏一杯咖啡</p>
             </div>
             <div id="alipay" style="display: inline-block">
-                <img id="alipay_qr" src="/assets/images/alipay.jpg" alt="Alipay"/>
+                <img id="alipay_qr" style="padding-bottom:5px;" src="/assets/images/alipay.jpg" alt="Alipay"/>
                 <p style="color: #0ba8e4; text-align:center">支付宝 · 赏一块煎饼</p>
             </div>
         </div>`
