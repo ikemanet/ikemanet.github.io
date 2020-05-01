@@ -1,1 +1,15 @@
-<script>window.location = '/chinese-with-ike/2020/04/16/homepage/'</script>
+---
+layout: page
+title: Chinese with Ike 主页
+author: Ike
+comments: true
+categories: Chinese-with-Ike
+featured: logo-chinesewithike.jpg
+featured_position: left center
+---
+
+Hey there! Welcome to <strong>Chinese with Ike</strong> offical page.  
+
+I recently made this course for my friends to learn Chinese, it might be helpful for you to get started. This page is under construction, it will be ready soon.  
+
+Stay tuned!
