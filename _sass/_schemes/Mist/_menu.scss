@@ -25,11 +25,11 @@
   }
 
   .menu-item a {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 12px;
     background: none;
     border: none;
     border-radius: 2px;
-    transition-property: background;
+    // transition-property: background;
     font-size: 16px;
     font-weight: 700;
     color: $black-deep;
@@ -43,8 +43,7 @@
     }
 
     &:hover { 
-      background: #555;
-      background: linear-gradient(45deg, #0086e1, #ff9db2);
+      background: #222222;
       color: #fff;
     }
   }

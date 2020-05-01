@@ -9,7 +9,8 @@
           </a>
         {% else %}
           <span class="post-category {{post.categories[0]}}">
-            {{ __.categories[post.categories[0]] }}
+            {% assign this_category = post.categories[0] %}
+            {{ __.categories[this_category] }}
           </span>
           <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
           {{ post.title | default: __.post.untitled }}

@@ -107,11 +107,10 @@ symbol:
   colon: '：'
 
 categories:
-  blog: 随笔
-  nighttales: 午夜拾零
-  cheatsheet: 代码收藏夹
-  tutorial: 技师老马
-  chinesewithike: Chinese with Ike
-  photography: 我是摄影师
-  news: 大事记
-  game: 游戏
+  Blog: 随笔
+  Night-Tales: 午夜拾零
+  Cheat-Sheet: 代码收藏夹
+  Tutorial: 技师老马
+  Photography: 我是摄影师
+  News: 大事记
+  Game: 游戏

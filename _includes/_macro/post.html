@@ -31,14 +31,10 @@
           {% if is_index %}
           {% else %}
             <span class="post-category {{post.categories[0]}}">
-              <a target="_blank" href="/category/#/{{post.categories[0]}}">{% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
-              {% if post.categories[0] == 'Night-Tales' %}{{ __.categories.nighttales }}{% endif %}
-              {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
-              {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
-              {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
-              {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
-              {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
-              {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}</a>
+              <a target="_blank" href="/category/#/{{post.categories[0]}}">
+                {% assign this_category = post.categories[0] %}
+                {{ __.categories[this_category] }}
+              </a>
             </span>
           {% endif %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
@@ -62,14 +58,10 @@
                   </span>
                 {% endif %}
                 <span class="post-category {{post.categories[0]}}">
-                  <a target="_blank" href="/category/#/{{post.categories[0]}}">{% if post.categories[0] == 'Blog' %}{{ __.categories.blog }}{% endif %}
-                  {% if post.categories[0] == 'Night-Tales' %}{{ __.categories.nighttales }}{% endif %}
-                  {% if post.categories[0] == 'Cheat-Sheet' %}{{ __.categories.cheatsheet }}{% endif %}
-                  {% if post.categories[0] == 'Tutorial' %}{{ __.categories.tutorial }}{% endif %}
-                  {% if post.categories[0] == 'Chinese-with-Ike' %}{{ __.categories.chinesewithike }}{% endif %}
-                  {% if post.categories[0] == 'Photography' %}{{ __.categories.photography }}{% endif %}
-                  {% if post.categories[0] == 'News' %}{{ __.categories.news }}{% endif %}
-                  {% if post.categories[0] == 'Game' %}{{ __.categories.game }}{% endif %}</a>
+                  <a target="_blank" href="/category/#/{{post.categories[0]}}">
+                    {% assign this_category = post.categories[0] %}
+                    {{ __.categories[this_category] }}
+                  </a>
                 </span>
                 <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
                   {{ post.title | default: __.post.untitled }}
