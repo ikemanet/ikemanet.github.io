@@ -12,7 +12,7 @@
             {% assign this_category = post.categories[0] %}
             {{ __.categories[this_category] }}
           </span>
-          <a class="post-title-link" href="{{ post.url | site.url }}" itemprop="url">
+          <a class="post-title-link title-{{post.categories[0]}}" href="{{ post.url | site.url }}" itemprop="url">
           {{ post.title | default: __.post.untitled }}
           </a>
         {% endif %}

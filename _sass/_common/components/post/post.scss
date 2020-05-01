@@ -836,25 +836,43 @@ span.post-category a {
 .post-category.Blog {
   background: #428bca;
 }
+.posts-expand .post-title-link.title-Blog:hover::before {
+  background: linear-gradient(90deg, #428bca, #ff9db2);
+}
 
 .post-category.Cheat-Sheet {
   background: #ef9bab;
+}
+.posts-expand .post-title-link.title-Cheat-Sheet:hover::before {
+  background: linear-gradient(90deg, #ef9bab, #ff9db2);
 }
 
 .post-category.Tutorial {
   background: #7b559e;
 }
+.posts-expand .post-title-link.title-Tutorial:hover::before {
+  background: linear-gradient(90deg, #7b559e, #ff9db2);
+}
 
 .post-category.Chinese-with-Ike {
   background: #c48cbc;
+}
+.posts-expand .post-title-link.title-Chinese-with-Ike:hover::before {
+  background: linear-gradient(90deg, #c48cbc, #ff9db2);
 }
 
 .post-category.Photography {
   background: #1cd196;
 }
+.posts-expand .post-title-link.title-Photography:hover::before {
+  background: linear-gradient(90deg, #1cd196, #ff9db2);
+}
 
 .post-category.News {
   background: #d4b698;
+}
+.posts-expand .post-title-link.title-News:hover::before {
+  background: linear-gradient(90deg, #d4b698, #ff9db2);
 }
 
 .post-sticky-flag {
