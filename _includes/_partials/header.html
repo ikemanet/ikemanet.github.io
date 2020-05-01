@@ -48,7 +48,9 @@
             {% if site.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{site.menu_icons[itemName] | default: 'question-circle' | downcase }}"></i> <br />
             {% endif %}
+            {% if itemName == 'home' %}<em>{% endif %}
             {{ __.menu[name] }}
+            {% if itemName == 'home' %}</em>{% endif %}
           </a>
         </li>
       {% endfor %}

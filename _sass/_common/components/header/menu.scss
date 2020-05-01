@@ -25,6 +25,13 @@
 
     @at-root %menu-a-hover { border-bottom-color: $menu-link-hover-border; }
     &:hover { @extend %menu-a-hover; }
+    em {
+      font-family: "PT Serif";
+      font-weight: 900;
+      font-size: 20px;
+      letter-spacing: 0em;
+      font-style: normal;
+    }
   }
 
   .fa { margin-left: 7px; margin-right: 5px; }

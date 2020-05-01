@@ -776,7 +776,7 @@
 }
 
 .post-body {
-  font-family: "Noto Serif SC";
+  font-family: "PT Serif", "Noto Serif SC";
   @include mobile() {
     word-break: break-word;
   }
