@@ -32,7 +32,7 @@
     bottom: 0;
     left: 0;
     margin-top: 2px;
-    background: linear-gradient(90deg, #0086e1, #ff9db2);
+    background: linear-gradient(270deg, #0086e1, #ff9db2);
     visibility: hidden;
     @include transform(scaleX(0));
     @include the-transition();
