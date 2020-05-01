@@ -132,5 +132,25 @@ function showPostsWithUnreadComments(){
     } catch (e) {}
 }
 
+function rewardDialog(){
+    var d = dialog({
+        title: '您的支持就是我努力的动力',
+        fixed: true,
+        quickClose: true,
+        content: `
+        <div id="rewardQR">
+            <div id="wechat" style="display: inline-block">
+                <img id="wechat_qr" src="/assets/images/wechat-pay.jpg" alt="WeChat Pay"/>
+                <p style="color: #0fc336; text-align:center">微信 · 赏一杯咖啡</p>
+            </div>
+            <div id="alipay" style="display: inline-block">
+                <img id="alipay_qr" src="/assets/images/alipay.jpg" alt="Alipay"/>
+                <p style="color: #0ba8e4; text-align:center">支付宝 · 赏一块煎饼</p>
+            </div>
+        </div>`
+        });
+    d.show();
+}
+
 ikeGetAllQuestions();
 ikeGetSiteCommentsCount();

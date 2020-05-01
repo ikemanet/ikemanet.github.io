@@ -7,26 +7,9 @@
       <span>赞<em id="rewardText">...</em></span>
     </button>
     {% endif %}
-    <button id="likes" href="#" onclick="var qr = document.getElementById('rewardQR'); if (qr.style.display === 'none') {qr.style.display='block';} else { qr.style.display='none'; }">
+    <button id="likes" href="#" onclick="rewardDialog()">
       <span>打赏</span>
     </button>
-    <div id="rewardQR" style="display: none;">
-      {% if site.wechatpay %}
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="{{ site.wechatpay }}" alt="{{ site.author }} WeChat Pay"/>
-          <p style="color: #0fc336;">微信 · 赏一杯咖啡</p>
-        </div>
-      {% endif %}
-      <div id="rewardIcon">
-        <img src="/assets/images/reward.png" alt="reward" style="width:60px; padding-bottom:60px">
-      </div>
-      {% if site.alipay %}
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="{{ site.alipay }}" alt="{{ site.author }} Alipay"/>
-          <p style="color: #0ba8e4;">支付宝 · 赏一块煎饼</p>
-        </div>
-      {% endif %}
-    </div>
   </div>
   <script>
   {% if site.likes.enable %} ikeGetLikes('{{ page.url }}'); {% endif %}
