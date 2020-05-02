@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解决在iOS中提交按钮风格错误展现的问题
-author: Ike
+author: 老马 Ike MA
 title_en: Wrong style presentation of submit button in iOS
 tags:
 - CSS

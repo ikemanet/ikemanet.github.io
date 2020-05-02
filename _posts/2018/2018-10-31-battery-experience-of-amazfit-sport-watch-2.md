@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 华米运动手表2续航使用心得
-author: Ike
+author: 老马 Ike MA
 tags:
 - amazfit
 - huami

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 开始第一篇
-author: Ike
+author: 老马 Ike MA
 tags: 
 - first
 - wismencoder

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用云服务随时随地写博客
-author: Ike
+author: 老马 Ike MA
 tags:
 - git
 - command

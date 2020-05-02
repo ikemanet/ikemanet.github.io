@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 有一种想买 Surface Book 2 的冲动
-author: Ike
+author: 老马 Ike MA
 tags: 
 - microsoft
 - surface

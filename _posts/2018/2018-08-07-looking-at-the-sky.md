@@ -17,7 +17,7 @@ colnum_1: 2
 tags:
 - dishes
 featured: 08/sky-by-ike-1.jpg
-author: Ike
+author: 老马 Ike MA
 ---
 
 不论你身在何方，抬起头来，赞美那一望无际的天空。

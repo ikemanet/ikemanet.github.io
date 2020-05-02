@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git 最基本的命令
-author: Ike
+author: 老马 Ike MA
 tags:
 - git
 - command

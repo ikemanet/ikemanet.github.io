@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Webview https SSL证书错误
-author: Ike
+author: 老马 Ike MA
 title_en: Https SSL certificate error on Android Webview
 tags:
 - https

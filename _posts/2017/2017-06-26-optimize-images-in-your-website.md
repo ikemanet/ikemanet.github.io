@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 优化你网站上的图片文件
-author: Ike
+author: 老马 Ike MA
 title_en: Optimize images in your website
 tags:
 - Web

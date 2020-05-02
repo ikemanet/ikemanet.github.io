@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何在Windows环境的Git Bash下使用rsync？
-author: Ike
+author: 老马 Ike MA
 tags:
 - rsync
 - Windows

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 对“真正的朋友”的一点见解
-author: Ike
+author: 老马 Ike MA
 categories: Blog
 tags: 
 - friend
