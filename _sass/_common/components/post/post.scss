@@ -820,11 +820,10 @@
   font-size: $font-size-small - 2;
   font-weight: 400;
   line-height: 20px;
-  display: inline-block;
+  display: inline;
   padding: $font-size-small - 11 $font-size-small - 6;
   background: #000;
   border-radius: 5px;
-  width: fit-content;
   font-family: $font-family-base;
 }
 span.post-category a {

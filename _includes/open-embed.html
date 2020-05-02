@@ -68,7 +68,7 @@ video_embed();
 function mp3_embed() {
     var p = document.getElementsByTagName('p');
     for(var i = 0; i < p.length; i++) {
-        if(p[i].innerHTML.indexOf('.aac') !== -1) {
+        if(p[i].innerHTML.indexOf('.aac') !== -1 || p[i].innerHTML.indexOf('.mp3') !== -1) {
             var str = p[i].innerHTML.split('?');
             if(str.length == 1) str[1] = '';
             var str1 = str[1];
@@ -76,8 +76,10 @@ function mp3_embed() {
             str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
             str1 = str1.replace('loop=1','').replace('loop=0','');
             str1 = str1.replace('controls=0','').replace('controls=1','');
+            var lastIndexOf = str[0].lastIndexOf('.aac', str[0].length - 4);
+            var lastIndexOf1 = str[0].lastIndexOf('.mp3', str[0].length - 4);
 
-            if (str[0].lastIndexOf('.aac', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
+            if ((lastIndexOf === str[0].length - 4 || lastIndexOf1 === str[0].length - 4) && str1.length == 0) {
                 if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
                 if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
                 if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;

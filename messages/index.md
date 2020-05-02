@@ -12,8 +12,8 @@ Welcome to my blog.
 
 ## 老马有问必答时间
 
-你可以问我``一个``问题，问什么都行，只要你问我就会回答你 🥳。  
-You can ask me ``one`` question of whatever, I promise I will answer it 😉.
+你可以问我**一个**问题，问什么都行，只要你问我就会回答你 🥳。  
+You can ask me **one** question of whatever, I promise I will answer it 😉.
 
 ## 讲述你的故事
 
