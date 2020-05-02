@@ -78,8 +78,34 @@
           </time>
           ，
           <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-            <span class="leancloud-visitors-count">(...)</span> 人次阅读
+            <span class="leancloud-visitors-count">(...)</span> 人次阅读，
           </span>
+          {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
+            {% assign source = post.content %}
+            {% include _helper/wordcount.html %}
+            <div class="post-wordcount">
+              {% if site.post_wordcount.wordcount %}
+                {% if site.post_wordcount.item_text %}
+                  <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
+                {% endif %}
+                <span title="{{ __.post.wordcount }}">
+                  {{ wordcount }}
+                </span>
+              {% endif %}
+
+              {% if site.post_wordcount.min2read %}
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                {% if site.post_wordcount.item_text %}
+                  <span class="post-meta-item-text">{{ __.post.min2read }}</span>
+                {% endif %}
+                <span title="{{ __.post.min2read }}">
+                  {{ wordcount | divided_by: 200 }} 分钟
+                </span>
+              {% endif %}
+            </div>
+          {% endif %}
         </div>
 
         {% if true %}
