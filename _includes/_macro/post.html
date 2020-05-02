@@ -72,7 +72,7 @@
         {% endunless %}
 
         <div class="post-meta">
-          &nbsp; 作者 {{ post.author | page.author | site.author }} ，发表于 
+          <span class="post-meta-item-text">作者</span> {{ post.author | page.author | site.author }} ，发表于 
           <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: site.date_format }}
           </time>
