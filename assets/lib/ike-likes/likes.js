@@ -152,5 +152,18 @@ function rewardDialog(){
     d.show();
 }
 
+$(window).resize(function() {
+    if ($('#sidebar').css("width") == "0px" || $('#sidebar').css("display") == "none") {
+        $('.header-inner').css("padding-right", "0px");
+        $('.main-inner').css("padding-right", "0px");
+    } else if ($('#sidebar').css("width") == "0px"){
+        $('.header-inner').css("padding-right", "0px");
+        $('.main-inner').css("padding-right", "0px");
+    } else {
+        $('.header-inner').css("padding-right", "320px");
+        $('.main-inner').css("padding-right", "320px");
+    }
+});
+
 ikeGetAllQuestions();
 ikeGetSiteCommentsCount();

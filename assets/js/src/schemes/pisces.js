@@ -7,7 +7,7 @@ $(document).ready(function () {
   var setSidebarMarginTop = function(sidebarTop){
     return $sidebar.css({ 'margin-top': sidebarTop });
   };
-  var mql = window.matchMedia('(min-width: 991px)');
+  var mql = window.matchMedia('(min-width: 1080px)');
   setSidebarMarginTop(getSidebarTop()).show();
   mql.addListener(function(e){
     if(e.matches){
