@@ -36,8 +36,8 @@ menu:
   blog: 随笔
 
 sidebar:
-  overview: 关于博主
-  toc: 目录
+  overview: 关于作者
+  toc: 摘要
 
 post:
   created: 创建于
