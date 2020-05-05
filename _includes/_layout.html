@@ -22,7 +22,7 @@
   {% if site.sidebar.position %}
     {% assign container_class = container_class | append: 'sidebar-position-' | append: site.sidebar.position %}
   {% endif %}
-  {% if page.featured %}
+  {% if page.featured && page.type != 'photo' %}
     <div class="title_bg" style="background-image: url(/assets/img/posts/{{ page.date | date: "%Y" }}/{{ page.featured }}); {% if page.featured_position %}background-position: {{page.featured_position}}{% endif %}" ></div>
   {% else %}
     <div class="title_bg" style="background-image: url(/assets/img/main/{{ site.cover_img }})" ></div>
@@ -34,8 +34,8 @@
       <div class="header-inner"> {% include _partials/header.html %} </div>
     </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
+    <main id="main" class="main" {% if page.type == 'photo' %}style="background:#eeeeee"{% endif %}>
+      <div class="main-inner" {% if page.type == 'photo' %}style="padding-top:120px; background: url(/assets/images/photo_bg.png) no-repeat;"{% endif %}>
         <div class="content-wrap">
           <div id="content" class="content">
             {{ content }}

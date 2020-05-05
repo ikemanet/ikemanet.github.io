@@ -30,6 +30,7 @@
         {% unless is_index and post.type == 'quote' and post.title == nil %}
           {% if is_index %}
           {% else %}
+            {% if page.type != 'photo' %}
             <span class="post-category {{post.categories[0]}}">
               <a target="_blank" href="/category/#/{{post.categories[0]}}">
                 {% assign this_category = post.categories[0] %}
@@ -37,6 +38,7 @@
                 {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{% endif %}
               </a>
             </span>
+            {% endif %}
           {% endif %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
           {% comment %} Link posts {% endcomment %}
@@ -74,15 +76,15 @@
         {% endunless %}
 
         <div class="post-meta">
-          <span class="post-meta-item-text">作者</span> {{ post.author | page.author | site.author }} ，发表于 
+          {{ post.author | page.author | site.author }} ，发表于 
           <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: site.date_format }}
           </time>
           ，
           <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-            <span class="leancloud-visitors-count">(...)</span> 人次阅读，
+            <span class="leancloud-visitors-count">(...)</span> 人次阅读
           </span>
-          {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
+          {% if (site.post_wordcount.wordcount or site.post_wordcount.min2read) and page.type != 'photo' %}
             {% assign source = post.content %}
             {% include _helper/wordcount.html %}
             <div class="post-wordcount">
@@ -100,7 +102,7 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
                 {% if site.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __.post.min2read }}</span>
+                  ，<span class="post-meta-item-text">{{ __.post.min2read }}</span>
                 {% endif %}
                 <span title="{{ __.post.min2read }}">
                   {{ wordcount | divided_by: 200 }} 分钟
@@ -109,13 +111,15 @@
             </div>
           {% endif %}
           {% if is_index != true %}
-          <script async type="text/javascript">
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,ar,de,es,ja,ko,zh-TW'}, 'google_translate_element');
-            }
-          </script>
-          <script async type="text/javascript" src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
-          <div id="google_translate_element"></div>
+            {% if page.type != 'photo' %}
+            <script async type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,ar,de,es,ja,ko,zh-TW'}, 'google_translate_element');
+              }
+            </script>
+            <script async type="text/javascript" src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <div id="google_translate_element"></div>
+            {% endif %}
           {% endif %}
         </div>
 
@@ -168,8 +172,15 @@
 
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
+      {% if is_index %}
+        
+      {% else %}
+        {% include _macro/post-content.html %}
+      {% endif  %}
+
       {% comment %} Gallery support {% endcomment %}
       {% if is_index != true and post.photos and post.photos.size > 0 %}
+        <p><a href="https://instagram.com/ike._.ma">关注我的IG (ike._.ma)</a></p>
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
           {% assign COLUMN_NUMBER = post.colnum %}
           {% for photo in post.photos %}
@@ -226,13 +237,8 @@
             });
           </script>
         </div>
+        <p style="text-align:right"><i>Photography by Ike MA</i></p>
       {% endif %}
-
-      {% if is_index %}
-        
-      {% else %}
-        {% include _macro/post-content.html %}
-      {% endif  %}
     </div>
 
     {% unless is_index %}
