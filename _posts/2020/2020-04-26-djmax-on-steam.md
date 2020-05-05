@@ -9,6 +9,7 @@ tags:
 - feeling
 - story
 categories: Blog
+sub-category: Game
 featured: djmax-respect-v.jpg
 featured_position: center
 ---

@@ -3,6 +3,7 @@ layout: post
 title: 我浪费了太多的时间，所以我决定...
 author: 老马 Ike MA
 categories: Blog
+sub-category: Life
 tags: 
 - time
 - mindmap

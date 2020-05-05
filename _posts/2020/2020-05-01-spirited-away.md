@@ -12,6 +12,7 @@ tags:
 - feeling
 - story
 categories: Blog
+sub-category: Movie
 featured: spirited-away.jpg
 featured_position: bottom
 ---
