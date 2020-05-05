@@ -11,6 +11,7 @@ description: MacBook Pro 的劲敌，是超越还是鸡肋？
 featured: "microsoft-surface-book-2.jpg"
 featuredalt: "Microsoft Surface Book 2"
 categories: Blog
+sub-category: Digital
 comments: true
 ---
 

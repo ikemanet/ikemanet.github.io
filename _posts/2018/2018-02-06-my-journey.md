@@ -10,6 +10,7 @@ description: 生活的美，总在平凡的日复一日后，某天不经意间�
 featured: "house-number.jpg"
 featuredalt: "The Beautiful Detailes In Our Life"
 categories: Blog
+sub-category: Life
 comments: true
 ---
 

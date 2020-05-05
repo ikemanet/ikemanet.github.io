@@ -10,6 +10,7 @@ description: 身为一个男性，本着学习的态度来玩这款游戏，究�
 featured: "lian-yu-zhi-zuo-ren.jpg"
 featuredalt: "恋与制作人"
 categories: Blog
+sub-category: Game
 comments: true
 ---
 

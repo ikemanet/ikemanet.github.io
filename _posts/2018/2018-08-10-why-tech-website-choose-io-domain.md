@@ -9,6 +9,7 @@ tags:
 featured: "domain-io.png"
 featuredalt: "IO Domain"
 categories: Blog
+sub-category: Digital
 comments: true
 ---
 

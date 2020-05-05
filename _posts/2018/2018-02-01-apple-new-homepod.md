@@ -10,6 +10,7 @@ description: 更智能的语音控制，更好的音质，不过总觉得有人�
 featured: "apple-new-homepod.jpg"
 featuredalt: "Apple new Homepod"
 categories: Blog
+sub-category: Digital
 comments: true
 ---
 
