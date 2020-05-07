@@ -17,7 +17,7 @@ colnum: 2
 colnum_1: 1
 ---
 *Under the same sky, dreaming the same dream.*  
-在同一片天空下，梦想着同样的梦。
+同一片天空下，想着同样的梦想。
 
 *I often look up the sky and sometime I wish you would give me a sign. That you are still thinking about me like I am thinking about you every day.*  
 我经常仰望天空，有时我希望你能给我一个信号。就像我每天都在想着你一样，你还在想着我。  
