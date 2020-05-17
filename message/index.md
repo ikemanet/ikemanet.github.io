@@ -7,14 +7,17 @@ featured: messages.jpg
 featured_position: center
 ---
 
-终于等到你来了！
-
-**你可以：**
+**终于等到你来了！接下来你可以：**
 - 下面留言告诉我你来了 😉 Let me know you are here
 - 你可以问我一个问题，我会如实回答 🥳 Ask me a question
-- 点下面那只熊开始你的博客之旅 👇 Tap that bear to get started
+- 点下面那只熊开始你的博客之旅 👇 Tap Rilakkuma to get started
 
 <a href="/"><img style="width:60%" src="/assets/img/posts/rilakkuma.jpg"/></a>
+
+**其他能联系到我的方式：**
+- Instagram ID：``ike._.ma``
+- 知乎：[传送门](https://www.zhihu.com/people/mzys)
+- 微信：（不告诉你）
 
 <script>
     var nowDate = new Date();
