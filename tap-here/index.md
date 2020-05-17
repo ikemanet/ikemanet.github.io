@@ -1,7 +1,7 @@
 ---
 layout: page
 comments: true
-title: 留言板 Messages
+title: 终于等到你来了！ 
 type: messages
 featured: messages.jpg
 featured_position: center
@@ -10,17 +10,12 @@ featured_position: center
 欢迎来我的博客做客！  
 Welcome to my blog.
 
-## 老马有问必答时间
+**你可以：**
+- 下面留言告诉我你来了 😉 Let me know you are here
+- 你可以问我一个问题，我会如实回答 🥳 Ask me a question
+- 点下面那只熊开始你的博客之旅 👇 Tap that bear to get started
 
-你可以问我**一个**问题，问什么都行，只要你问我就会回答你 🥳。  
-You can ask me **one** question of whatever, I promise I will answer it 😉.
-
-## 讲述你的故事
-
-你也可以给我讲一个小故事，或者单纯的跟我打个招呼 🥳。  
-You could also tell me a story, or simply say hello 😉.
-
-![轻松熊](/assets/img/posts/rilakkuma.jpg)
+<a href="/"><img style="width:60%" src="/assets/img/posts/rilakkuma.jpg"/></a>
 
 <script>
     var nowDate = new Date();
