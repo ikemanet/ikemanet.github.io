@@ -40,23 +40,6 @@
           <div id="content" class="content">
             {{ content }}
           </div>
-          {% if site.google_adsense %}
-          {% if page.categories %}
-          <div class="ggad_footer">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- ike.today footer -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="{{ site.google_adsense }}"
-                 data-ad-slot="5310492966"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-          {% endif %}
-          {% endif %}
           {% include _partials/comments.html %}
         </div>
         {% if site.sidebar.display != 'remove' %}
