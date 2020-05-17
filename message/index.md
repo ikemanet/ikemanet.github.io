@@ -1,14 +1,13 @@
 ---
 layout: page
 comments: true
-title: 终于等到你来了！ 
+title: 留言板 Message
 type: messages
 featured: messages.jpg
 featured_position: center
 ---
 
-欢迎来我的博客做客！  
-Welcome to my blog.
+终于等到你来了！
 
 **你可以：**
 - 下面留言告诉我你来了 😉 Let me know you are here
