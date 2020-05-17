@@ -1,3 +1,3 @@
 <script>
-window.location = '/tap-here/';
+window.location = '/message/';
 </script>

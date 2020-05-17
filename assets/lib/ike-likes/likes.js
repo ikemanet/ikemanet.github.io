@@ -48,7 +48,7 @@ function ikeGetAllQuestions(){
         localStorage.setItem("ike.today.q2a.lasttime", nowDateStr);
     }
     try {
-        AV.Query.doCloudQuery('select pid from Comment where url = "/tap-here/" and createdAt > date("'+nowDateStr+'")').then(function (data) {
+        AV.Query.doCloudQuery('select pid from Comment where url = "/message/" and createdAt > date("'+nowDateStr+'")').then(function (data) {
             if (data.results.length > 0) {
                 $( "li.menu-item-q2a" ).find("a").html("留言 <sup style='color:#d1697c'>"+data.results.length+"</sup>");
             }
