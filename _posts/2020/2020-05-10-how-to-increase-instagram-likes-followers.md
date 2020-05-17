@@ -79,6 +79,17 @@ Looking at the #sky , it makes me #happy
 - 一些利于推广的标签，比如``#followme``，一些大V的投稿标签``#somewheremagazine``
 - 再加上一个属于你的独一无二的标签（至少在你火之前），比如我的``#老馬同學的相冊``（谁都别和我抢！）
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 实验证明，你至少使用11个标签，以达到最大的曝光效果。另外从我的数据来看，近三成的用户是使用标签引流而来的，也就是说加标签可能让你多出30%的赞。可见标签的重要性。
 
 关于第一维度，通常固定不变。如果你不知道标签都写哪些，一个最简单的方法，就是看看你的竞争对手，或者那些与你风格相似的大V都用哪些标签，把他们的标签Copy一些。
