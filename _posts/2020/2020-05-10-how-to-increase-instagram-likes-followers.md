@@ -79,6 +79,12 @@ Looking at the #sky , it makes me #happy
 - 一些利于推广的标签，比如``#followme``，一些大V的投稿标签``#somewheremagazine``
 - 再加上一个属于你的独一无二的标签（至少在你火之前），比如我的``#老馬同學的相冊``（谁都别和我抢！）
 
+实验证明，你至少使用11个标签，以达到最大的曝光效果。另外从我的数据来看，近三成的用户是使用标签引流而来的，也就是说加标签可能让你多出30%的赞。可见标签的重要性。
+
+关于第一维度，通常固定不变。如果你不知道标签都写哪些，一个最简单的方法，就是看看你的竞争对手，或者那些与你风格相似的大V都用哪些标签，把他们的标签Copy一些。
+
+第二维度我推荐给你一个网站，[best-hashtags.com](http://best-hashtags.com/) 你只需输入一个关键词，它就自动帮你生成一组热度极佳的标签，你从中选取即可。还有一个有趣的APP，叫TagWag，可以通过人工智能分析你的照片，同样自动生成一组热度很高的标签。
+
 <div class="ggad_content">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -91,12 +97,6 @@ Looking at the #sky , it makes me #happy
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-
-实验证明，你至少使用11个标签，以达到最大的曝光效果。另外从我的数据来看，近三成的用户是使用标签引流而来的，也就是说加标签可能让你多出30%的赞。可见标签的重要性。
-
-关于第一维度，通常固定不变。如果你不知道标签都写哪些，一个最简单的方法，就是看看你的竞争对手，或者那些与你风格相似的大V都用哪些标签，把他们的标签Copy一些。
-
-第二维度我推荐给你一个网站，[best-hashtags.com](http://best-hashtags.com/) 你只需输入一个关键词，它就自动帮你生成一组热度极佳的标签，你从中选取即可。还有一个有趣的APP，叫TagWag，可以通过人工智能分析你的照片，同样自动生成一组热度很高的标签。
 
 <p align="center"><img src="/assets/img/posts/2020/instagram-ikema-03.jpg" style="width: 70%" /></p>
 
