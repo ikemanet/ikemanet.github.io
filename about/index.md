@@ -100,6 +100,19 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 
 本人喜欢分享，并且本身忘性很大，所以这里列出了本站所涉及的技术，送给感兴趣的你参考。感谢大神们的辛勤付出！
 
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 - 静态网站技术：Jekyll [官网](https://jekyllrb.com/) [中文网](https://jekyllcn.com/)
 - 主题：Next.Mist [主页](https://github.com/simpleyyt/jekyll-theme-next)
 - 网站托管：GitHub Pages [主页](https://pages.github.com/)

@@ -101,6 +101,19 @@ TypeScript有以下优势和特点：
 - 可在编译时发现错误，避免运行时错误
 - 优秀的IDE支持（例如VS Code）
 
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 ### 编译
 
 使用``tsc``（Type Script Complier）编译第一个TypeScript程序，``main.ts``
@@ -385,6 +398,19 @@ export class CoursesService {
 而使用依赖注入的理念，我只需要在Component里面提供这个Service的名字，在Module中，我将该Service接入，那么利用面向对象的思想，我可以在Module中接入该Service，也可以接入该Service的子类，比如这个Service是负责发起HTTP请求的，我可以很轻易的创建一个该Service的子类，写死数据包模拟HTTP返回，这样可以为单元测试提供很大帮助
 
 依赖注入时，服务将以**单例**方式被创建。
+
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 来看依赖注入的例子：
 在``courses.component.ts``中：

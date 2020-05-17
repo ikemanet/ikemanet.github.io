@@ -18,6 +18,19 @@ english: false
 
 你可以先去DigitalOcean买一个虚拟机，我就是用的他家的，创建过程非常方便，不过需要每月交$5美元，或者你可以选择其他服务商。**如果你有网站，不建议你用你现有的服务器创建VPN，万一被封了连你的网站也用不了了。**
 
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 创建虚拟机时选择CentOS，其余都选最低的（默认配置）即可。接下来就是安装Shadowsocks服务端了。
 
 ### 安装 Shadowsocks 服务端
@@ -93,6 +106,19 @@ Shadowsocks 日志保存在 ``/var/log/shadowsocks.log``
 服务端配置好后，下面就是用 Shadowsocks 客户端来使用VPN服务了。 
 
 ### 安装 Shadowsocks 客户端
+
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 ```
 Windows   

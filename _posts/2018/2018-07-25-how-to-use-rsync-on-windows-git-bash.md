@@ -16,6 +16,19 @@ english: false
 
 [Tiger Fok](https://blog.tiger-workshop.com/add-rsync-to-git-bash-for-windows/)在他的博客上告诉了我们一个非常好用的方法，那就是使用[pacman库](http://www2.futureware.at/~nickoe/msys2-mirror/msys/)中的rsync程序，里面i686代表32位系统，x86_64代表64位系统，也可以到下面我的百度网盘下载。
 
+<div class="ggad_content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5561611607174812"
+     data-ad-slot="9604834881"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 ## 32位rsync下载
 
 ```
