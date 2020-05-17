@@ -99,10 +99,10 @@
 
               {% if site.post_wordcount.min2read %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
+                  ，<i class="fa fa-clock-o"></i>
                 </span>
                 {% if site.post_wordcount.item_text %}
-                  ，<span class="post-meta-item-text">{{ __.post.min2read }}</span>
+                  <span class="post-meta-item-text">{{ __.post.min2read }}</span>
                 {% endif %}
                 <span title="{{ __.post.min2read }}">
                   {{ wordcount | divided_by: 200 }} 分钟
