@@ -161,7 +161,6 @@ $(window).resize(function() {
         $('.main-inner').css("padding-right", "0px");
     } else {
         $('.header-inner').css("padding-right", "320px");
-        $('.main-inner').css("padding-right", "320px");
     }
 });
 
