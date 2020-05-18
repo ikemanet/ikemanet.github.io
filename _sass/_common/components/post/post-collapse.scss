@@ -26,7 +26,7 @@
     small { color: $grey; margin-left: 5px; }
   }
 
-  .post { margin: 30px 0; }
+  .post { margin: 5px 0; }
 
   .post-header {
     position: relative;
@@ -63,7 +63,7 @@
 
   .post-title {
     font-size: 32px;
-    @include mobile() { font-size: 24px; }
+    @include mobile() { font-size: 20px; }
     font-weight: 100;
     line-height: inherit;
 
@@ -113,4 +113,5 @@
     }
     
   }
+
 }

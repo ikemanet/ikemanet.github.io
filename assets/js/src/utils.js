@@ -67,7 +67,7 @@ NexT.utils = NexT.$u = {
         if (lastTop > scrollTop || scrollTop < 600) {
           if (scrollTop < 300) {
             $('.header').css('opacity','1');
-            $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
+            $('.header').css('background-color','rgba(255, 255, 255, 1)');
             $('.header-inner').css('padding', '10px');
           } else if (scrollTop >= 300) {
             $('.header').css('opacity','1');
