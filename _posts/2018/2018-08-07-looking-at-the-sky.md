@@ -1,6 +1,6 @@
 ---
 type: photo
-title: 静静地仰望天空
+title: L2 · 静静地仰望天空
 categories: Photography
 photos:
 - /assets/img/posts/2018/08/sky-by-ike-1.jpg

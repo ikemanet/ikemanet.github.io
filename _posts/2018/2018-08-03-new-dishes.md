@@ -1,6 +1,6 @@
 ---
 type: photo
-title: 八月的新菜式
+title: L1 · 八月的新菜式
 categories: Photography
 photos:
 - /assets/img/posts/2018/08/new-dishes-1.jpg

@@ -64,7 +64,7 @@ NexT.utils = NexT.$u = {
         }
         lastTop = scrollTop;
       } else {
-        if (lastTop > scrollTop || scrollTop < 500) {
+        if (lastTop > scrollTop || scrollTop < 600) {
           if (scrollTop < 300) {
             $('.header').css('opacity','1');
             $('.header').css('background-color','rgba(255, 255, 255, 0.8)');

@@ -23,7 +23,7 @@ code {
   background: $code-background;
   border-radius: $code-border-radius;
   font-size: $font-size-base;
-  @include mobile() { font-size: $font-size-base; }
+  @include mobile() { font-size: $font-size-base - 4; }
   @include desktop-large() { font-size: $font-size-large; }
 }
 

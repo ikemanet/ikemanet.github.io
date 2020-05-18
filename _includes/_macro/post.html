@@ -76,11 +76,11 @@
         {% endunless %}
 
         <div class="post-meta">
-          {{ post.author | page.author | site.author }} ，发表于 
+          {{ post.author | page.author | site.author }} ，<span class="post-meta-item-text">发表于 
           <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: site.date_format }}
           </time>
-          ，
+          ，</span>
           <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
             <span class="leancloud-visitors-count">(...)</span> 人次阅读
           </span>
