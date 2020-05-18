@@ -195,6 +195,7 @@ $(document).ready(function () {
       var sequence = [];
       var $brand = $('.brand');
       var $title = $('.site-title');
+      var $titleins = $('.site-ins');
       var $subtitle = $('.site-subtitle');
       var $logoLineTop = $('.logo-line-before i');
       var $logoLineBottom = $('.logo-line-after i');
@@ -205,23 +206,35 @@ $(document).ready(function () {
         o: {duration: 200}
       });
 
-      NexT.utils.isMist() && hasElement([$logoLineTop, $logoLineBottom]) &&
-      sequence.push(
-        getMistLineSettings($logoLineTop, '100%'),
-        getMistLineSettings($logoLineBottom, '-100%')
-      );
-
       hasElement($title) && sequence.push({
         e: $title,
         p: {opacity: 1, top: 0},
         o: { duration: 200 }
       });
 
-      hasElement($subtitle) && sequence.push({
-        e: $subtitle,
-        p: {opacity: 1, top: 0},
+      $titleins.size() > 0 && sequence.push({
+        e: $titleins,
+        p: {opacity: 1},
         o: {duration: 200}
       });
+
+      NexT.utils.isMist() && hasElement([$logoLineTop, $logoLineBottom]) &&
+      sequence.push(
+        getMistLineSettings($logoLineTop, '100%'),
+        getMistLineSettings($logoLineBottom, '-100%')
+      );
+
+      // hasElement($title) && sequence.push({
+      //   e: $title,
+      //   p: {opacity: 1, top: 0},
+      //   o: { duration: 200 }
+      // });
+
+      // hasElement($subtitle) && sequence.push({
+      //   e: $subtitle,
+      //   p: {opacity: 1, top: 0},
+      //   o: {duration: 200}
+      // });
 
       if (sequence.length > 0) {
         sequence[sequence.length - 1].o.complete = function () {

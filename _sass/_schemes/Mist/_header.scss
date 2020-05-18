@@ -42,7 +42,15 @@
     padding: 2px 1px;
     background: none;
 
-    @include mobile() { display: block; }
+    @include mobile() { display: inline; }
+  }
+
+  a.site-ins {
+    line-height: 36px;
+    margin-left: 15px;
+    border: none;
+    font-size: 22px;
+    color: #777;
   }
 
   .logo { display: none; }
