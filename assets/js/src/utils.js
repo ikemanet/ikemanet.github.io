@@ -44,7 +44,7 @@ NexT.utils = NexT.$u = {
       var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
 
       if ($(window).width() >= 768){
-        if (lastTop > scrollTop) {
+        if (lastTop > scrollTop || scrollTop < 700) {
           if (scrollTop < 200) {
             $('.header').css('opacity','1');
             $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
@@ -58,13 +58,13 @@ NexT.utils = NexT.$u = {
             $('.header-inner').css('padding-bottom', '6px');
             $('.sidebar-inner').css('padding-top', '60px');
           }
-        } else {
+        } else if (lastTop < scrollTop) {
           $('.header').css('opacity','0');
           $('.sidebar-inner').css('padding-top', '10px');
         }
         lastTop = scrollTop;
       } else {
-        if (lastTop > scrollTop) {
+        if (lastTop > scrollTop || scrollTop < 500) {
           if (scrollTop < 300) {
             $('.header').css('opacity','1');
             $('.header').css('background-color','rgba(255, 255, 255, 0.8)');
@@ -74,7 +74,7 @@ NexT.utils = NexT.$u = {
             $('.header').css('background-color','rgba(255, 255, 255, 1)');
             $('.header-inner').css('padding', '10px');
           }
-        } else {
+        } else if (lastTop < scrollTop)  {
           $('.header').css('opacity','0');
         }
         lastTop = scrollTop;
