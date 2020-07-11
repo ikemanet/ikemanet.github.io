@@ -204,7 +204,7 @@ Looking at the #sky , it makes me #happy
 
 看在我写了这么多字的份上，是不是也可以关注我一下下了？期待认识你这个新朋友。
 
-我的IG是``ike._.ma``，或者打开IG的相机，对准下图，按住即可扫描。
+我的IG是``_foreverike``，或者打开IG的相机，对准下图，按住即可扫描。
 
 <p align="center"><img src="/assets/img/instagram-ikema.jpg" style="width: 50%" /></p>
 
