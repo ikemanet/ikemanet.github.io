@@ -21,7 +21,7 @@ featured_position: center
 
 各位小姐姐，你好！我知道玩IG（Instagram）大多都是女生吧？作为新手的你，一定想被更多人关注💛对吧？作为IT资深专家的我😎，今天就专门为你写一篇技术文章，即便我也没多少粉丝和赞（咳咳😅）。
 
-本文所有技巧均为我亲身体验，并以我的IG账号``_foreverike``作为案例，欢迎各位小姐姐前往康康。  
+本文所有技巧均为我亲身体验，并以我的IG账号 [_foreverike](https://www.instagram.com/_foreverike/) 作为案例，欢迎各位小姐姐前往康康。  
 
 **写在最前面：有耐心**，有耐心看完这篇长文，有耐心努力经营自己的IG，有耐心等待奇迹发生，有可能是几个星期，也有可能是几个月...废话不多说，赶紧开始！
 
@@ -208,7 +208,7 @@ Looking at the #sky , it makes me #happy
 
 看在我写了这么多字的份上，是不是也可以关注我一下下了？期待认识你这个新朋友。
 
-我的IG是``_foreverike``，或者打开IG的相机，对准下图，按住即可扫描。
+我的IG是 [_foreverike](https://www.instagram.com/_foreverike/)，或者打开IG的相机，对准下图，按住即可扫描。
 
 <p align="center"><img src="/assets/img/instagram-ikema.jpg" style="width: 50%" /></p>
 
