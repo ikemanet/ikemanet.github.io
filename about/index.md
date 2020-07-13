@@ -86,7 +86,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 同时本博客也会持续更新中文课程。[Visit Chinese with Ike Homepage](https://ike.today/chinese-with-ike/)
 
 ### 欢迎关注我的个人 Instagram
-我的摄影作品将放在Instagram上（ID：``ike._.ma``），也结识了好朋友🐰！关注我的Ins，请打开Instagram扫描下方图片，请自行科学上网。
+我的摄影作品将放在Instagram上（ID：``_foreverike``），也结识了好朋友🐰！关注我的Ins，请打开Instagram扫描下方图片，请自行科学上网。
 
 <img width="50%" src="/assets/img/instagram-ikema.jpg" />
 
