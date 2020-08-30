@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 怎样从iOS 11 beta2 降级到iOS 10.3.2
-author: 老马 Ike MA
+author: 老马同学
 title_en: Downgrade from iOS 11 to iOS 10.3.2
 tags:
 - iOS

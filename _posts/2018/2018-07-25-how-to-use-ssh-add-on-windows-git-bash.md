@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何在Windows环境的Git Bash下使用ssh-add？
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - ssh
 - ssh-agent

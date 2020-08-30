@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MacOS SSH 报错 no matching cipher found
-author: 老马 Ike MA
+author: 老马同学
 title_en: SSH issue - no matching cipher found in MacOS
 tags:
 - macOS

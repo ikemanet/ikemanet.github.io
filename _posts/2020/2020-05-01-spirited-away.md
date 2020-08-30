@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 从小千到千寻，重温这趟人生列车
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - spirited away
 - 千与千寻

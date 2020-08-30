@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 华米运动手表2优化篇
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - amazfit
 - huami

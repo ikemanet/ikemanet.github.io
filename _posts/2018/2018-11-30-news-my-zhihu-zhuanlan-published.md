@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的知乎专栏「爱屋及乌」开通了
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - 爱屋及乌
 - 知乎专栏

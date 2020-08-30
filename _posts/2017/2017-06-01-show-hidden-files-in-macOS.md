@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在macOS中显示隐藏文件
-author: 老马 Ike MA
+author: 老马同学
 keywords: macOS, show, hidden files, 显示, 隐藏文件
 tags:
 - macOS

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在追寻 DJMAX 的路上不断前行
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - djmax
 - respect

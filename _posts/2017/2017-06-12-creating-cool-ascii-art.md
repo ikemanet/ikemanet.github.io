@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 创建炫酷的字符画
-author: 老马 Ike MA
+author: 老马同学
 title_en: Creating Cool ASCII Art
 tags:
 - Ascii_Art

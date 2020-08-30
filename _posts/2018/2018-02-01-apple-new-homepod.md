@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 苹果新产品 Homepod 你会买吗？
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - apple
 - homepod

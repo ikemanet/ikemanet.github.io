@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何自己搭建VPN服务？
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - vpn
 - server

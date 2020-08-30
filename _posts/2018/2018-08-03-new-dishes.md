@@ -12,7 +12,7 @@ colnum_1: 1
 tags:
 - dishes
 featured: 08/new-dishes-2.jpg
-author: 老马 Ike MA
+author: 老马同学
 ---
 
 8月份老马家秘制新菜式出炉！先睹为快。

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chinese with Ike 主页
-author: 老马 Ike MA
+author: 老马同学
 comments: true
 categories: Chinese-with-Ike
 featured: logo-chinesewithike.jpg

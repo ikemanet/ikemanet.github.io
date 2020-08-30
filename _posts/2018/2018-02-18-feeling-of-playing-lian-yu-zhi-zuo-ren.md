@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 已婚男人玩恋与制作人是什么样的体验？
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - galgame
 - man

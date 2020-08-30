@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 学习笔记（入门）
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - angular
 - typescript

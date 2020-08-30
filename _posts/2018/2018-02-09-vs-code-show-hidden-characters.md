@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 用VS Code编辑markdown会出现隐藏字符？
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - vscode
 - markdown

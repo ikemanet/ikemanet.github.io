@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 为什么技术网站会选择IO域名？
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - io
 - tech

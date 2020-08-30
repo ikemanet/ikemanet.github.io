@@ -1,7 +1,7 @@
 ---
 type: photo
 title: L3 · 同一片天空下
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - photography
 - sky

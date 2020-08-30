@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 将小米MIX 2刷成Android P初体验
-author: 老马 Ike MA
+author: 老马同学
 tags:
 - Xiaomi
 - MIX 2

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 小姐姐请看：如何增加IG点赞和关注？
-author: 老马 Ike MA
+author: 老马同学
 tags: 
 - 涨粉
 - 增长粉丝

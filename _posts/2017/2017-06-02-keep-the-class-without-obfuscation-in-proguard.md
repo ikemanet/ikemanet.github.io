@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在ProGuard中指定不想混淆的Class
-author: 老马 Ike MA
+author: 老马同学
 title_en: Keep some class without obfuscation in ProGuard
 tags:
 - ProGuard

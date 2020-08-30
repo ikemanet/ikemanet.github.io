@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 博客评论系统全面升级
-author: 老马 Ike MA
+author: 老马同学
 categories: News
 featured: comments.jpg
 featured_position: center

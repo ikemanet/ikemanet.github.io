@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 对“真正的朋友”的一点见解
-author: 老马 Ike MA
+author: 老马同学
 categories: Blog
 sub-category: Emotion
 tags: 

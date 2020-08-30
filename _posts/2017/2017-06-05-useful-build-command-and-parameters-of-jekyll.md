@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 常用编译命令和参数
-author: 老马 Ike MA
+author: 老马同学
 title_en: Useful build command and parameters of Jekyll
 tags:
 - Jekyll

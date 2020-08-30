@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 怎样下载Google字体
-author: 老马 Ike MA
+author: 老马同学
 title_en: How to download Google Fonts
 tags:
 - CSS
