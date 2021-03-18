@@ -8,13 +8,15 @@ featured_position: center
 
 For [简体中文](/uniloop/zh/)  
 
-<p align="center"><img src="/assets/img/posts/uniloop.jpg" style="width: 100%" /></p>
+<p align="center"><img src="/assets/img/uniloop/uniloop.jpg" style="width: 100%" /></p>
 
 Simple and easy routine management app, build your habits as Loop. Thank you so much for your support! This page is for contacting the author, sharing comments and suggestions, and checking out what's new in the latest version.
 
 ## Download
 
 Uniloop is available in App Store (iOS) and Google Play (Android). Just simple search ``Uniloop``.
+
+<p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 100%" /></p>
 
 ## My Contacts
 
