@@ -3,23 +3,30 @@ layout: page
 comments: true
 title: Uniloop - Official Page
 type: ikema
-featured: uniloop.jpg
 featured_position: center
 ---
 
-[中文版看这里](/uniloop/zh/)  
+For [简体中文](/uniloop/zh/)  
 
-Simple and easy routine management app, build your habits as Loop.  
+<p align="center"><img src="/assets/img/posts/uniloop.jpg" style="width: 100%" /></p>
 
-Thank you so much for your support!
+Simple and easy routine management app, build your habits as Loop. Thank you so much for your support! This page is for contacting the author, sharing comments and suggestions, and checking out what's new in the latest version.
+
+## Download
+
+Uniloop is available in App Store (iOS) and Google Play (Android). Just simple search ``Uniloop``.
 
 ## My Contacts
 
-- Wechat official account, search "老马同学的相册" (ID: foreverike), you could leave me message in the offcial account
-- Instagram, ID: _foreverike
+- Wechat official account, search ``老马同学的相册`` (ID: ``foreverike``), you could leave me message in the offcial account
+- Instagram, ID: [_foreverike](https://instagram.com/_foreverike)
 
 I'll try my best to reply you, but due to my work, reply might be delayed, but believe me, I will read every comment by heart.
 
 ## Privacy Policy
 
 [Click here](/uniloop/en/privacy-policy)
+
+## Changelog
+
+[Click here](/uniloop/en/#)
