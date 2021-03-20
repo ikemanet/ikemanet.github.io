@@ -16,6 +16,8 @@ Simple and easy routine management app, build your habits as Loop. Thank you so 
 
 Uniloop is available in App Store (iOS) and Google Play (Android).
 
+The latest version: 0.4.30
+
 **For iPhone and iPad:** [[Download]](https://apps.apple.com/app/uniloop-habit-management/id1556095546)
 
 **For Android phone and tablet:** [[Download]](https://play.google.com/store/apps/details?id=com.mzysstudio.uniloop)

@@ -16,6 +16,8 @@ featured_position: center
 
 小驴拉磨（英文名：Uniloop）已在苹果 App Store 和谷歌 Google Play 上架。
 
+最新版本：0.4.30
+
 **苹果 iOS 版本：** [前往 App Store 下载](https://apps.apple.com/app/uniloop-habit-management/id1556095546)
 
 **安卓 Android 版本：** [前往 Google Play 下载](https://play.google.com/store/apps/details?id=com.mzysstudio.uniloop)
