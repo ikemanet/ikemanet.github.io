@@ -1,12 +1,12 @@
 ---
 layout: page
 comments: true
-title: Uniloop - Official Page
+title: Uniloop App Official Page - Build your habits
 type: ikema
 featured_position: center
 ---
 
-For [简体中文](/uniloop/zh/)  
+For **[简体中文](/uniloop/zh/)**
 
 <p align="center"><img src="/assets/img/uniloop/uniloop.jpg" style="width: 100%" /></p>
 
@@ -14,7 +14,11 @@ Simple and easy routine management app, build your habits as Loop. Thank you so 
 
 ## Download
 
-Uniloop is available in App Store (iOS) and Google Play (Android). Just simple search ``Uniloop``.
+Uniloop is available in App Store (iOS) and Google Play (Android).
+
+**For iPhone and iPad:** [[Download]](https://apps.apple.com/app/uniloop-habit-management/id1556095546)
+
+**For Android phone and tablet:** [[Download]](https://play.google.com/store/apps/details?id=com.mzysstudio.uniloop)
 
 <p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 100%" /></p>
 
