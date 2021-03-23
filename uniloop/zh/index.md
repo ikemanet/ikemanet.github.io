@@ -26,7 +26,7 @@ featured_position: center
 
 [最新安卓版本 0.4.30 (24)](/assets/download/uniloop/0.4.30.apk)
 
-<p align="center"><img src="/assets/img/uniloop/uniloop_zh_screenshots.jpg" style="width: 80%" /></p>
+<p align="center"><img src="/assets/img/uniloop/uniloop_zh_screenshots.jpg" style="width: 100%" /></p>
 
 ## 意见建议反馈
 

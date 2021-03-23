@@ -22,7 +22,7 @@ The latest version: 0.4.30
 
 **For Android phone and tablet:** [[Download]](https://play.google.com/store/apps/details?id=com.mzysstudio.uniloop)
 
-<p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 80%" /></p>
+<p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 100%" /></p>
 
 ## My Contacts
 
