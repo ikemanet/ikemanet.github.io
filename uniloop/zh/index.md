@@ -1,7 +1,7 @@
 ---
 layout: page
 comments: true
-title: 小驴拉磨 APP 官方页面 - 养成好习惯
+title: 小驴拉磨 APP 官方网站 - 养成好习惯
 type: ikema
 featured_position: center
 tags:
@@ -12,6 +12,8 @@ tags:
 - 习惯养成
 - 清单管理
 - 小驴拉磨下载
+- 官方下载
+- 问题解答
 - 拖延症
 - 自律
 ---
