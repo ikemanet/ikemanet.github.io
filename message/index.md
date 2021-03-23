@@ -15,9 +15,9 @@ featured_position: center
 <a href="/"><img style="width:60%" src="/assets/img/posts/rilakkuma.jpg"/></a>
 
 **其他能联系到我的方式：**
-- Instagram ID：``_foreverike``
+- 微信公众号：老马同学的相册
 - 知乎：[传送门](https://www.zhihu.com/people/mzys)
-- 微信：（不告诉你）
+- Instagram ID：``_foreverike``
 
 <script>
     var nowDate = new Date();

@@ -53,7 +53,21 @@
 
   .post-title:before { display: none; }
 
-  .post-meta { margin-bottom: 60px; }
+  .post-meta { margin-bottom: 30px; }
+}
+
+#google_translate_element {
+  text-align: right;
+  line-height: 40px;
+  padding-right: 20px;
+  background: #f7f7f7;
+  margin-top: 20px;
+  border-radius: 6px;
+  .goog-te-combo {
+    font-size: 12px;
+    color: #888;
+    border-color: #ccc;
+  }
 }
 
 

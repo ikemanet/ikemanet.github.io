@@ -4,6 +4,7 @@
   .posts-expand .post-title {
     font-size: 32px;
   }
+
   @media (max-width: 767px) {
     .posts-expand .post-title {
       font-size: 20px;
@@ -14,20 +15,22 @@
       margin-top: 10px;
     }
 
-    article h2 { 
+    article h2 {
       font-size: 18px;
       margin: 0;
     }
   }
+
   .post-meta {
     display: none;
   }
+
   article h2 {
     color: #aaa;
     font-weight: 400;
   }
-  
-  .menu .menu-item a:hover { 
+
+  .menu .menu-item a:hover {
     background: #222;
     background: linear-gradient(135deg, rgba(255, 245, 179, 0.549), rgb(255, 157, 178));
     color: #fff;
@@ -38,8 +41,8 @@
     <h2>最近贴文 · Recent Posts</h2>
   </article>
   {% for post in posts %}
-    {% assign is_index = true %}
-    {% include _macro/post.html %}
+  {% assign is_index = true %}
+  {% include _macro/post.html %}
   {% endfor %}
 </section>
 

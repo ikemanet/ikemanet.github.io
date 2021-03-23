@@ -8,7 +8,7 @@ featured_position: center
 
 For **[简体中文](/uniloop/zh/)**
 
-<p align="center"><img src="/assets/img/uniloop/uniloop.jpg" style="width: 100%" /></p>
+<p align="center"><img src="/assets/img/uniloop/uniloop.jpg" style="width: 80%" /></p>
 
 Simple and easy routine management app, build your habits as Loop. Thank you so much for your support! This page is for contacting the author, sharing comments and suggestions, and checking out what's new in the latest version.
 
@@ -22,7 +22,7 @@ The latest version: 0.4.30
 
 **For Android phone and tablet:** [[Download]](https://play.google.com/store/apps/details?id=com.mzysstudio.uniloop)
 
-<p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 100%" /></p>
+<p align="center"><img src="/assets/img/uniloop/uniloop_en_screenshots.jpg" style="width: 80%" /></p>
 
 ## My Contacts
 

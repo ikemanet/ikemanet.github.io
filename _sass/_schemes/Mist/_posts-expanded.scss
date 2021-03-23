@@ -20,11 +20,12 @@
 
   .post-title {
     position: relative;
-    font-size: 40px;
+    font-size: 34px;
     line-height: 54px;
     font-weight: 600;
-    letter-spacing: -.04em;
+    letter-spacing: 0em;
     color: $black-deep;
+    font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif;
 
     @include mobile() { font-size: $font-size-headings-smaller; }
     // @include desktop-large() { font-size: $font-size-headings-large; }
