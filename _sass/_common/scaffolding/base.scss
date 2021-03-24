@@ -12,7 +12,7 @@ body {
   color: $text-color;
   background: $body-bg-color;
 
-  @include mobile() { font-size: $font-size-base - 4; padding-right: 0 !important; }
+  @include mobile() { font-size: $font-size-base - 2; padding-right: 0 !important; }
   @include tablet() { padding-right: 0 !important; }
   @include desktop-large() { font-size: $font-size-large; }
 }
@@ -34,7 +34,7 @@ h2, h3, h4, h5, h6 { margin: 20px 0 15px; }
 
   @include mobile() {
     h#{$headline} {
-      font-size: $font-size-headings-base - $font-size-headings-step * $headline - 2;
+      font-size: $font-size-headings-base - $font-size-headings-step * $headline - 4;
     }
   }
 }

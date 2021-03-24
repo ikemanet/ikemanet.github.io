@@ -75,6 +75,9 @@
     color: #888;
     border-color: #ccc;
   }
+  @include mobile() {
+    margin-top: 20px;
+  }
 }
 
 

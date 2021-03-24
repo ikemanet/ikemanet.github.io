@@ -29,7 +29,8 @@
     font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif;
 
     @include mobile() { 
-      font-size: $font-size-headings-smaller; 
+      font-size: 26px;
+      line-height: 46px; 
       color: #222;
       text-shadow: none;
     }
