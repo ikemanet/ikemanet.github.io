@@ -24,10 +24,15 @@
     line-height: 54px;
     font-weight: 600;
     letter-spacing: 0em;
-    color: $black-deep;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0, 0.5);
     font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif;
 
-    @include mobile() { font-size: $font-size-headings-smaller; }
+    @include mobile() { 
+      font-size: $font-size-headings-smaller; 
+      color: #222;
+      text-shadow: none;
+    }
     // @include desktop-large() { font-size: $font-size-headings-large; }
   }
   .post-title:hover:before { background: $black-deep; }

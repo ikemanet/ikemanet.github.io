@@ -53,15 +53,22 @@
 
   .post-title:before { display: none; }
 
-  .post-meta { margin-bottom: 30px; }
+  .post-meta { 
+    margin-bottom: 30px; 
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    @include mobile() {
+      color: #222;
+      text-shadow: none;
+    }
+  }
 }
 
 #google_translate_element {
   text-align: right;
   line-height: 40px;
   padding-right: 20px;
-  background: #f7f7f7;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 6px;
   .goog-te-combo {
     font-size: 12px;

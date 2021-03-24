@@ -1,286 +1,288 @@
 {% comment %} post(post, is_index, post_extra_class) {% endcomment %}
 
-  {% if 'quote, picture' contains post.type %}
-    {% assign headlessPost = true %}
-  {% endif %}
+{% if 'quote, picture' contains post.type %}
+{% assign headlessPost = true %}
+{% endif %}
 
-  {% assign post_class = 'post post-type-' | append: post.type | default: 'normal' %}
-  {% assign post_class = post_class | append: ' ' | append: post_extra_class | default: '' %}
-  {% if post.sticky > 0 %}
-    {% assign post_class = post_class | append: ' ' | append: 'post-sticky' %}
-  {% endif %}
-  
-  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="{{ post.url | absolute_url }}">
+{% assign post_class = 'post post-type-' | append: post.type | default: 'normal' %}
+{% assign post_class = post_class | append: ' ' | append: post_extra_class | default: '' %}
+{% if post.sticky > 0 %}
+{% assign post_class = post_class | append: ' ' | append: 'post-sticky' %}
+{% endif %}
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="{{ site.author }}">
-      <meta itemprop="description" content="{{ site.signature }}">
-      <meta itemprop="image" content="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar ) }}">
-    </span>
+<article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="{{ post.url | absolute_url }}">
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="{{ site.title }}">
-    </span>
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ site.author }}">
+    <meta itemprop="description" content="{{ site.signature }}">
+    <meta itemprop="image"
+      content="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar ) }}">
+  </span>
 
-    {% unless headlessPost %}
-      <header class="post-header">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="{{ site.title }}">
+  </span>
 
-        {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
-        {% unless is_index and post.type == 'quote' and post.title == nil %}
-          {% if is_index %}
-          {% else %}
-            {% if page.type != 'photo' %}
-            <span class="post-category {{post.categories[0]}}">
-              <a target="_blank" href="/category/#/{{post.categories[0]}}">
-                {% assign this_category = post.categories[0] %}
-                {% assign this_sub_category = post.sub-category %}
-                {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{% endif %}
-              </a>
-            </span>
-            {% endif %}
-          {% endif %}
-          <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
-          {% comment %} Link posts {% endcomment %}
-          {% if post.link %}
-              {% if post.sticky > 0 %}
-                {{ post.sticky }}
-                <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                  <i class="fa fa-thumb-tack"></i>
-                </span>
-              {% endif %}
-              <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
-                {% if post.title %}{{ post.title }}{% else %}{{  post.link }}{% endif %}
-                <i class="fa fa-external-link"></i>
-              </a>
-            {% else %}
-            {% if is_index %}
-                {% if post.sticky > 0 %}
-                  <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                    <i class="fa fa-thumb-tack"></i>
-                  </span>
-                {% endif %}
-                <span class="post-category {{post.categories[0]}}">
-                  <a target="_blank" href="/category/#/{{post.categories[0]}}">
-                    {% assign this_category = post.categories[0] %}
-                    {% assign this_sub_category = post.sub-category %}
-                    {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{% endif %}
-                  </a>
-                </span>
-                <a class="post-title-link title-{{post.categories[0]}}" href="{{ post.url | site.url }}" itemprop="url">
-                  {{ post.title | default: __.post.untitled }}
-                </a>
-            {% else %}{{ post.title }}{% endif %}
-          {% endif %}
-        </{% if site.seo %}h2{% else %}h1{% endif %}>
-        {% endunless %}
+  {% unless headlessPost %}
+  <header class="post-header">
 
-        <div class="post-meta">
-          {{ post.author | page.author | site.author }} ，<span class="post-meta-item-text">发表于 
-          <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: site.date_format }}
-          </time>
-          ，</span>
-          <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-            <span class="leancloud-visitors-count">(...)</span> 人次阅读
-          </span>
-          {% if (site.post_wordcount.wordcount or site.post_wordcount.min2read) and page.type != 'photo' %}
-            {% assign source = post.content %}
-            {% include _helper/wordcount.html %}
-            <div class="post-wordcount">
-              {% if site.post_wordcount.wordcount %}
-                {% if site.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
-                {% endif %}
-                <span title="{{ __.post.wordcount }}">
-                  {{ wordcount }}
-                </span>
-              {% endif %}
+    {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
+    {% unless is_index and post.type == 'quote' and post.title == nil %}
+    {% if is_index %}
+    {% else %}
+    {% if page.type != 'photo' %}
 
-              {% if site.post_wordcount.min2read %}
-                <span class="post-meta-item-icon">
-                  ，<i class="fa fa-clock-o"></i>
-                </span>
-                {% if site.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __.post.min2read }}</span>
-                {% endif %}
-                <span title="{{ __.post.min2read }}">
-                  {{ wordcount | divided_by: 200 }} 分钟
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-          {% if is_index != true %}
-            {% if page.type != 'photo' %}
-            <script async type="text/javascript">
-              function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,ar,de,es,ja,ko,zh-TW'}, 'google_translate_element');
-              }
-            </script>
-            <script async type="text/javascript" src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
-            <div id="google_translate_element"></div>
-            {% endif %}
-          {% endif %}
-        </div>
-
-        {% if true %}
-
-        {% else %}
-        <div class="post-meta">
-          <span class="post-time">
-            {% if site.post_meta.created_at %}
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              {% if site.post_meta.item_text %}
-                <span class="post-meta-item-text">{{ __.post.posted }}</span>
-              {% endif %}
-              <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-                {{ post.date | date: site.date_format }}
-              </time>
-            {% endif %}
-
-            {% if site.post_meta.created_at and site.post_meta.updated_at %}
-              <span class="post-meta-divider">|</span>
-            {% endif %}
-
-            {% if site.post_meta.updated_at %}
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              {% if site.post_meta.item_text %}
-                <span class="post-meta-item-text">{{ __.post.modified }}</span>
-              {% endif %}
-              <time title="{{ __.post.modified }}" itemprop="dateModified" datetime="{{ post.updated | date: site.date_format }}">
-                {{ post.updated | date: site.date_format }}
-              </time>
-            {% endif %}
-          </span>
-
-          {% unless site.excerpt_description and is_index %}
-            {% if site.description %}
-                <div class="post-description">
-                    {{ post.description }}
-                </div>
-            {% endif %}
-          {% endunless %}
-
-        </div>
-        {% endif %}
-      </header>
+    {% endif %}
+    {% endif %}
+    <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
+      {% comment %} Link posts {% endcomment %}
+      {% if post.link %}
+      {% if post.sticky > 0 %}
+      {{ post.sticky }}
+      <span class="post-sticky-flag" title="{{ __.post.sticky }}">
+        <i class="fa fa-thumb-tack"></i>
+      </span>
+      {% endif %}
+      <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
+        {% if post.title %}{{ post.title }}{% else %}{{ post.link }}{% endif %}
+        <i class="fa fa-external-link"></i>
+      </a>
+      {% else %}
+      {% if is_index %}
+      {% if post.sticky > 0 %}
+      <span class="post-sticky-flag" title="{{ __.post.sticky }}">
+        <i class="fa fa-thumb-tack"></i>
+      </span>
+      {% endif %}
+      <span class="post-category {{post.categories[0]}}">
+        <a target="_blank" href="/category/#/{{post.categories[0]}}">
+          {% assign this_category = post.categories[0] %}
+          {% assign this_sub_category = post.sub-category %}
+          {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{%
+          endif %}
+        </a>
+      </span>
+      <a class="post-title-link title-{{post.categories[0]}}" href="{{ post.url | site.url }}" itemprop="url">
+        {{ post.title | default: __.post.untitled }}
+      </a>
+      {% else %}{{ post.title }}{% endif %}
+      {% endif %}
+    </{% if site.seo %}h2{% else %}h1{% endif %}>
     {% endunless %}
 
-    <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
+    <div class="post-meta">
+      {{ post.author | page.author | site.author }} ，<span class="post-meta-item-text">发表于
+        <time title="{{ __.post.created }}" itemprop="dateCreated datePublished"
+          datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: site.date_format }}
+        </time>
+        ，</span>
+      <span id="{{ post.url | site.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+        <span class="leancloud-visitors-count">(...)</span> 人次阅读
+      </span>
+      {% if (site.post_wordcount.wordcount or site.post_wordcount.min2read) and page.type != 'photo' %}
+      {% assign source = post.content %}
+      {% include _helper/wordcount.html %}
+      <div class="post-wordcount">
+        {% if site.post_wordcount.wordcount %}
+        {% if site.post_wordcount.item_text %}
+        <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
+        {% endif %}
+        <span title="{{ __.post.wordcount }}">
+          {{ wordcount }}
+        </span>
+        {% endif %}
 
-      {% if is_index %}
-        
-      {% else %}
-        {% include _macro/post-content.html %}
-      {% endif  %}
-
-      {% comment %} Gallery support {% endcomment %}
-      {% if is_index != true and post.photos and post.photos.size > 0 %}
-        <p><a href="https://instagram.com/_foreverike">关注我的IG (_foreverike)</a></p>
-        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-          {% assign COLUMN_NUMBER = post.colnum %}
-          {% for photo in post.photos %}
-            {% assign index0_modulo_COLUMN_NUMBER = forloop.index0 | modulo: COLUMN_NUMBER %}
-            {% if index0_modulo_COLUMN_NUMBER == 0 %}<div class="post-gallery-row">{% endif %}
-              <a class="post-gallery-img fancybox" data-fancybox="gallery"
-                 href="{{ photo }}" rel="gallery_{{ post._id }}"
-                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url"
-                 style="background: url({{ photo }}) no-repeat; background-size: cover">
-                <img src="/assets/images/box.png" itemprop="contentUrl"/>
-              </a>
-            {% if index0_modulo_COLUMN_NUMBER == post.colnum_1 %}</div>{% endif %}
-          {% endfor %}
-
-          {% comment %} Append end tag for `post-gallery-row` when (photos size mod COLUMN_NUMBER) is less than COLUMN_NUMBER {% endcomment %}
-          {% assign photos_size_modulo_COLUMN_NUMBER = post.photos.size | modulo: COLUMN_NUMBER %}
-          {% if photos_size_modulo_COLUMN_NUMBER > 0 %}</div>{% endif %}
-          <script>
-            $("[data-fancybox]").fancybox({
-              buttons : [
-                "zoom",
-                "fullScreen",
-                "close"
-              ],
-              lang : "zh",
-              i18n: {
-                en: {
-                    CLOSE: "Close",
-                    NEXT: "Next",
-                    PREV: "Previous",
-                    ERROR: "The requested content cannot be loaded. <br/> Please try again later.",
-                    PLAY_START: "Start slideshow",
-                    PLAY_STOP: "Pause slideshow",
-                    FULL_SCREEN: "Full screen",
-                    THUMBS: "Thumbnails",
-                    DOWNLOAD: "Download",
-                    SHARE: "Share",
-                    ZOOM: "Zoom"
-                },
-                zh: {
-                    CLOSE: "关闭",
-                    NEXT: "下一张",
-                    PREV: "上一张",
-                    ERROR: "无法载入图片，请稍后重试",
-                    PLAY_START: "幻灯片放映",
-                    PLAY_STOP: "暂停放映",
-                    FULL_SCREEN: "全屏幕",
-                    THUMBS: "缩略图",
-                    DOWNLOAD: "下载",
-                    SHARE: "分享",
-                    ZOOM: "放大"
-                }
-              }
-            });
-          </script>
-        </div>
-        <p style="text-align:right"><i>Photography by Ike MA</i></p>
+        {% if site.post_wordcount.min2read %}
+        <span class="post-meta-item-icon">
+          ，<i class="fa fa-clock-o"></i>
+        </span>
+        {% if site.post_wordcount.item_text %}
+        <span class="post-meta-item-text">{{ __.post.min2read }}</span>
+        {% endif %}
+        <span title="{{ __.post.min2read }}">
+          {{ wordcount | divided_by: 200 }} 分钟
+        </span>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% if is_index != true %}
+      {% if page.type != 'photo' %}
+      <script async type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'zh-CN', includedLanguages: 'en,ar,de,es,ja,ko,zh-TW' }, 'google_translate_element');
+        }
+      </script>
+      <script async type="text/javascript"
+        src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <div id="google_translate_element"></div>
+      {% endif %}
       {% endif %}
     </div>
 
-    {% unless is_index %}
-    <div>
-        {% include _macro/reward.html %}
-    </div>
-    {% endunless %}
+    {% if true %}
 
-    
-    {% unless is_index %}
-    <div>
-        {% include _macro/share.html %}
-    </div>
-    {% endunless %}
+    {% else %}
+    <div class="post-meta">
+      <span class="post-time">
+        {% if site.post_meta.created_at %}
+        <span class="post-meta-item-icon">
+          <i class="fa fa-calendar-o"></i>
+        </span>
+        {% if site.post_meta.item_text %}
+        <span class="post-meta-item-text">{{ __.post.posted }}</span>
+        {% endif %}
+        <time title="{{ __.post.created }}" itemprop="dateCreated datePublished"
+          datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: site.date_format }}
+        </time>
+        {% endif %}
 
-    {% unless is_index %}
-    <div class="copyright">
-      版权协议 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a>，欢迎转载，<strong>但务必保留如下信息。</strong><br/>
-      <strong>Make sure to keep the following information while sharing this post</strong>:<br/>
-      作者：{{ page.author | site.author }}，原文链接：{{ site.url }}{{ page.url }}<br/><br/>
-    </div>
-    {% endunless %}
+        {% if site.post_meta.created_at and site.post_meta.updated_at %}
+        <span class="post-meta-divider">|</span>
+        {% endif %}
 
-    {% unless is_index %}
-    <div>
-        {% include _macro/wechat-subscriber.html %}
-    </div>
-    {% endunless %}
+        {% if site.post_meta.updated_at %}
+        <span class="post-meta-item-icon">
+          <i class="fa fa-calendar-check-o"></i>
+        </span>
+        {% if site.post_meta.item_text %}
+        <span class="post-meta-item-text">{{ __.post.modified }}</span>
+        {% endif %}
+        <time title="{{ __.post.modified }}" itemprop="dateModified"
+          datetime="{{ post.updated | date: site.date_format }}">
+          {{ post.updated | date: site.date_format }}
+        </time>
+        {% endif %}
+      </span>
 
-    {% unless is_index %}
-    <div>
-        {% include _macro/email-subscriber.html %}
-    </div>
-    {% endunless %}
+      {% unless site.excerpt_description and is_index %}
+      {% if site.description %}
+      <div class="post-description">
+        {{ post.description }}
+      </div>
+      {% endif %}
+      {% endunless %}
 
-    {% unless is_index %}
-    <div>
-        {% include _macro/post-copyright.html %}
     </div>
-    {% endunless %}
+    {% endif %}
+  </header>
+  {% endunless %}
 
-    <!-- <footer class="post-footer">
+  <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
+
+    {% if is_index %}
+
+    {% else %}
+    {% include _macro/post-content.html %}
+    {% endif %}
+
+    {% comment %} Gallery support {% endcomment %}
+    {% if is_index != true and post.photos and post.photos.size > 0 %}
+    <p><a href="https://instagram.com/_foreverike">关注我的IG (_foreverike)</a></p>
+    <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+      {% assign COLUMN_NUMBER = post.colnum %}
+      {% for photo in post.photos %}
+      {% assign index0_modulo_COLUMN_NUMBER = forloop.index0 | modulo: COLUMN_NUMBER %}
+      {% if index0_modulo_COLUMN_NUMBER == 0 %}<div class="post-gallery-row">{% endif %}
+        <a class="post-gallery-img fancybox" data-fancybox="gallery" href="{{ photo }}" rel="gallery_{{ post._id }}"
+          itemscope itemtype="http://schema.org/ImageObject" itemprop="url"
+          style="background: url({{ photo }}) no-repeat; background-size: cover">
+          <img src="/assets/images/box.png" itemprop="contentUrl" />
+        </a>
+        {% if index0_modulo_COLUMN_NUMBER == post.colnum_1 %}
+      </div>{% endif %}
+      {% endfor %}
+
+      {% comment %} Append end tag for `post-gallery-row` when (photos size mod COLUMN_NUMBER) is less than
+      COLUMN_NUMBER {% endcomment %}
+      {% assign photos_size_modulo_COLUMN_NUMBER = post.photos.size | modulo: COLUMN_NUMBER %}
+      {% if photos_size_modulo_COLUMN_NUMBER > 0 %}</div>{% endif %}
+    <script>
+      $("[data-fancybox]").fancybox({
+        buttons: [
+          "zoom",
+          "fullScreen",
+          "close"
+        ],
+        lang: "zh",
+        i18n: {
+          en: {
+            CLOSE: "Close",
+            NEXT: "Next",
+            PREV: "Previous",
+            ERROR: "The requested content cannot be loaded. <br/> Please try again later.",
+            PLAY_START: "Start slideshow",
+            PLAY_STOP: "Pause slideshow",
+            FULL_SCREEN: "Full screen",
+            THUMBS: "Thumbnails",
+            DOWNLOAD: "Download",
+            SHARE: "Share",
+            ZOOM: "Zoom"
+          },
+          zh: {
+            CLOSE: "关闭",
+            NEXT: "下一张",
+            PREV: "上一张",
+            ERROR: "无法载入图片，请稍后重试",
+            PLAY_START: "幻灯片放映",
+            PLAY_STOP: "暂停放映",
+            FULL_SCREEN: "全屏幕",
+            THUMBS: "缩略图",
+            DOWNLOAD: "下载",
+            SHARE: "分享",
+            ZOOM: "放大"
+          }
+        }
+      });
+    </script>
+  </div>
+  <p style="text-align:right"><i>Photography by Ike MA</i></p>
+  {% endif %}
+  </div>
+
+  {% unless is_index %}
+  <div>
+    {% include _macro/reward.html %}
+  </div>
+  {% endunless %}
+
+
+  {% unless is_index %}
+  <div>
+    {% include _macro/share.html %}
+  </div>
+  {% endunless %}
+
+  {% unless is_index %}
+  <div class="copyright">
+    版权协议 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA
+      4.0</a>，欢迎转载，<strong>但务必保留如下信息。</strong><br />
+    <strong>Make sure to keep the following information while sharing this post</strong>:<br />
+    作者：{{ page.author | site.author }}，原文链接：{{ site.url }}{{ page.url }}<br /><br />
+  </div>
+  {% endunless %}
+
+  {% unless is_index %}
+  <div>
+    {% include _macro/wechat-subscriber.html %}
+  </div>
+  {% endunless %}
+
+  {% unless is_index %}
+  <div>
+    {% include _macro/email-subscriber.html %}
+  </div>
+  {% endunless %}
+
+  {% unless is_index %}
+  <div>
+    {% include _macro/post-copyright.html %}
+  </div>
+  {% endunless %}
+
+  <!-- <footer class="post-footer">
       {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
           {% for tag in post.tags %}
@@ -359,4 +361,4 @@
         {% endunless %}
       {% endif %}
     </footer> -->
-  </article>
+</article>

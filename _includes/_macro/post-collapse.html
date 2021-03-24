@@ -1,22 +1,24 @@
 {% comment %} post-collapse(post) {% endcomment %}
-  <article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
-    <header class="post-header">
-      <h2 class="post-title">
-        {% if post.link %}{% comment %} Link posts {% endcomment %}
-          <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
-            {{ post.title | default: post.link }}
-            <i class="fa fa-external-link"></i>
-          </a>
-        {% else %}
-          <span class="post-category {{post.categories[0]}}">
-            {% assign this_category = post.categories[0] %}
-            {% assign this_sub_category = post.sub-category %}
-            {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{% endif %}
-          </span>
-          <a class="post-title-link title-{{post.categories[0]}}" href="{{ post.url | site.url }}" itemprop="url">
-          {{ post.title | default: __.post.untitled }}
-          </a>
-        {% endif %}
-      </h2>
-    </header>
-  </article>
+<article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if
+  route %}route="{{ route }}" {% endif %}>
+  <header class="post-header">
+    <h2 class="post-title">
+      {% if post.link %}{% comment %} Link posts {% endcomment %}
+      <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
+        {{ post.title | default: post.link }}
+        <i class="fa fa-external-link"></i>
+      </a>
+      {% else %}
+      <span class="post-category {{post.categories[0]}}">
+        {% assign this_category = post.categories[0] %}
+        {% assign this_sub_category = post.sub-category %}
+        {{ __.categories[this_category] }}{% if this_sub_category %} · {{ __.sub-categories[this_sub_category] }}{%
+        endif %}
+      </span>
+      <a class="post-title-link title-{{post.categories[0]}}" href="{{ post.url | site.url }}" itemprop="url">
+        {{ post.title | default: __.post.untitled }}
+      </a>
+      {% endif %}
+    </h2>
+  </header>
+</article>
