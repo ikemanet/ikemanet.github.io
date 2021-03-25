@@ -49,4 +49,8 @@ I'll try my best to reply you, but due to my work, reply might be delayed, but b
 
 ## Changelog
 
-[Click here](/uniloop/en/#)
+**0.6.3**
+- Introducing a new look and feel of new Loop screen, giving easier-to-understand options and a Loop preview
+- Modified the logic of completing an expired Loop, while the Loop is set to "Starts at 0". No more waiting time after you complete it
+- You could check whether a new version is available or not on Credits screen
+- Improved performance and bug fixes
