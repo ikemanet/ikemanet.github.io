@@ -28,7 +28,7 @@ Simple and easy routine management app, build your habits as Loop. Thank you so 
 
 Uniloop is available in App Store (iOS) and Google Play (Android).
 
-The latest version: 0.6.3
+The latest version: 0.8.9 (46)
 
 **For iPhone and iPad:** [[Download]](https://apps.apple.com/app/uniloop-habit-management/id1556095546)
 
@@ -48,6 +48,11 @@ I'll try my best to reply you, but due to my work, reply might be delayed, but b
 [Click here](/uniloop/en/privacy-policy)
 
 ## Changelog
+
+**0.8.9**
+- Added a new calendar for showing the history of Loop.
+- Added a new feature that allows you to set what time the Loop starts.
+- Added sharing feature that allows you to share the performance to your friends.
 
 **0.6.3**
 - Introducing a new look and feel of new Loop screen, giving easier-to-understand options and a Loop preview
