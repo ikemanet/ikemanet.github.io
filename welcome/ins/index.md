@@ -1,3 +1,3 @@
 <script>
-window.location = '/message/';
+window.location = '/message/';;
 </script>
