@@ -115,7 +115,7 @@ MZY'S Blog 博客在2014年已经停止维护，并2015年中悄然关闭了。�
 
 - 静态网站技术：Jekyll [官网](https://jekyllrb.com/) [中文网](https://jekyllcn.com/)
 - 主题：Next.Mist [主页](https://github.com/simpleyyt/jekyll-theme-next)
-- 网站托管：GitHub Pages [主页](https://pages.github.com/)
+- 网站托管：Netlify [主页](https://app.netlify.com/)
 - 无后端评论系统：Valine [主页](https://valine.js.org/)
 - 回复邮件提醒：Valine-Admin (DesertsP创作，zhaojun1998优化) [主页](http://www.zhaojun.im/hexo-valine-admin/)
 - 点赞功能：自主研发 [主页](https://ike.today)
