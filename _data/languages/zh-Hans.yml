@@ -12,7 +12,7 @@ title:
   uniloop: Uniloop
   chinese: Chinese
   photo: 艺术馆
-  q2a:  留言
+  bio:  签名档
   blog: 随笔
 
 author: 博主
@@ -36,7 +36,7 @@ menu:
   uniloop: Uniloop
   chinese: Chinese
   photo: 艺术馆
-  q2a: 留言
+  bio: 签名档
   blog: 随笔
 
 sidebar:

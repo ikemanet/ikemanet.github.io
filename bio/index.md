@@ -1,23 +1,31 @@
 ---
 layout: page
 comments: true
-title: 留言板 Message
+title: 我的签名档
 type: messages
 featured: messages.jpg
 featured_position: center
 ---
 
-**终于等到你来了！接下来你可以：**
-- 下面留言告诉我你来了 😉 Let me know you are here
-- 你可以问我一个问题，我会如实回答 🥳 Ask me a question
-- 点下面那只熊开始你的博客之旅 👇 Tap Rilakkuma to get started
+<a href="/"><img style="width:40%" src="/assets/img/posts/rilakkuma.jpg"/></a>
 
-<a href="/"><img style="width:60%" src="/assets/img/posts/rilakkuma.jpg"/></a>
+嘿！小伙伴，终于等到你啦。快去看看我的新作品吧👇
 
-**其他能联系到我的方式：**
-- 微信公众号：老马同学的相册
-- 知乎：[传送门](https://www.zhihu.com/people/mzys)
-- Instagram ID：``_foreverike``
+**微信公众号：老马同学的相册**
+
+打开微信，点右上角的“+”，然后搜索``老马同学的相册``的公众号关注我哦！
+
+你可以在公众号获取专属福利，还可以下载我的作品做手机锁屏壁纸！
+
+**Instagram：_foreverike**
+
+打开IG，搜索``_foreverike``就可以找到我啦，别忘了给我点❤️ 也可以跟我聊天！
+
+（请自行寻找科学上网方法）
+
+**给我留言**
+
+你也可以在这里给我留言，我会及时回复的！
 
 <script>
     var nowDate = new Date();
