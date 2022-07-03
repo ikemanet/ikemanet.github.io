@@ -15,7 +15,9 @@ photos:
 colnum: 3
 colnum_1: 2
 tags:
-- dishes
+- ikema
+- photography
+- sky
 featured: 08/sky-by-ike-1.jpg
 author: 老马同学
 ---

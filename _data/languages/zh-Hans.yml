@@ -12,7 +12,7 @@ title:
   uniloop: Uniloop
   chinese: Chinese
   photo: 艺术馆
-  bio:  签名档
+  bio:  相册
   blog: 随笔
 
 author: 博主
@@ -27,7 +27,7 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益404
-  tutorial: TOUR
+  tutorial: 技术分享
   code: CODE
   photography: PHOTO
   blog: BLOG
@@ -36,7 +36,7 @@ menu:
   uniloop: Uniloop
   chinese: Chinese
   photo: 艺术馆
-  bio: 签名档
+  bio: 相册
   blog: 随笔
 
 sidebar:

@@ -50,7 +50,7 @@ function ikeGetAllQuestions(){
     try {
         AV.Query.doCloudQuery('select pid from Comment where url = "/message/" and createdAt > date("'+nowDateStr+'")').then(function (data) {
             if (data.results.length > 0) {
-                $( "li.menu-item-bio" ).find("a").html("签名档 <sup style='color:#d1697c'>"+data.results.length+"</sup>");
+                $( "li.menu-item-bio" ).find("a").html("相册 <sup style='color:#d1697c'>"+data.results.length+"</sup>");
             }
         }, function (error) {
             console.error('Get reply count failed, error message: ' + error.message);

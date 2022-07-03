@@ -1,27 +1,27 @@
 ---
 layout: page
 comments: true
-title: 我的签名档
-type: messages
-featured: messages.jpg
+title: 老马同学的相册
+type: bio
+featured: photography.jpg
 featured_position: center
 ---
 
-<a href="/"><img style="width:40%" src="/assets/img/posts/rilakkuma.jpg"/></a>
-
-嘿！小伙伴，终于等到你啦。快去看看我的新作品吧👇
+请以下列方式翻开我的相册👇
 
 **微信公众号：老马同学的相册**
 
-打开微信，点右上角的“+”，然后搜索``老马同学的相册``的公众号关注我哦！
+打开微信，点右上角的``+`` > ``添加朋友`` > ``公众号`` > 搜索``老马同学的相册``关注我哦！
 
-你可以在公众号获取专属福利，还可以下载我的作品做手机锁屏壁纸！
+每日一则动人的语句，获取公主专属福利，下载我的摄影作品作为手机锁屏壁纸。
 
 **Instagram：_foreverike**
 
-打开IG，搜索``_foreverike``就可以找到我啦，别忘了给我点❤️ 也可以跟我聊天！
+关注我的ins号``_foreverike``
 
-（请自行寻找科学上网方法）
+有我的最新摄影作品和短视频。
+
+别忘了给我点❤️ 也可以跟我聊天！（请自行寻找科学上网方法）
 
 **给我留言**
 

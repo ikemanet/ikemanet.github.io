@@ -143,16 +143,16 @@ menu:
   home: /
   #categories: /categories/
   #about: /about/
-  #tutorial: /category/#/Tutorial
+  tutorial: /category/#/Tutorial
   #code: /category/#/Cheat-Sheet
   #photography: /category/#/Photography
   #blog: /category/#/Blog
   #archives: /archives/
   #ikema: /ikema-products/
   bio: /bio/
-  uniloop: /uniloop/zh/
+  #uniloop: /uniloop/zh/
   blog: /category/#/Blog
-  photo: /category/#/Photography
+  #photo: /category/#/Photography
   about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
