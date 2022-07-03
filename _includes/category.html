@@ -1,7 +1,55 @@
+<style>
+  .posts-expand .post-title {
+    font-size: 32px;
+    text-shadow: none;
+  }
+
+  .main-inner {
+    padding-top: 360px;
+  }
+
+  @media (max-width: 767px) {
+    .main-inner {
+      padding-top: 290px;
+    }
+
+    .posts-expand .post-title {
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .posts-expand .post {
+      margin-top: 10px;
+    }
+
+    article h2 {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+
+  .post-meta {
+    display: none;
+  }
+
+  article h2 {
+    color: #aaa;
+    font-weight: 400;
+  }
+
+  .menu .menu-item a:hover {
+    background: #222;
+    background: linear-gradient(135deg, rgba(255, 245, 179, 0.549), rgb(255, 157, 178));
+    color: #fff;
+  }
+</style>
 <section id="posts" class="posts-collapse" hidden>
   {% assign paginate = site.category.paginate | default: site.paginate  %}
   {% assign paginate_path = site.category.paginate_path | default: site.paginate_path  %}
-
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <h2>贴文列表</h2>
+  </article>
+  
   {% for cat_posts in site.categories %}
     {% assign cat = cat_posts[0] | url_encode | replace: '+', '%20' %}
     {% assign posts = cat_posts[1] %}
